@@ -1,0 +1,28 @@
+{{- define "head-meta" }}
+<meta name="robots" content="noindex, follow">
+<link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}blog/index.xml" title="{{ .Page.Title }}">
+{{ end }}
+
+{{- define "main" }}
+<div class="uk-section blog">
+    {{ partial "breadcrumbs.html" . }}
+
+    <div class="uk-container uk-margin-medium">
+        <h1>{{ .Title }}</h1>
+        <hr class="uk-margin-medium-bottom">
+
+        <div class="uk-grid uk-child-width-1-2@m uk-text-small" uk-grid="masonry: true">
+        {{ $paginator := .Paginate  (where .Site.RegularPages.ByPublishDate.Reverse "Section" .Page.Section ) }}
+        {{- range $paginator.Pages }}
+            <div>
+                {{ partial "article-teaser" . }}
+            </div>
+        {{- end }}
+        </div>
+
+        <div class="uk-margin-large">
+            {{ partial "pagination.html" . }}
+        </div>
+    </div>
+</div>
+{{ end }}

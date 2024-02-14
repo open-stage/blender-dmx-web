@@ -1,0 +1,38 @@
+{{ block "footer" . }}
+<footer class="uk-section uk-light global-footer uk-text-small" role="contentinfo">
+    <div class="uk-container">
+        <div class="uk-grid" uk-grid>
+            <div class="uk-width-expand">
+                <div class="uk-margin-large-bottom">
+                    <img src="{{ .Site.BaseURL }}assets/img/blender_dmx.svg" class="footer-logo uk-text-middle" alt="">
+                    <strong><a href="{{ .Site.BaseURL }}">BlenderDMX</a></strong>
+                </div>
+                <div class="copyright uk-margin-small-bottom">
+                    {{- block "footer-copyright" . }}
+                    <div class="uk-margin-small-bottom uk-text-muted">BlenderDMX is released under the GPLv3.</div>
+                    <div class="uk-text-muted">&copy; 2020 &ndash; {{ dateFormat "2006" now }} Open Stage</div>
+                    {{- end }}
+                </div>
+            </div>
+            <div class="uk-width-2-5@s">
+                <nav class="uk-grid uk-child-width-expand uk-grid-large" uk-grid aria-label="Footer">
+                    {{- block "footer-nav" . }}
+                    <ul class="uk-list">
+                        {{- range .Site.Menus.footer }}
+                            <li><a href="{{ .URL }}{{ .Params.fragment }}">{{ .Name }}</a></li>
+                        {{- end }}
+                        <li><a href="{{ .Site.BaseURL }}team#contact">Contact</a>
+                    </ul>
+                    <ul class="uk-list">
+                        <li><i class="fa-brands fa-github" aria-hidden="true"></i> <a rel="me" href="https://github.com/open-stage/blender-dmx">GitHub</a>
+                        <li><i class="fa-brands fa-discord" aria-hidden="true"></i> <a rel="me" href="https://discord.gg/FQVVyc45T9">Discord</a>
+                    </ul>
+                </nav>
+                {{- end }}
+            </div>
+        </div>
+    </div>
+</footer>
+{{ end }}
+
+{{- partial "footer_js.html" . }}

@@ -1,0 +1,29 @@
+// Global declarations
+@import 'variables';
+@import 'fonts';
+
+// UIkit default variables and mixins
+@import "node_modules/uikit/src/scss/variables-theme.scss";
+@import "node_modules/uikit/src/scss/mixins-theme.scss";
+
+// Fontawesome overrides
+@import "theme/fontawesome";
+
+// Mixin overrides
+@import "theme/article-mixins";
+@import "theme/accordion-mixins";
+@import "theme/button-mixins";
+@import "theme/navbar-mixins";
+@import "theme/card-mixins";
+@import "theme/tab-mixins";
+@import "theme/slider-mixins";
+@import "theme/offcanvas-bar-mixins";
+@import "theme/toggle-mixins";
+
+// UIkit
+@import "node_modules/uikit/src/scss/uikit-theme.scss";
+
+// Custom layout components
+@import "theme/global";
+@import "theme/footer";
+@import "theme/index";

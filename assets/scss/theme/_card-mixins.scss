@@ -1,0 +1,9 @@
+@mixin hook-card() {
+    overflow: hidden;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+@mixin hook-card-default() {
+    box-shadow: $card-default-box-shadow;
+    border-radius: 5px;
+}

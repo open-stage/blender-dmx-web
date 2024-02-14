@@ -1,0 +1,22 @@
+{{- define "main" }}
+<div class="uk-section">
+  {{ partial "breadcrumbs.html" . }}
+
+  <div class="uk-container uk-margin-medium">
+    <h1>{{ .Title }}</h1>
+    <hr class="uk-margin-medium-bottom" />
+
+    {{ $paginator := .Paginate (where .Site.RegularPages.ByPublishDate.Reverse
+    "Section" .Page.Section ) }} {{- range $paginator.Pages }}
+    <article class="uk-article uk-margin-bottom-large">
+      <h2 class="uk-article-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h2>
+      {{ .Summary }}
+    </article>
+    {{- end }}
+
+    <div class="uk-margin-large">{{ partial "pagination.html" . }}</div>
+  </div>
+</div>
+{{ end }}

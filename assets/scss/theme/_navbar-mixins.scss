@@ -1,0 +1,134 @@
+@mixin hook-navbar-container() {
+    background: linear-gradient(rgba(lighten($global-primary-background, 7%), .99) 0%, rgba(darken($global-primary-background-gradient, 8%), .85) 100%) !important;
+}
+
+@mixin hook-navbar() {
+    @media (min-width: $breakpoint-medium) {
+        height: $navbar-height;
+        padding: .6rem 4rem .6rem 2rem;
+    }
+    position: relative;
+
+    .github-corner svg {
+        color: white;
+        fill: $global-color;
+        height: $navbar-height * .85;
+        width: $navbar-height * .85;
+        transition: color 300ms ease-in-out, fill 300ms ease-in-out;
+
+        &:hover {
+            color: rgba(white, .9);
+            fill: lighten($global-color, 5);
+        }
+    }
+}
+
+@mixin hook-navbar-item() {
+    @media (min-width: $breakpoint-medium) {
+        height: $navbar-logo-size;
+    }
+    min-height: auto;
+
+    &.uk-logo {
+        color: $global-color;
+        font-size: $navbar-font-size-logo;
+        margin-left: $navbar-logo-size + 1.5;
+        font-family: Orbitron;
+
+        img, svg {
+            margin: .75rem 1rem .75rem 2rem;
+            padding: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: $navbar-logo-size;
+            filter: drop-shadow(0 2px 2px rgba(0, 0, 0, .2));
+        }
+
+        @media (max-width: $breakpoint-medium) {
+            margin: 0;
+            padding: $container-padding-horizontal-s;
+            text-align: center;
+            font-size: 1.3rem;
+
+            img, svg {
+                margin: 0;
+                margin-right: .75rem;
+                height: $navbar-logo-size * .5;
+                position: static;
+            }
+        }
+
+        @media (max-width: $breakpoint-small) {
+            padding: $container-padding-horizontal;
+        }
+    }
+}
+
+@mixin hook-navbar-transparent() {
+    .uk-active a:not(.uk-logo), a:hover:not(.uk-logo), a:focus:not(.uk-logo) {
+        text-decoration-line: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 5px;
+        text-underline-position: under;
+        text-decoration-color: $branding-color;
+    }
+}
+
+@mixin hook-navbar-toggle() {
+    @media (max-width: $breakpoint-medium) {
+        padding: $container-padding-horizontal-s;
+    }
+    @media (max-width: $breakpoint-small) {
+        padding: $container-padding-horizontal;
+    }
+}
+
+@mixin hook-navbar-nav-item() {
+    min-height: auto;
+    font-size: $navbar-font-size;
+    font-weight: 600;
+    transition: background-color 350ms ease-in-out, color 150ms ease-in-out;
+    font-family: Orbitron;
+}
+
+@mixin hook-inverse-navbar-nav-item-hover() {
+    background-color: desaturate(rgba(lighten($global-primary-background, 25%), .3), 20%);
+    text-shadow: rgba(255, 255, 255, .4) 0 0 5px;
+}
+
+@mixin hook-inverse-navbar-nav-item-active() {
+    border-bottom: 5px solid $inverse-navbar-nav-item-color;
+}
+
+@mixin hook-navbar-sticky() {
+    backdrop-filter: blur(6px) ;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .2);
+    height: $navbar-height-sticky;
+    transition: 400ms linear, font-size 100ms ease-in-out;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .github-corner svg {
+        color: $inverse-navbar-nav-item-color;
+        fill: darken($global-primary-background, 23);
+        height: $navbar-height-sticky;
+        width: $navbar-height-sticky;
+        transition: 400ms linear, font-size 100ms ease-in-out;
+
+        &:hover, &:focus {
+            color: $inverse-navbar-nav-item-hover-color;
+            fill: darken($global-primary-background, 18);
+        }
+    }
+
+    li > a {
+        min-height: $navbar-height-sticky;
+        font-size: $navbar-font-size-sticky;
+    }
+
+    .uk-navbar-item.uk-logo {
+        height:  $navbar-height-sticky;
+        font-size: $navbar-font-size-logo-sticky;
+    }
+}

@@ -1,0 +1,30 @@
+@media (max-width: $breakpoint-medium) {
+    .index-page-hero, main > .uk-section:first-child {
+        margin: 0 !important;
+        padding-top: 1rem !important;
+    }
+}
+
+
+.frontpage-hero {
+    @media (min-width: $breakpoint-large) {
+        img {
+            width: 100%;
+            max-width: none;
+        }
+    }
+
+    @media (min-width: $breakpoint-xlarge) {
+        img {
+            width: 125%;
+        }
+    }
+}
+
+@media (min-width: $breakpoint-medium) {
+    .frontpage-hero-section {
+        //background: url("../img/frontpage-pattern-background.svg") top right 5rem no-repeat;
+        background-size: auto 100%;
+        padding-top: $margin-medium-margin + $section-large-padding-vertical;
+    }
+}

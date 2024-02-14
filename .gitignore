@@ -1,0 +1,15 @@
+_site/
+resources/
+.sass-cache
+node_modules/
+.bundle/
+.ruby-version
+.ruby-gemset
+*.swp
+*~
+.idea
+desktop.ini
+.directory
+.DS_Store
+public/
+.hugo_build.lock
