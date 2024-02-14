@@ -1,5 +1,5 @@
 title = 'BlenderDMX'
-baseURL = 'https://blenderdmx.eu'
+baseURL = '/'
 languageCode = 'en-us'
 
 [frontmatter]
