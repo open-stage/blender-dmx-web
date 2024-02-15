@@ -30,3 +30,5 @@ You can continue to the <a href="/docs/get_started" ><i class="fa-solid fa-circl
 
     });
 </script>
+
+<a href="/docs/user_guide/">Back to User Guide index</a>

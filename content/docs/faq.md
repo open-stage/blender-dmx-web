@@ -15,7 +15,7 @@ menu:
                 up and running quickly.</li>
             <li>Looking for more comprehensive documentation? Our <strong><a href="/docs/user_guide" ><i class="fa-solid fa-book"></i> User Guide</a></strong> is there to help.</li>
             <li>Need help troubleshooting the DMX integration? Check the
-                <strong><a href="KeePassXC_GettingStarted.html#_setup_browser_integration" ><i class="fa-solid fa-globe"></i> DMX Integration</a></strong> section.</li>
+                <strong><a href="../dmx" ><i class="fa-solid fa-globe"></i> DMX Integration</a></strong> section.</li>
         </ul>
         <h2 id="contribute" class="uk-card-title">Looking for ways to contribute?</h2>
         You can contribute to the project by sharing rendered visuals of your projects in the <a href="https://discord.gg/FQVVyc45T9">Gallery on Discord</a>, post rendered visuals on social media of your choice, <a href="https://github.com/open-stage/blender-dmx">writing code</a>, or <a href="https://github.com/open-stage/blender-dmx">improving documentations</a>.
@@ -29,10 +29,10 @@ menu:
 <li>
 <a id="faq" href="#faq" class="uk-accordion-title">What is DMX and do i need it?</a>
 <div class="uk-accordion-content">
-<p>BlenderDMX is primarily a visualizing tool for entertainment lighting, which
+BlenderDMX is primarily a visualizing tool for entertainment lighting, which
 typically is controlled by DMX protocol. It is not strictly needed for
 BlenderDMX as you can program by using keyframes.
-</p>
+You can learn more about <a href="/docs/dmx">DMX here</a>.
 </div>
 </li>
 <li>
@@ -51,7 +51,6 @@ more.
 </div>
 </li>
 
-<li>
 
 </ul>
 
@@ -68,3 +67,4 @@ more.
         }
     });
 </script>
+
