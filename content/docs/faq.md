@@ -39,10 +39,18 @@ You can learn more about <a href="/docs/dmx">DMX here</a>.
 </li>
 
 
+
+<li>
+<a id="faq" href="#faq" class="uk-accordion-title">Are there any special shortcuts in BlenderDMX?</a>
+<div class="uk-accordion-content">
+Yes, <a href="../fixture/#navigation-between-fixtures">several</a>. You can use Ctrl-Left / Ctrl-Right to go between fixtures (Previous/Next). When in the Fixtures list, you can use Shift to select multiple fixtures.
+</div>
+</li>
+
 <li>
 <a id="faq" href="#faq" class="uk-accordion-title">Can i use DMX to control other parts of Blender?</a>
 <div class="uk-accordion-content">
-Absolutely! You can use our dedicated <a href="../dmx#blenderdmx-dmx-driver-for-blender">DMX driver</a> for Blender to use DMX as source of values for any Blender property.
+Yes. You can use our dedicated <a href="../dmx#blenderdmx-dmx-driver-for-blender">DMX driver</a> for Blender to use DMX as source of values for any Blender property.
 </div>
 </li>
 

@@ -74,3 +74,14 @@ If multiple fixtures are selected, there are a few differences:
 
 You can use `Ctrl-Left` / `Ctrl-Right` to go between fixtures (Previous/Next).
 
+## Selecting multiple fixtures in the Fixtures List
+
+You can use `Shift` to select multiple fixtures. You can also use these selection icons in the programmer to:
+
+![Edit Multiple Fixture](../media/selection.png)
+
+- Select All
+- Invert Selection
+- Select Every Other Light
+- Select Visible Lights Only (only filtered)
+- Deselect All
