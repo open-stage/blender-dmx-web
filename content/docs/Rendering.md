@@ -16,9 +16,9 @@ In order to see the lense (emitter), you need to enable Material Preview:
 
 ![Beam](../media/beam002.png)
 
-You can also see a "fake" beam cone by enabling the "Volume preview", but that is not a real beam:
-
-> BlenderDMX now allows for the Volume preview cones to be displayed on None, only Selected fixture or on All fixtures.
+You can also see a "fake" beam cone by enabling the "Volume preview", but that
+is not a real beam. This allows to be set on None, only Selected fixture or on
+All fixtures.
 
 ![Beam](../media/beam003.png)
 
