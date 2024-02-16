@@ -10,13 +10,13 @@ Each controlled device requires certain number of DMX channels - these numbers a
 
 In order to control or visualize devices a description of what device features are mapped to what DMX channels is needed, this is where [GDTF comes in](../gdtffixture).
 
-# DMX Addressing
+## DMX Addressing
 
 As the DMX512 contains 512 channels, it can for example control up to 512 Dimmers. Each Dimmer will have it's own address (1-511). If the device is for example LED fixture with RGB channels (3 channels) one can control 512/3 = 170 RGB fixtures. Each fixture will be addressed in such a way that it's channels are not overlapping with other fixtures, so for example: 1, 4, 7... More complex devices require more channels. If the dimmer or RGB control requires 16bit channels, then 2 channels per each function (dimmer, red, green, blue) are needed.
 
 Each device needs a DMX address, this is the "starting" DMX channel of the DMX signal. If more universes of DMX are used, a Universe number is also required. If more devices are given the same DMX address, they will react together and cannot be controlled separately. This is sometimes wanted in order to save DMX addresses on the DMX console.
 
-# DMX Universes and DMX Protocols in BlenderDMX
+## DMX Universes and DMX Protocols in BlenderDMX
 
 A Universe is a group of 512 DMX channels. BlenderDMX supports the following protocols to control the devices:
 
@@ -24,7 +24,7 @@ A Universe is a group of 512 DMX channels. BlenderDMX supports the following pro
 - [sACN](../sacn) protocol counts universes from 1, thus the first universe is 1, second 2...
 - [Art-Net](../artnet) protocol counts universes from 0, thus the first universe is 0, second 1...
 
-# BlenderDMX DMX driver for Blender
+## BlenderDMX DMX driver for Blender
 
 The BlenderDMX addon provides a custom DMX driver for Blender, allowing to use received DMX values and use them as input for any Blender property. To utilize this feature, `#bdmx(universe,channels(s))` keyword can be used, `universe` is desired universe, `channel` is an address and it can either be a single one for 8 bit value or multiple, for 16, 24, 32... bit values. 
 

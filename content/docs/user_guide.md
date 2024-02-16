@@ -16,6 +16,7 @@ category: "Help"
     - [Programmer](../programmer)
     - [sACN](../sacn)
     - [Art-Net](../artnet)
+    - [Driver for Blender](../dmx/#blenderdmx-dmx-driver-for-blender)
 - [Keyframe Animation and DMX Recording](../keyframe-animations-recording)
 - [Rendering](../rendering)
 - [OpenSoundControl](../opensoundcontrol)

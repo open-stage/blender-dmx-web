@@ -22,13 +22,28 @@ The fixture menu allows to Add/Edit/Delete a fixture.
 
 ![image](https://github.com/open-stage/blender-dmx/assets/3680926/e48ae529-640a-432d-856d-947e7eb50339)
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/6593f146-b99b-4ec1-b62d-4879ba34a962)
+![image](../media/fixture_add.png)
 
 ### Setup beams
 
 Make beams visible via menu Setup → Beam Volume → Create Volume box, to simulate
 ambient fog/haze. Make sure to change Viewport to Viewport Shading".
 
+![Volume](../media/volume.png)
+
+### Move and control the fixture
+
+Select the fixture in the Fixtures list
+
+![image](../media/fixture_list.png)
+
+In the Programmer, set color, put dimmer to 1, move pan and tilt:
+
+![image](../media/fixture_programmer.png)
+
+Success! Your first lighting beam fixture:
+
+![image](../media/fixture_preview.png)
 ### Record keyframe
 
 

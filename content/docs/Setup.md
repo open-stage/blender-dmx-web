@@ -18,7 +18,7 @@ When the Blender file is saved, all of the DMX data such as Universes, Fixtures
 and Addresses are stored with it. When you open the file, the DMX panels should
 already be available.
 
-> :warning: Manipulating the `DMX` collection manually might corrupt the
+> Manipulating the `DMX` collection manually might corrupt the
 project file, be careful.
 
 # Setup
@@ -46,6 +46,8 @@ dozens of lights.
 
 Create a box around the whole scene with a haze - a `Volume Scatter` shader, to simulate
 ambient fog/haze.
+
+![Volume](../media/volume.png)
 
 ### Enable Volume Scatter
 
