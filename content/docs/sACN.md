@@ -25,4 +25,3 @@ Create Universe, set it to sACN, enable sACN Input:
 
 <video src="https://github.com/open-stage/blender-dmx/assets/3680926/6bd6d33f-532a-424f-a537-093870913d14" controls="controls" >
 
-<a href="/docs/user_guide/">Back to User Guide index</a>

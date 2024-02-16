@@ -29,4 +29,3 @@ Groups can be renamed or removed.
 By clicking on a group, devices from the group will be added to selection in Blender if the `Add to selection` toggle is checked. If it is unchecked, upon clicking on a group, only devices of this group will be selected.
 
 
-<a href="/docs/user_guide/">Back to User Guide index</a>

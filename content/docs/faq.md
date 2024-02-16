@@ -13,7 +13,7 @@ menu:
             <li><strong><a href="/download" ><i class="fa-solid fa-download"></i>Downloading</a ></strong > and <strong><a href="/docs/installation" ><i class="fa-solid fa-download"></i>Installing</a ></strong > BlenderDMX.  </li>
             <li>Our <strong><a href="/docs/get_started" ><i class="fa-solid fa-rocket"></i> Getting Started Guide</a></strong> will get you
                 up and running quickly.</li>
-            <li>Looking for more comprehensive documentation? Our <strong><a href="/docs/user_guide" ><i class="fa-solid fa-book"></i> User Guide</a></strong> is there to help.</li>
+            <li>Looking for more comprehensive documentation? Continue reading the <strong><a href="../setup" ><i class="fa-solid fa-book"></i> User Guide</a></strong>.</li>
             <li>Need help troubleshooting the DMX integration? Check the
                 <strong><a href="../dmx" ><i class="fa-solid fa-globe"></i> DMX Integration</a></strong> section.</li>
         </ul>
@@ -51,7 +51,6 @@ more.
 </div>
 </li>
 
-
 </ul>
 
 </section>
@@ -67,4 +66,3 @@ more.
         }
     });
 </script>
-

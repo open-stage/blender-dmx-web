@@ -56,4 +56,3 @@ The `assets/osc_templates` directory contains a `default.json` file, the command
 
 All OSC handlers are located in file `osc_utils.py`, where the static methods of the `DMX_OSC_Handlers` class define the usage.
 
-<a href="/docs/user_guide/">Back to User Guide index</a>

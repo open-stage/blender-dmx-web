@@ -37,4 +37,4 @@ ambient fog/haze. Make sure to change Viewport to Viewport Shading".
 
 ![image](https://github.com/open-stage/blender-dmx/assets/3680926/4ede8b00-1a7a-4387-8145-edf67ef25ece)
 
-You can continue to the <a href="/docs/user_guide" ><i class="fa-solid fa-circle-play"></i> User guide</a>.
+You can continue to the <a href="../setup" ><i class="fa-solid fa-circle-play"></i> Setup</a>.

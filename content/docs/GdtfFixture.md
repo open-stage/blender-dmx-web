@@ -105,4 +105,3 @@ GDTF files can be downloaded directly from Blender:
 
 ![GDTF Share integration](../media/gdtf_integration.png)
 
-<a href="/docs/user_guide/">Back to User Guide index</a>

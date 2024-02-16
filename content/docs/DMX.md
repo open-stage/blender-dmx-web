@@ -46,4 +46,3 @@ In order to see 3D objects being animated through this driver, the animation pla
 
 
 
-<a href="/docs/user_guide/">Back to User Guide index</a>

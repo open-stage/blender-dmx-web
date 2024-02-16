@@ -74,4 +74,3 @@ If multiple fixtures are selected, there are a few differences:
 
 You can use `Ctrl-Left` / `Ctrl-Right` to go between fixtures (Previous/Next).
 
-<a href="/docs/user_guide/">Back to User Guide index</a>

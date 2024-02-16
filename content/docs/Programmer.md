@@ -32,4 +32,3 @@ As the Target and DMX or Programmer can interfere with each other (DMX has prior
 
 
 
-<a href="/docs/user_guide/">Back to User Guide index</a>

@@ -22,4 +22,3 @@ To record external DMX, turn on Auto Keying, start DMX source and set the animat
 
 These buttons allow to quickly delete all keyframes from selected/all fixtures.
 
-<a href="/docs/user_guide/">Back to User Guide index</a>

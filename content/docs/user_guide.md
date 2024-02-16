@@ -4,9 +4,9 @@ date: 2024-02-14T18:01:29+0100
 category: "Help"
 ---
 
-**General**
+**Index**
 
-- [Home](/docs/faq)
+- [Index](/docs/faq)
 - [Installation](/docs/installation)
 - [Setup](../setup)
 - [Fixture](../fixture)

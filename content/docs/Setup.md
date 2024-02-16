@@ -86,4 +86,3 @@ Normally, only Base and Target of the fixture can be selected. This option allow
 You can enable higher level of logging via this menu. Normally, Errors are displayed, by choosing Warning, Debug or Info you gets more and more details in the console. If you experience issues, it is good to start Blender from a console to see what the logging output shows.
 
 
-<a href="/docs/user_guide/">Back to User Guide index</a>

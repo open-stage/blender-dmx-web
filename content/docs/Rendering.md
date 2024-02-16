@@ -66,4 +66,3 @@ You can always tweak these settings to your liking, also, check some [manuals an
 
 With the [option to select any geometry](../setup#allow-selecting-geometries), one can add IES files to the beam Spot light objects, see [documentation here](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/ies.html) and some [tutorials on the web](https://duckduckgo.com/?t=ffab&q=blender+ies).
 
-<a href="/docs/user_guide/">Back to User Guide index</a>

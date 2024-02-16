@@ -8,18 +8,29 @@ expiryDate = ['expiryDate']
 lastmod = [':git', 'lastmod', 'date', 'publishDate']
 publishDate = ['publishDate', 'date']
 
-[markup.goldmark.renderer]
-unsafe = true
-[markup.highlight]
-codeFences = true
-guessSyntax = true
-lineNoStart = 1
-lineNos = true
-lineNumbersInTable = false
-tabWidth = 4
-noClasses = true
-style  = "nord"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      linkify = false
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    style = "dracula"
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 6
+    ordered = false
 
+  [markup.tableOfContents]
+    endLevel = 6
+    ordered = false
 [module]
   [[module.mounts]]
   source = "assets"

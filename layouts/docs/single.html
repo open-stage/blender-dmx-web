@@ -1,13 +1,18 @@
 {{- define "main" }}
 <div class="uk-section blog">
-
-    <article class="uk-article uk-container uk-margin-medium">
+  <article class="uk-article uk-container uk-margin-medium">
+    <div class="uk-container">
+      <div class="uk-child-width-1-4@m " uk-grid>
+        <div>
+            {{ (.Site.GetPage "/docs/user_guide.md").Content }}
+        </div>
+        <div class="uk-flex-first uk-width-expand">
         <h1 class="uk-margin-remove-bottom uk-article-title">{{ .Title }}</h1>
         <hr>
-
-        <div class="uk-margin-medium-top">
             {{ .Content }}
         </div>
-    </article>
+      </div>
+    </div>
+  </article>
 </div>
 {{ end }}
