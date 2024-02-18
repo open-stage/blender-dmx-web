@@ -27,7 +27,6 @@ menu:
 <h3>General</h3>
 <ul uk-accordion="multiple: true">
 
-
 <li>
 <a id="faq" href="#faq" class="uk-accordion-title">What is DMX and do i need it?</a>
 <div class="uk-accordion-content">
@@ -37,8 +36,6 @@ BlenderDMX as you can program by using <a href="../keyframe-animations-recording
 You can learn more about <a href="/docs/dmx">DMX here</a>.
 </div>
 </li>
-
-
 
 <li>
 <a id="faq" href="#faq" class="uk-accordion-title">Are there any special shortcuts in BlenderDMX?</a>
@@ -54,9 +51,8 @@ Yes. You can use our dedicated <a href="../dmx#blenderdmx-dmx-driver-for-blender
 </div>
 </li>
 
-
 <li>
-<a id="faq" href="#faq" class="uk-accordion-title">Can BlenderDMX output DMX to be used as a DMX controller?</a>
+<a id="faq" href="#faq" class="uk-accordion-title">Can BlenderDMX output DMX and used as a DMX controller?</a>
 <div class="uk-accordion-content">
 This is currently not possible but if someone comes and implements this why not.
 </div>
@@ -69,7 +65,6 @@ Absolutely! Use the Fixtures → menu → Import MVR scene.
 </div>
 </li>
 
-
 <li>
 <a id="faq" href="#faq" class="uk-accordion-title">Why do fixtures from GDTF have different features, like Gobo or Color and some not?</a>
 <div class="uk-accordion-content">
@@ -78,11 +73,8 @@ lights out there which someone physically built and uses on real stages. Some
 of them are simple with just a lamp, some have colors, others may have gobos
 and pan/tilt and so on. If you don't care about this, you can choose any
 fixture. See also the next question.
-
 </div>
 </li>
-
-
 
 <li>
 <a id="faqa" href="#faq" class="uk-accordion-title">What are good fixture files to start with?</a>
@@ -100,6 +92,17 @@ more.
 </div>
 </li>
 
+<li>
+<a id="faq" href="#faq" class="uk-accordion-title">What is the difference between Cycles and Eevee?</a>
+<div class="uk-accordion-content">
+Blender has multiple rendering engines. Eevee is a realtime renderer, while
+Cycles is an offline renderer that calculates 3D data to produce realistic
+scenes. BlenderDMX has to implement each feature two times, once for Eevee,
+once for Cycles. Saving keyframes is a technique to prepare views and
+transitions for the Cycles renderer. Read about Eevee and Cycles on the <a
+href="https://duckduckgo.com/?t=ffab&q=what+is+the+difference+between+cycles+and+eevee">web</a>.
+</div>
+</li>
 </ul>
 
 </section>
