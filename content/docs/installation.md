@@ -16,7 +16,7 @@ Make sure you have installed [Blender](https://www.blender.org/download/) 3.4 or
    <li> To enable the addon, go to Edit → Preferences → Add-ons, search for "DMX" and toggle the checkbox on.
 </ol>
 
-You can continue to the <a href="../setup" ><i class="fa-solid fa-circle-play"></i> Setup</a>.
+You can continue to the <a href="../get_started" ><i class="fa-solid fa-truck-fast"></i> Getting Started Guide</a> or to the <a href="../setup" ><i class="fa-solid fa-circle-play"></i> User Guide</a>.
 
 ![Install](../media/install.gif)
 
