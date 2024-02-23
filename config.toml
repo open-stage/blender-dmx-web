@@ -2,6 +2,10 @@ title = 'BlenderDMX'
 baseURL = 'https://blenderdmx.eu'
 languageCode = 'en-us'
 
+[params]
+docsUrl = "https://github.com/open-stage/blender-dmx-web"
+
+
 [frontmatter]
 date = ['publishDate', 'date', 'lastmod']
 expiryDate = ['expiryDate']
@@ -28,9 +32,6 @@ publishDate = ['publishDate', 'date']
     endLevel = 6
     ordered = false
 
-  [markup.tableOfContents]
-    endLevel = 6
-    ordered = false
 [module]
   [[module.mounts]]
   source = "assets"

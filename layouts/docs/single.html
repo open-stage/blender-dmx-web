@@ -13,6 +13,9 @@
         </div>
       </div>
     </div>
+    {{ if eq .Params.category "Help" -}}
+        {{ partial "edit-page.html" . }}
+    {{ end -}}
   </article>
 </div>
 {{ end }}
