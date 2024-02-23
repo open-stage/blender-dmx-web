@@ -18,7 +18,7 @@ menu:
                 <strong><a href="../dmx" ><i class="fa-solid fa-globe"></i> DMX Integration</a></strong> section.</li>
         </ul>
         <h2 id="contribute" class="uk-card-title">Looking for ways to contribute?</h2>
-        You can contribute to the project by sharing rendered visuals of your projects in the <a href="https://discord.gg/FQVVyc45T9">Gallery on Discord</a>, post rendered visuals on social media of your choice, <a href="https://github.com/open-stage/blender-dmx">writing code</a>, <a href="https://github.com/open-stage/blender-dmx">improving documentation</a>, or <a href="https://hosted.weblate.org/projects/blenderdmx/">help with translation</a>.
+        You can contribute to the project by sharing rendered visuals of your projects in the <a href="https://discord.gg/FQVVyc45T9">Gallery on Discord</a>, post rendered visuals on social media of your choice, <a href="https://github.com/open-stage/blender-dmx">writing code</a>, <a href="https://github.com/open-stage/blender-dmx">improving documentation</a>, or <a href="https://hosted.weblate.org/projects/blenderdmx/main/">help with translation</a>.
     </div>
 </section>
 
