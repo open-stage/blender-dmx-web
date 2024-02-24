@@ -1,8 +1,8 @@
 <article class="uk-margin-bottom-large uk-card uk-card-default">
     <div class="uk-card-header uk-margin-small-top">
         <h2 class="uk-card-title uk-margin-remove-bottom"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    </div>
-    <div class="uk-card-body">
+        {{ partial "article-meta.html" . }}
+        <hr class="uk-divider-icon uk-margin-top uk-margin-bottom" />
         {{ .Summary }}
         {{- if .Truncated }}<p><a href="{{ .Permalink }}">Read more&hellip;</a></p>{{ end }}
     </div>

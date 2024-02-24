@@ -191,5 +191,20 @@
     </div>
   </div>
 </section>
+<section class="uk-section uk-section-muted">
+    <div class="uk-container">
+        <h2 class="uk-margin-medium-bottom">Recent Blog Posts</h2>
 
+        <div class="uk-grid uk-child-width-1-2@m uk-text-small" uk-grid="masonry: true"
+             uk-parallax="y: -50,0; scale: 1.1,1; opacity: 0,1; end: 70vh + 100%; media: @m">
+            {{- block "index-post-teasers" . }}
+                {{- range first 2 (where .Site.RegularPages "Section" "blog").ByPublishDate.Reverse }}
+                <div>
+                    {{ partial "article-teaser" . }}
+                </div>
+                {{- end }}
+            {{ end }}
+        </div>
+    </div>
+</section>
 {{ end }}

@@ -1,6 +1,8 @@
 title = 'BlenderDMX'
 baseURL = 'https://blenderdmx.eu'
 languageCode = 'en-us'
+enableEmoji = true
+summaryLength = 30
 
 [params]
 docsUrl = "https://github.com/open-stage/blender-dmx-web"

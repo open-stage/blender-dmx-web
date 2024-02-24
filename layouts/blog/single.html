@@ -5,12 +5,32 @@
     <article class="uk-article uk-container uk-margin-medium">
         <h1 class="uk-margin-remove-bottom uk-article-title">{{ .Title }}</h1>
         {{ partial "article-meta.html" . }}
-        <hr>
+        <hr class="uk-divider-icon" />
 
         <div class="uk-margin-medium-top">
             {{ .Content }}
-
         </div>
+
+        <hr class="uk-divider-icon" />
+          <a
+            class="uk-button uk-button-large uk-button-primary uk-width-expand uk-width-auto@s uk-margin-small-bottom"
+            href="/download"
+            role="button"
+          >
+            <i class="fa-solid fa-file-arrow-down"></i> Download Page
+          </a>
+
+        {{ if isset .Params "link" }}
+
+          <a
+            class="uk-button uk-button-large uk-button-secondary uk-width-expand uk-width-auto@s uk-margin-small-bottom"
+            href="{{ .Params.Link }}"
+            role="button"
+            uk-scroll="offset: 50"
+          >
+            <i class="fa-brands fa-github"></i> Release page
+          </a>
+        {{ end }}
     </article>
 </div>
 {{ end }}

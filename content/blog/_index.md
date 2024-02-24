@@ -1,6 +1,6 @@
 ---
 title: BlenderDMX Blog
-draft: true
+draft: false
 menu:
   main:
     name: Blog
