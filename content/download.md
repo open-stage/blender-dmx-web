@@ -43,7 +43,7 @@ menu:
     $.get("https://api.github.com/repos/open-stage/blender-dmx/releases", (data) => {
 
         let total_downloads = data.reduce(function(total, item, index){
-            return total += parseInt(item.assets[0].download_count)
+            return total + item.assets[0].download_count
         }, 0)
 
             team.html(
@@ -57,7 +57,7 @@ menu:
 </br>
 
 
-<h5 style="display:inline">Downloads:</h5> Total: ${total_downloads} Latest: ${data[0].assets[0].download_count}
+Total releases: ${data.length}, Total downloads: ${total_downloads}, Latest release downloads: ${data[0].assets[0].download_count}
                         <div class="uk-margin-medium-top ">
                             <a href="${data[0].assets[0].browser_download_url}" class="uk-button uk-button-large uk-button-primary uk-width-expand uk-width-auto@m uk-margin-small-bottom"><i class="fa-solid fa-download"></i> Download</a>
                             <a href="https://github.com/open-stage/blender-dmx/releases/latest" class="uk-button uk-button-large uk-button-secondary uk-width-expand uk-width-auto@m uk-margin-small-bottom"><i class="fa-brands fa-github"></i> Go to release page</a>
