@@ -16,14 +16,15 @@ category: "Help"
                 up and running quickly.</li>
             <li>Looking for more comprehensive documentation? Continue reading the <strong><a href="../setup" ><i class="fa-solid fa-book"></i> User Guide</a></strong>.</li>
             <li>Need help troubleshooting the DMX integration? Check the
-                <strong><a href="../dmx" ><i class="fa-solid fa-globe"></i> DMX Integration</a></strong> section.</li>
+                <strong><a href="../dmx" ><i class="fa-solid fa-tachograph-digital"></i> DMX Integration</a></strong> section.</li>
+            <li>Have more questions? Check out the <strong><a href="#faq-top" ><i class="fa-solid fa-circle-question"></i> FAQ</a></strong> or ask in the <strong><a rel="me" href="https://discord.gg/FQVVyc45T9"><i class="fa-brands fa-discord" aria-hidden="true"></i> Discord</a> </strong> group.</li>
         </ul>
         <h2 id="contribute" class="uk-card-title">Looking for ways to contribute?</h2>
         You can contribute to the project by sharing rendered visuals of your projects in the <a href="https://discord.gg/FQVVyc45T9">Gallery on Discord</a>, post rendered visuals on social media of your choice, <a href="https://github.com/open-stage/blender-dmx">writing code</a>, <a href="https://github.com/open-stage/blender-dmx-web/tree/main/content/docs">improving documentation</a>, or <a href="https://hosted.weblate.org/projects/blenderdmx/main/">help with translation</a>.
     </div>
 </section>
 
-<section id="faq">
+<section id="faq-top">
 <h2 class="uk-margin-large-top">Frequently Asked Questions</h2>
 <h3>General</h3>
 <ul uk-accordion="multiple: true">
