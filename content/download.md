@@ -59,8 +59,8 @@ menu:
 
 Total releases: ${data.length}, Total downloads: ${total_downloads}, Latest release downloads: ${data[0].assets[0].download_count}
                         <div class="uk-margin-medium-top ">
-                            <a href="${data[0].assets[0].browser_download_url}" class="uk-button uk-button-large uk-button-primary uk-width-expand uk-width-auto@m uk-margin-small-bottom"><i class="fa-solid fa-download"></i> Download</a>
-                            <a href="https://github.com/open-stage/blender-dmx/releases/latest" class="uk-button uk-button-large uk-button-secondary uk-width-expand uk-width-auto@m uk-margin-small-bottom"><i class="fa-brands fa-github"></i> Go to release page</a>
+                            <a href="${data[0].assets[0].browser_download_url}" class="uk-button uk-button-large uk-button-primary uk-width-expand uk-width-auto@m uk-margin-small-bottom"><i class="fa-solid fa-download"></i> Download zip</a>
+                            <a href="https://github.com/open-stage/blender-dmx/releases/latest" class="uk-button uk-button-large uk-button-secondary uk-width-expand uk-width-auto@m uk-margin-small-bottom"><i class="fa-brands fa-github"></i> Release page</a>
                         </div>
                     </p>
               `);
