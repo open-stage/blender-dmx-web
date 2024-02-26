@@ -28,6 +28,7 @@
             interface uses OpenGL to provide a consistent experience.
           </p>
         </div>
+
         <div class="uk-margin-large-top">
           <a
             class="uk-button uk-button-large uk-button-primary uk-width-expand uk-width-auto@s uk-margin-small-bottom"
@@ -46,7 +47,32 @@
           </a>
         </div>
       </div>
+
       <div class="uk-width-expand frontpage-hero">
+        <div
+          class="uk-alert-primary"
+          uk-alert
+          uk-parallax="opacity: 1,0; scale: 1,1.2; end: 5vh; easing: -2; media: @m"
+        >
+          <a href class="uk-alert-close" uk-close></a>
+          <p>
+            The <a href="https://gdtf-share.com">GDTF Group</a>
+            has
+            <a
+              href="https://www.facebook.com/GeneralDeviceTypeFormat/posts/pfbid02PQ9WqrVLoSMq9g3V2CnaH5BNd9XuAHrn7L1HcUMSAVJe9nPgJqDEyELEeqgCCJqdl"
+              >posted about our project</a
+            >
+            on their Facebook
+            <a href="https://www.facebook.com/GeneralDeviceTypeFormat">page</a>
+            . You can
+            <a
+              href="https://www.facebook.com/GeneralDeviceTypeFormat/posts/pfbid02PQ9WqrVLoSMq9g3V2CnaH5BNd9XuAHrn7L1HcUMSAVJe9nPgJqDEyELEeqgCCJqdl"
+              >like the post</a
+            >
+            to send them some thanks.
+          </p>
+        </div>
+
         <img
           src="/assets/img/frontpage-hero.png"
           alt=""
@@ -130,9 +156,13 @@
           also loading of complete scenes from MVR. Fixture's manipulation can
           be done internally in Blender or externally via DMX like ArtNet or
           sACN. External DMX or internal Programmer state can be recorded into
-          Blender's timeline via <a href="/docs/keyframe-animations-recording/">Keyframes recording</a>. BlenderDMX also offers
-          dedicated <a href="/docs/dmx#blenderdmx-dmx-driver-for-blender">DMX driver for Blender</a>  to control any Blender property via
-          external DMX signal.
+          Blender's timeline via
+          <a href="/docs/keyframe-animations-recording/">Keyframes recording</a
+          >. BlenderDMX also offers dedicated
+          <a href="/docs/dmx#blenderdmx-dmx-driver-for-blender"
+            >DMX driver for Blender</a
+          >
+          to control any Blender property via external DMX signal.
         </p>
       </div>
     </div>
@@ -192,19 +222,19 @@
   </div>
 </section>
 <section class="uk-section uk-section-muted">
-    <div class="uk-container">
-        <h2 class="uk-margin-medium-bottom">Recent Blog Posts</h2>
+  <div class="uk-container">
+    <h2 class="uk-margin-medium-bottom">Recent Blog Posts</h2>
 
-        <div class="uk-grid uk-child-width-1-2@m uk-text-small" uk-grid="masonry: true"
-             uk-parallax="y: -50,0; scale: 1.1,1; opacity: 0,1; end: 70vh + 100%; media: @m">
-            {{- block "index-post-teasers" . }}
-                {{- range first 2 (where .Site.RegularPages "Section" "blog").ByPublishDate.Reverse }}
-                <div>
-                    {{ partial "article-teaser" . }}
-                </div>
-                {{- end }}
-            {{ end }}
-        </div>
+    <div
+      class="uk-grid uk-child-width-1-2@m uk-text-small"
+      uk-grid="masonry: true"
+      uk-parallax="y: -50,0; scale: 1.1,1; opacity: 0,1; end: 70vh + 100%; media: @m"
+    >
+      {{- block "index-post-teasers" . }} {{- range first 2 (where
+      .Site.RegularPages "Section" "blog").ByPublishDate.Reverse }}
+      <div>{{ partial "article-teaser" . }}</div>
+      {{- end }} {{ end }}
     </div>
+  </div>
 </section>
 {{ end }}
