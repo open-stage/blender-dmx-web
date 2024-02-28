@@ -105,6 +105,13 @@ transitions for the Cycles renderer. Read about Eevee and Cycles on the <a
 href="https://duckduckgo.com/?t=ffab&q=what+is+the+difference+between+cycles+and+eevee">web</a>.
 </div>
 </li>
+
+<li>
+<a id="faq" href="#faq" class="uk-accordion-title">Instead of gobos i have pink beam output in Cycles</a>
+<div class="uk-accordion-content">This seems as either some combination of things or a bug in Blender. For some reason, Eevee has to be used at 
+least once with gobos, for gobos to render in Cycles. Simply switch the renderer to Eevee and back to Cycles and gobos will show up.
+</div>
+</li>
 </ul>
 
 </section>
