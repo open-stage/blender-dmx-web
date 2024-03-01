@@ -26,15 +26,9 @@ To see the full volumetric beam, you need to use Rendered output and also enable
 
 ![Beam](../media/beam004.png)
 
+### Volumetric Beams
 
-To prevent flicker, make sure that Play Animation is in the Play state:
-
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/c507c26d-cc63-4662-a45b-bc96ddf865bf)
-
-
-### Beams
-
-To enable the volumetric beams:
+To enable the Volumetric beams:
 
 * Click Update Volume Box
 * Check Disable Overlays
@@ -43,7 +37,7 @@ To enable the volumetric beams:
 
 ![Volume](../media/volume.png)
 
-### Tweak Volumetrics
+### Tweak Volumetrics in Eevee
 
 (This is in right side panel, under Render)
 
@@ -58,11 +52,8 @@ To enable the volumetric beams:
 - **Tile size:** nice rendering but more compute demanding
 - **Samples:** bigger number makes it better but much more compute demanding
 
-![Volumetrics](../media/volumetrics.png)
+#### Eevee
 
-You can always tweak these settings to your liking, also, check some [manuals and videos on the web](https://duckduckgo.com/?t=ffab&q=eevee+flicker) to see how you can make it look better.
+To prevent flicker, make sure that Play Animation is in the Play state:
 
-## IES beams
-
-With the [option to select any geometry](../setup#allow-selecting-geometries), one can add IES files to the beam Spot light objects, see [documentation here](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/ies.html) and some [tutorials on the web](https://duckduckgo.com/?t=ffab&q=blender+ies).
-
+![image](https://github.com/open-stage/blender-dmx/assets/3680926/c507c26d-cc63-4662-a45b-bc96ddf865bf)
