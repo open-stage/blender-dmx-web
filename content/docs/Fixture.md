@@ -84,6 +84,8 @@ When unselecting **Re-address only**:
 
 ## Import IES File/Remove IES File
 
+This allows for more photo-realistic volumetric beam rendering. Example of beams without (left) and with (right) IES:
+
 ![image](../media/ies.png)
 
 ## Navigation between fixtures
