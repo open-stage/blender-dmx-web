@@ -70,11 +70,15 @@ Noise Scale of the generated fog.
 
 ![image](../media/beams.png)
 
-This allows to adjust whether beam looks really nice and fills the beam lens
-(`Full width`), but gobos can be a bit blurry, or, gobos are really sharp, but
-beam starts in front of the lens (`Reduced`). If set to `Custom`, one can set
-the "beam radius pin sized for gobos" attribute on each light beam to
-True/False.
+This allows to adjust how beam rendering in Cycles looks when rendering gobos -
+whether beam looks really nice and fills the beam lens (`Full width`), but
+gobos can be a bit blurry, or, gobos are really sharp, but beam starts in front
+of the lens (`Reduced`). If set to `Custom`, one can set the "beam radius pin
+sized for gobos" attribute on each light beam to True/False either manually or
+via the following quick set buttons:
+
+![image](../media/setup_beam_diameter_custom.png)
+
 
 ## Beam rendering
 

@@ -57,3 +57,9 @@ To enable the Volumetric beams:
 To prevent flicker, make sure that Play Animation is in the Play state:
 
 ![image](https://github.com/open-stage/blender-dmx/assets/3680926/c507c26d-cc63-4662-a45b-bc96ddf865bf)
+
+#### Cycles
+
+In Cycles, beam is rendered as starting from the beam lens, with the width of the lens diameter. This can make gobo projection slightly blurry. See [details here](../setup/#beam-lens-diameter-in-cycles).
+
+![image](../media/beams.png)
