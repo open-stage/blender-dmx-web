@@ -1,0 +1,5 @@
+DirectoryPath: "./public"
+IgnoreAltMissing: true
+IgnoreAltEmpty: true
+IgnoreDirectoryMissingTrailingSlash: true
+
