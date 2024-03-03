@@ -1,4 +1,5 @@
 _site/
+tmp/
 resources/
 .sass-cache
 node_modules/

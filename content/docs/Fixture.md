@@ -25,40 +25,36 @@ well.
 
 ## Fixture menu
 
-The fixture menu allows to Add/Edit/Delete a fixture. GDTF files can also be imported here. Full scene can be imported with the `Import MVR Scene`, you can read more about [MVR here](GdtfFixture#mvr).
+The fixture menu allows to Add/Edit/Delete a fixture. GDTF files can also be imported here. Full scene can be imported with the `Import MVR Scene`, you can read more about [MVR here](../gdtffixture/#mvr).
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/e48ae529-640a-432d-856d-947e7eb50339)
+![image](../media/fixture_menu.png)
 
 
 
 ## Add Fixture
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/6593f146-b99b-4ec1-b62d-4879ba34a962)
+![image](../media/add_fixture.png)
 
-- **Name:** Name of the Fixture. Should be unique on the show.
+- **Name:** Name of the Fixture.
 - **GDTF Profile:** Select the GDTF Profile from the BlenderDMX library.
 - **DMX Mode:** Select the DMX Mode of the selected GDTF Profile.
-- **Universe:** DMX Universe of the Fixture. It should exist on the `DMX >
-  Universes Panel` in order for DMX to work properly.
+- **Universe:** DMX Universe of the Fixture.
 - **Address:** DMX Address of the Fixture.
-- **Gel Color:** A subtractive color filter applied to the lamp color. Useful
-  for mimicking white balance on lamps.
+- **Fixture ID:** The fixture ID of the first fixture.
 - **Units:** How many fixtures should be created.
+- **Increment DMX address:** Whether to increase DMX address when adding multiple devices
+- **Increment Fixture ID:** Whether to increase Fixture ID when adding multiple devices
 - **Fixture ID:** An ID of the fixture. Currently this is not used in BlenderDMX. It can be a number or text
 - **Display beams:** Eevee has limit of 120 beam per scene, so sometimes it is useful to create front facing devices only with the Emitter lens but without a beam
 - **Add Target:** When adding for example XYZ_X,Y,Z fixtures, the target is not needed. Also, sometimes the Target is not useful. This allows not to add it.
+- **Gel Color:** A subtractive color filter applied to the lamp color. Useful
+  for mimicking white balance on lamps.
 
 ## Edit Fixture
 
-When editing, if a single Fixture is selected, the Edit Menu works exactly like
-the Add Menu, without the `Units` parameters. As the editing can take a lot of time
-(the full GDTF needs to be re-evaluating) if choose `Re-address only`, only the Fixture ID, Universe and Address will be changed.
+If `Re-address only` is checked, the GDTF Profile, DMX Mode and Gel Color are not editable, this speeds up the editing as the GDTF profile does not need to be re-evaluated. This option also allows to assign and remove an IES photometric file to the selected fixtures.
 
-![Edit Single Fixture](../media/blenderdmx-beta-fixture3.png)
-
-If multiple fixtures are selected, there are a few differences:
-
-![Edit Multiple Fixtures](../media/blenderdmx-beta-fixture4.png)
+![Edit Single Fixture](../media/edit_readress_only.png)
 
 - **Universe:** Set DMX Universe
 - **Address:** The addresses are set starting at the first selected Fixture
@@ -68,6 +64,9 @@ If multiple fixtures are selected, there are a few differences:
 - **Remove IES File** Removes IES File from selected fixtures
 - **Increment DMX address:** Whether to increase DMX address when editing multiple devices
 - **Increment Fixture ID:** Whether to increase Fixture ID when editing multiple devices
+If `Re-address only` is un-checked, all options are available and the GDTF Profile is re-evaluated.
+
+![Edit Single Fixture](../media/edit_full.png)
 
 When unselecting **Re-address only**:
 
@@ -80,7 +79,6 @@ When unselecting **Re-address only**:
 - **Address:** The addresses are set starting at the first selected Fixture,
   and growing according to the fixture footprints.
 - **Gel Color:** Same as GDTF Profile.
-
 
 ## Import IES File/Remove IES File
 
@@ -103,3 +101,6 @@ You can use `Shift` to select multiple fixtures. You can also use these selectio
 - Select Every Other Light
 - Select Visible Lights Only (only filtered)
 - Deselect All
+- Targets to zero - places Targets to the center of the 3D space
+- Lock Movement - locks movement to ignore pan/tilt data
+- Unlock Movement

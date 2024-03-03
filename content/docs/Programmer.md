@@ -6,16 +6,16 @@ category: "Help"
 
 BlenderDMX comes with a simple programmer, for more precise work [DMX](../dmx) is recommended.
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/47cf27c4-e387-432a-a13b-ff223cd0c9a9)
+![image](../media/programmer.png)
 
 ## To use the programmer:
 
 - fixtures must support the corresponding attributes, for example Dimmer or Pan/Tilt.
 - fixtures must be assigned to a Universe called BlenderDMX:
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/b14e2b32-baa8-4327-abfc-b417c9e3310a)
+![image](../media/protocols_blenderdmx.png)
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/e0a3061a-fac5-4e40-8de1-8d60ccaed1af)
+![image](../media/fixtures_list.png)
 
 
 Following control attributes are available: Dimmer, Color, Pan, Tilt, Zoom, Gobo, GoboPos, Shutter/Strobe.
@@ -28,7 +28,7 @@ Each fixture can also be controlled via "Target" which is a virtual handle that 
 
 As the Target and DMX or Programmer can interfere with each other (DMX has priority), one can lock the fixtures in place, pointing to the Target by pressing the lock icon. The lock icon is then also displayed in the Fixture list:
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/f842fd21-11e2-40ce-a65c-e4ebcd8c82e0)
+![image](../media/fixtures_locked.png)
 
 You can also add the fixture and uncheck the Add target. The pan/tilt then will be controlled directly, not by following the Target.
 
@@ -44,3 +44,6 @@ You can use `Shift` to select multiple fixtures. You can also use these selectio
 - Select Every Other Light
 - Select Visible Lights Only (only filtered)
 - Deselect All
+- Targets to zero - places Targets to the center of the 3D space
+- Lock Movement - locks movement to ignore pan/tilt data
+- Unlock Movement
