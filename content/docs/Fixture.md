@@ -58,7 +58,18 @@ the Add Menu, without the `Units` parameters. As the editing can take a lot of t
 
 If multiple fixtures are selected, there are a few differences:
 
-![Edit Multiple Fixture](../media/blenderdmx-beta-fixture4.png)
+![Edit Multiple Fixtures](../media/blenderdmx-beta-fixture4.png)
+
+- **Universe:** Set DMX Universe
+- **Address:** The addresses are set starting at the first selected Fixture
+- **Fixture ID:** The fixture ID starting at the first selected Fixture
+- **Re-address only** Allows for fast DMX address/universe, fixture id... settings
+- **Import IES File** Allows to Import IES File and links it to selected fixtures's beams
+- **Remove IES File** Removes IES File from selected fixtures
+- **Increment DMX address:** Whether to increase DMX address when editing multiple devices
+- **Increment Fixture ID:** Whether to increase Fixture ID when editing multiple devices
+
+When unselecting **Re-address only**:
 
 - **Name:** If you keep the `*`, it keeps fixture names. Otherwise, it appends
   an integer index to the end of the given name for each fixture being edited.
@@ -69,6 +80,11 @@ If multiple fixtures are selected, there are a few differences:
 - **Address:** The addresses are set starting at the first selected Fixture,
   and growing according to the fixture footprints.
 - **Gel Color:** Same as GDTF Profile.
+
+
+## Import IES File/Remove IES File
+
+![image](../media/ies.png)
 
 ## Navigation between fixtures
 
