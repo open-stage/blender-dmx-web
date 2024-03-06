@@ -31,30 +31,35 @@ category: "Help"
 
 <li>
 <a id="faq" href="#faq" class="uk-accordion-title">What is DMX and do i need it?</a>
-<div class="uk-accordion-content">
-BlenderDMX is primarily a visualizing tool for entertainment lighting, which
-typically is controlled by <a href="../dmx">DMX protocol</a>. It is not strictly needed for
-BlenderDMX as you can program by using <a href="../keyframe-animations-recording">keyframes</a>.
+<div class="uk-accordion-content"> BlenderDMX is primarily a visualizing tool
+for entertainment lighting, which typically is controlled by <a
+href="../dmx">DMX protocol</a>. It is not strictly needed for BlenderDMX as you
+can program by using <a href="../keyframe-animations-recording">keyframes</a>.
 You can learn more about <a href="/docs/dmx">DMX here</a>.
 </div>
 </li>
 
 <li>
 <a id="faq" href="#faq" class="uk-accordion-title">Are there any special shortcuts in BlenderDMX?</a>
-<div class="uk-accordion-content">
-Yes, <a href="../fixture/#navigation-between-fixtures">several</a>. You can use Ctrl-Left / Ctrl-Right to go between fixtures (Previous/Next). When in the Fixtures list, you can use Shift to select multiple fixtures.
+<div class="uk-accordion-content"> Yes, <a
+href="../fixture/#navigation-between-fixtures">several</a>. You can use
+Ctrl-Left / Ctrl-Right to go between fixtures (Previous/Next),
+Ctrl-Shift-Left/Ctrl-Shift-Right to go between fixture's targets
+(Previous/Next). When in the Fixtures list, you can use Shift to select
+multiple fixtures.
 </div>
 </li>
 
 <li>
 <a id="faq" href="#faq" class="uk-accordion-title">Can i use DMX to control other parts of Blender?</a>
-<div class="uk-accordion-content">
-Yes. You can use our dedicated <a href="../dmx#blenderdmx-dmx-driver-for-blender">DMX driver</a> for Blender to use DMX as source of values for any Blender property.
+<div class="uk-accordion-content"> Yes. You can use our dedicated <a
+href="../dmx#blenderdmx-dmx-driver-for-blender">DMX driver</a> for Blender to
+use DMX as source of values for any Blender property.
 </div>
 </li>
 
 <li>
-<a id="faq" href="#faq" class="uk-accordion-title">Can BlenderDMX output DMX and used as a DMX controller?</a>
+<a id="faq" href="#faq" class="uk-accordion-title">Can BlenderDMX output DMX and be used as a DMX controller?</a>
 <div class="uk-accordion-content">
 This is currently not possible but if someone comes and implements this why not.
 </div>
@@ -69,12 +74,23 @@ Absolutely! Use the Fixtures → menu → Import MVR scene.
 
 <li>
 <a id="faq" href="#faq" class="uk-accordion-title">Why do fixtures from GDTF have different features, like Gobo or Color and some not?</a>
-<div class="uk-accordion-content">
-GDTF is a format to describe real world devices, meaning that there are real
-lights out there which someone physically built and uses on real stages. Some
-of them are simple with just a lamp, some have colors, others may have gobos
-and pan/tilt and so on. If you don't care about this, you can choose any
-fixture. See also the next question.
+<div class="uk-accordion-content"> GDTF is a format to describe real world
+devices, meaning that there are real lights out there which someone physically
+built and uses on real stages. Some of them are simple with just a lamp, some
+have colors, others may have gobos and pan/tilt and so on. If you don't care
+about this, you can choose any fixture. See also the next question.
+</div>
+</li>
+
+<li>
+<a id="faq" href="#faq" class="uk-accordion-title">Is there a difference between Spot and Wash fixtures in BlenderDMX?</a>
+<div class="uk-accordion-content"> Yes. BlenderDMX supports Spot, Wash, Beam,
+Pixel, Front Facing and other devices. Spots have a hard beam edge, and if they
+contain gobos, their projection is supported. Washes have a smooth blend on the
+beam. Narrow parallel beam angles aligned with the front beam lens (beam
+fixtures) are also supported. Pixel devices can be pixel controlled and any
+device can be set to not contain volumetric beam to only provide front facing
+color mixing or strobing.
 </div>
 </li>
 
@@ -96,20 +112,22 @@ more.
 
 <li>
 <a id="faq" href="#faq" class="uk-accordion-title">What is the difference between Cycles and Eevee?</a>
-<div class="uk-accordion-content">
-Blender has multiple rendering engines. Eevee is a realtime renderer, while
-Cycles is an offline renderer that calculates 3D data to produce realistic
-scenes. BlenderDMX has to implement each feature two times, once for Eevee,
-once for Cycles. Saving keyframes is a technique to prepare views and
-transitions for the Cycles renderer. Read about Eevee and Cycles on the <a
+<div class="uk-accordion-content"> Blender has multiple rendering engines.
+Eevee is a realtime renderer, while Cycles is an offline renderer that
+calculates 3D data to produce realistic scenes. BlenderDMX has to implement
+each feature two times, once for Eevee, once for Cycles. Saving keyframes is a
+technique to prepare views and transitions for the Cycles renderer. Read about
+Eevee and Cycles on the <a
 href="https://duckduckgo.com/?t=ffab&q=what+is+the+difference+between+cycles+and+eevee">web</a>.
 </div>
 </li>
 
 <li>
 <a id="faq" href="#faq" class="uk-accordion-title">Instead of gobos i have pink beam output in Cycles</a>
-<div class="uk-accordion-content">This seems as either some combination of things or a bug in Blender. For some reason, Eevee has to be used at 
-least once with gobos, for gobos to render in Cycles. Simply switch the renderer to Eevee and back to Cycles and gobos will show up.
+<div class="uk-accordion-content">This seems as either some combination of
+things or a bug in Blender. For some reason, Eevee has to be used at least once
+with gobos, for gobos to render in Cycles. Simply switch the renderer to Eevee
+and back to Cycles and gobos will show up.
 </div>
 </li>
 </ul>
