@@ -30,7 +30,7 @@ category: "Help"
 <ul uk-accordion="multiple: true">
 
 <li>
-<a id="faq" href="#faq" class="uk-accordion-title">What is DMX and do i need it?</a>
+<a id="faq_dmx" href="#faq" class="uk-accordion-title">What is DMX and do i need it?</a>
 <div class="uk-accordion-content"> BlenderDMX is primarily a visualizing tool
 for entertainment lighting, which typically is controlled by <a
 href="../dmx">DMX protocol</a>. It is not strictly needed for BlenderDMX as you
@@ -40,7 +40,21 @@ You can learn more about <a href="/docs/dmx">DMX here</a>.
 </li>
 
 <li>
-<a id="faq" href="#faq" class="uk-accordion-title">Are there any special shortcuts in BlenderDMX?</a>
+<a id="faq_error" href="#faq" class="uk-accordion-title">I get a random error, what should is do?</a>
+<div class="uk-accordion-content">Oooups, this can happen. Set <a
+href="../setup/#logging">Logging</a> to Debug, this will produce more
+information, then repeat the action. Starting Blender from console is often
+also helpful, to see more information and error messages. Once you collect some
+information about what is happening and if you don't know what it means, copy
+the messages or grab a screenshot and ask in the <strong><a rel="me"
+href="https://discord.gg/FQVVyc45T9"><i class="fa-brands fa-discord"
+aria-hidden="true"></i> Discord</a> </strong> group.
+</div>
+</li>
+
+
+<li>
+<a id="faq_shortcuts" href="#faq" class="uk-accordion-title">Are there any special shortcuts in BlenderDMX?</a>
 <div class="uk-accordion-content"> Yes, <a
 href="../fixture/#navigation-between-fixtures">several</a>. You can use
 Ctrl-Left / Ctrl-Right to go between fixtures (Previous/Next),
@@ -51,7 +65,7 @@ multiple fixtures.
 </li>
 
 <li>
-<a id="faq" href="#faq" class="uk-accordion-title">Can i use DMX to control other parts of Blender?</a>
+<a id="faq_dmx_driver" href="#faq" class="uk-accordion-title">Can i use DMX to control other parts of Blender?</a>
 <div class="uk-accordion-content"> Yes. You can use our dedicated <a
 href="../dmx#blenderdmx-dmx-driver-for-blender">DMX driver</a> for Blender to
 use DMX as source of values for any Blender property.
@@ -59,21 +73,21 @@ use DMX as source of values for any Blender property.
 </li>
 
 <li>
-<a id="faq" href="#faq" class="uk-accordion-title">Can BlenderDMX output DMX and be used as a DMX controller?</a>
+<a id="faq_dmx_out" href="#faq" class="uk-accordion-title">Can BlenderDMX output DMX and be used as a DMX controller?</a>
 <div class="uk-accordion-content">
 This is currently not possible but if someone comes and implements this why not.
 </div>
 </li>
 
 <li>
-<a id="faq" href="#faq" class="uk-accordion-title">Can I import full MVR scene?</a>
+<a id="faq_mvr_import" href="#faq" class="uk-accordion-title">Can I import full MVR scene?</a>
 <div class="uk-accordion-content">
 Absolutely! Use the Fixtures → menu → Import MVR scene.
 </div>
 </li>
 
 <li>
-<a id="faq" href="#faq" class="uk-accordion-title">Why do fixtures from GDTF have different features, like Gobo or Color and some not?</a>
+<a id="faq_gdtf_fixtures" href="#faq" class="uk-accordion-title">Why do fixtures from GDTF have different features, like Gobo or Color and some not?</a>
 <div class="uk-accordion-content"> GDTF is a format to describe real world
 devices, meaning that there are real lights out there which someone physically
 built and uses on real stages. Some of them are simple with just a lamp, some
@@ -83,7 +97,7 @@ about this, you can choose any fixture. See also the next question.
 </li>
 
 <li>
-<a id="faq" href="#faq" class="uk-accordion-title">Is there a difference between Spot and Wash fixtures in BlenderDMX?</a>
+<a id="faq_spot_wash" href="#faq" class="uk-accordion-title">Is there a difference between Spot and Wash fixtures in BlenderDMX?</a>
 <div class="uk-accordion-content"> Yes. BlenderDMX supports Spot, Wash, Beam,
 Pixel, Front Facing and other devices. Spots have a hard beam edge, and if they
 contain gobos, their projection is supported. Washes have a smooth blend on the
@@ -95,7 +109,7 @@ color mixing or strobing.
 </li>
 
 <li>
-<a id="faqa" href="#faq" class="uk-accordion-title">What are good fixture files to start with?</a>
+<a id="faq_which_gdtf" href="#faq" class="uk-accordion-title">What are good fixture files to start with?</a>
 <div class="uk-accordion-content">
 <p>While the fixture definitions in GDTF describe and mimic real lighting
 devices, if you have no idea about entertainment lighting and just want to do
@@ -111,7 +125,7 @@ more.
 </li>
 
 <li>
-<a id="faq" href="#faq" class="uk-accordion-title">What is the difference between Cycles and Eevee?</a>
+<a id="faq_cycles_eevee" href="#faq" class="uk-accordion-title">What is the difference between Cycles and Eevee?</a>
 <div class="uk-accordion-content"> Blender has multiple rendering engines.
 Eevee is a realtime renderer, while Cycles is an offline renderer that
 calculates 3D data to produce realistic scenes. BlenderDMX has to implement
@@ -123,7 +137,7 @@ href="https://duckduckgo.com/?t=ffab&q=what+is+the+difference+between+cycles+and
 </li>
 
 <li>
-<a id="faq" href="#faq" class="uk-accordion-title">Instead of gobos i have pink beam output in Cycles</a>
+<a id="faq_gobos_cycles" href="#faq" class="uk-accordion-title">Instead of gobos i have pink beam output in Cycles</a>
 <div class="uk-accordion-content">This seems as either some combination of
 things or a bug in Blender. For some reason, Eevee has to be used at least once
 with gobos, for gobos to render in Cycles. Simply switch the renderer to Eevee

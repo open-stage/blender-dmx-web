@@ -88,11 +88,16 @@ This allows for more photo-realistic volumetric beam rendering. Example of beams
 
 ## Navigation between fixtures
 
-You can use `Ctrl-Left` / `Ctrl-Right` to go between fixtures (Previous/Next).
+- `Ctrl-Left` / `Ctrl-Right` to go between fixtures (Previous/Next)
+- `Ctrl-Shift-Left` / `Ctrl-Shift-Right` to go between fixture's targets (Previous/Next)
 
 ## Selecting multiple fixtures in the Fixtures List
 
-You can use `Shift` to select multiple fixtures. You can also use these selection icons in the programmer to:
+You can use `Shift` to select multiple fixtures. 
+
+## Selection icons in Programmer
+
+You can use these selection icons in the programmer to:
 
 ![Edit Multiple Fixture](../media/selection.png)
 
