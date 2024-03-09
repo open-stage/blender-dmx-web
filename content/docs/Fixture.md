@@ -86,26 +86,7 @@ This allows for more photo-realistic volumetric beam rendering. Example of beams
 
 ![image](../media/ies.png)
 
-## Navigation between fixtures
+{{% include-html Target.md %}}
 
-- `Ctrl-Left` / `Ctrl-Right` to go between fixtures (Previous/Next)
-- `Ctrl-Shift-Left` / `Ctrl-Shift-Right` to go between fixture's targets (Previous/Next)
+{{% include-html Navigation.md %}}
 
-## Selecting multiple fixtures in the Fixtures List
-
-You can use `Shift` to select multiple fixtures. 
-
-## Selection icons in Programmer
-
-You can use these selection icons in the programmer to:
-
-![Edit Multiple Fixture](../media/selection.png)
-
-- Select All
-- Invert Selection
-- Select Every Other Light
-- Select Visible Lights Only (only filtered)
-- Deselect All
-- Targets to zero - places Targets to the center of the 3D space
-- Lock Movement - locks movement to ignore pan/tilt data
-- Unlock Movement
