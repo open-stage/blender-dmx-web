@@ -116,8 +116,8 @@ Normally, only Base and Target of the fixture can be selected. This option allow
 
 You can enable increased level of logging via this menu. Normally, `Errors` are
 displayed. By choosing `Warning`, `Info` or even `Debug` you get more and more
-details in the console. If you experience issues, it is good to start Blender
-from a console to see what the logging output shows and set increased level of
+details in the terminal. If you experience issues, it is good to start Blender
+from a terminal to see what the logging output shows and set increased level of
 logging.
 
 By selecting the highest level of logging (`Debug`) and setting the Log filter,

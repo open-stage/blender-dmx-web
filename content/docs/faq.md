@@ -52,7 +52,7 @@ slower then Blender 3.x .
 <div class="uk-accordion-content">Oooups, this can happen. First, make sure you
 use Blender 3.4 and higher, 4.x is also supported. Then, in BlenderDMX, <a
 href="../setup/#logging">Logging</a> to Debug, this will produce more
-information, then repeat the action. Starting Blender from console is often
+information, then repeat the action. Starting Blender from terminal is often
 also helpful, to see more information and error messages. Once you collect some
 information about what is happening and if you don't know what it means, copy
 the messages or grab a screenshot and ask in the <strong><a rel="me"
