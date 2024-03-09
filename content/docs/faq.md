@@ -39,9 +39,18 @@ You can learn more about <a href="/docs/dmx">DMX here</a>.
 </div>
 </li>
 
+<li> <a id="faq_blender" href="#faq" class="uk-accordion-title">Can i use
+Blender 2.9?</a> <div class="uk-accordion-content">No, you need to install <a
+href="https://www.blender.org/download/">Blender</a> 3.4 or higher. Version 4.x
+is supported but do note that when importing MVR files, Blender 4.x can be 10x
+slower then Blender 3.x .
+</div>
+</li>
+
 <li>
 <a id="faq_error" href="#faq" class="uk-accordion-title">I get a random error, what should is do?</a>
-<div class="uk-accordion-content">Oooups, this can happen. Set <a
+<div class="uk-accordion-content">Oooups, this can happen. First, make sure you
+use Blender 3.4 and higher, 4.x is also supported. Then, in BlenderDMX, <a
 href="../setup/#logging">Logging</a> to Debug, this will produce more
 information, then repeat the action. Starting Blender from console is often
 also helpful, to see more information and error messages. Once you collect some
