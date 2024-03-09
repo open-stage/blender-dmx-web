@@ -50,10 +50,10 @@ slower then Blender 3.x .
 <li>
 <a id="faq_error" href="#faq" class="uk-accordion-title">I get a random error, what should is do?</a>
 <div class="uk-accordion-content">Oooups, this can happen. First, make sure you
-use Blender 3.4 and higher, 4.x is also supported. Then, in BlenderDMX, <a
+use Blender 3.4 and higher, 4.x is also supported. Then, in BlenderDMX, set <a
 href="../setup/#logging">Logging</a> to Debug, this will produce more
-information, then repeat the action. Starting Blender from terminal is often
-also helpful, to see more information and error messages. Once you collect some
+information. Starting Blender from terminal is often
+also helpful to see more information and error messages. Once you collect some
 information about what is happening and if you don't know what it means, copy
 the messages or grab a screenshot and ask in the <strong><a rel="me"
 href="https://discord.gg/FQVVyc45T9"><i class="fa-brands fa-discord"
