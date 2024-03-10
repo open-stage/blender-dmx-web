@@ -50,17 +50,17 @@ slower then Blender 3.x .
 <li>
 <a id="faq_error" href="#faq" class="uk-accordion-title">I get a random error, what should is do?</a>
 <div class="uk-accordion-content">Oooups, this can happen. First, make sure you
-use Blender 3.4 and higher, 4.x is also supported. Then, in BlenderDMX, set <a
-href="../setup/#logging">Logging</a> to Debug, this will produce more
-information. Starting Blender from terminal is often
-also helpful to see more information and error messages. Once you collect some
-information about what is happening and if you don't know what it means, copy
-the messages or grab a screenshot and ask in the <strong><a rel="me"
+use Blender 3.4 and higher, 4.x is also supported. If BlenderDMX is not working
+for you at all, disable all other custom enabled addons to check for collision.
+In BlenderDMX, set <a href="../setup/#logging">Logging</a> to Debug, this will
+produce more information, saving it in the "blenderDMX.log" log file.
+Replicate the action leading to the error, then look into the "blenderDMX.log"
+logfile if you see anything obvious. Eventually, take the error message or the
+full blenderDMX.log log file and ask in the <strong><a rel="me"
 href="https://discord.gg/FQVVyc45T9"><i class="fa-brands fa-discord"
 aria-hidden="true"></i> Discord</a> </strong> group.
 </div>
 </li>
-
 
 <li>
 <a id="faq_shortcuts" href="#faq" class="uk-accordion-title">Are there any special shortcuts in BlenderDMX?</a>
