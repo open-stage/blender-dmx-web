@@ -96,6 +96,17 @@ Absolutely! Use the Fixtures → menu → Import MVR scene.
 </li>
 
 <li>
+<a id="faq_mvr_gdtf_empty" href="#faq" class="uk-accordion-title">After MVR import, GDTF fixtures have IDs and DMX but their bodies are not visible in 3D</a>
+<div class="uk-accordion-content"> This depends on how you are doing the MVR
+export in Vectoworks/Capture. Capture never provides any useful GDTFs, only
+place-holders. Vectorworks provides useful GDTFs if you previously load them to
+VW and link them to each VW symbol. To fix this issue, you can use the Edit
+fixture function of BlenderDMX: after the MVR import to BlenderDMX, edit all
+fixtures → uncheck the Re-address only and choose GDTF files for each fixture.
+</div>
+</li>
+
+<li>
 <a id="faq_gdtf_fixtures" href="#faq" class="uk-accordion-title">Why do fixtures from GDTF have different features, like Gobo or Color and some not?</a>
 <div class="uk-accordion-content"> GDTF is a format to describe real world
 devices, meaning that there are real lights out there which someone physically
