@@ -24,7 +24,8 @@ Select Add:
 
 ![image](../media/fixture_menu.png)
 
-In the GDTF Profile - BlenderDMX - Moving Beam. Keep the rest as is and click OK:
+In the GDTF Profile - BlenderDMX, select Moving Beam. Keep the rest as is and
+click OK:
 
 ![image](../media/fixture_add.png)
 
@@ -49,6 +50,9 @@ Success! Your first lighting beam fixture:
 
 ![image](../media/fixture_preview.png)
 
+The rendered volumetric beam can be made much nicer, see <a
+href="../rendering/" >Beam Rendering.</a> for more information.
+
 ### Record keyframe
 
 Keyframe recording in BlenderDMX is in menu Keyframe Recorder:
@@ -58,4 +62,6 @@ Keyframe recording in BlenderDMX is in menu Keyframe Recorder:
 
 ![image](https://github.com/open-stage/blender-dmx/assets/3680926/4ede8b00-1a7a-4387-8145-edf67ef25ece)
 
-You can continue to the <a href="../setup" ><i class="fa-solid fa-circle-play"></i> User Guide</a>.
+You can continue to the <a href="../setup" ><i class="fa-solid fa-circle-play"></i> User Guide</a>
+
+

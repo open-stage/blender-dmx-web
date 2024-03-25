@@ -94,11 +94,16 @@ A background color. This picker alters the World Shading, by directly altering
 the Color Node attribute.
 ## Pause renderer
 
-During GDTF and MVR import and also in 2D View, rendering is paused, to prevent issues and to speed things up. This toggle is here in case it is by accident to re-enabled.
+During GDTF and MVR import and also in 2D View, rendering is paused, to prevent
+issues and to speed things up. This toggle is here in case it needs to be
+manually re-enabled.
 
 ## Display 2D View
 
-Switches the view to the TOP view, hides 3D models of fixtures and shows 2D symbol from GDTF. This 2D is aligned with 3D. Clicking on 2D will make 3D model of selected fixture visible and it can now by positioned and rotated. The 2D symbol will be also positioned and rotated in Z axis.
+Switches the view to the TOP view, hides 3D models of fixtures and shows 2D
+symbol from GDTF. This 2D is aligned with 3D. Clicking on 2D will make 3D model
+of selected fixture visible and it can now by positioned and rotated. The 2D
+symbol will be also positioned and rotated in Z axis.
 
 ![image](https://github.com/open-stage/blender-dmx/assets/3680926/a6a0b2e9-4e56-438d-8d9a-072c320f7c71)
 
