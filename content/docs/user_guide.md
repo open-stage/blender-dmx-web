@@ -10,6 +10,7 @@ category: "Help"
 - [Installation](/docs/installation)
 - [Setup](../setup)
 - [Fixture](../fixture)
+- [Laser](../laser)
 - [GDTF Fixture and MVR](../gdtffixture)
     - [GDTF](../gdtffixture/#gdtf)
     - [GDTF Share](../gdtffixture/#gdtf-share-integration-in-blender)

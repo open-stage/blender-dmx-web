@@ -35,6 +35,7 @@ BlenderDMX utilizes GDTF files to be able to visualize a device. GDTF files from
   primitives or custom models from 3DS and GLB mesh files
 - GeometryReferences
 - BeamGeometry and it's attributes (Lamp Power, Beam Angle, Beam Type)
+- LaserGeometry and it's Beam Diameter attribute
 - CameraGeometry (and selecting a view through the camera)
 - Pigtail geometry (identifying typically back of the fixture)
 - 2D SVG symbol
