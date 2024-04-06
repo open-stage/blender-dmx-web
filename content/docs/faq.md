@@ -119,15 +119,23 @@ about this, you can choose any fixture. See also the next question.
 <li>
 <a id="faq_spot_wash" href="#faq_spot_wash" class="uk-accordion-title">Is there a difference between Spot and Wash fixtures in BlenderDMX?</a>
 <div class="uk-accordion-content"> Yes. BlenderDMX supports Spot, Wash, Beam,
-Pixel, Front Facing and other devices. Spots have a hard beam edge, and if they
-contain gobos, their projection is supported. Washes have a smooth blend on the
-beam. Narrow parallel beam angles aligned with the front beam lens (beam
-fixtures) are also supported. Pixel devices can be pixel controlled and any
-device can be set to not contain volumetric beam to only provide front facing
-color mixing or strobing.
+Linear Strips, MultiPixel, Front Facing and other devices, including Lasers.
+Spots have a hard beam edge, and if they contain gobos, their projection is
+supported. Washes have a smooth blend on the beam. Narrow parallel beam angles
+aligned with the front beam lens (beam fixtures) are also supported. Pixel
+devices can be pixel controlled and any device can be set to not contain
+volumetric beam to only provide front facing color mixing or strobing.
 </div>
 </li>
 
+<li>
+<a id="faq_lasers" href="#faq_lasers" class="uk-accordion-title">Are Lasers supported?</a>
+<div class="uk-accordion-content">Yes. BlenderDMX allows to visualize laser
+devices. The laser fixture definition is based on GDTF. By creating a custom
+GDTF, there is a lot of flexibility of the types of lasers: single beam,
+multiple beams, zooming, color changing, different shapes and so on. See
+dedicated <a href="/docs/lasers">Laser article</a> for details.</div>
+</li>
 <li>
 <a id="faq_which_gdtf" href="#faq_which_gdtf" class="uk-accordion-title">What are good fixture files to start with?</a>
 <div class="uk-accordion-content">

@@ -63,3 +63,14 @@ To prevent flicker, make sure that Play Animation is in the Play state:
 In Cycles, beam is rendered as starting from the beam lens, with the width of the lens diameter. This can make gobo projection slightly blurry. See [details here](../setup/#beam-lens-diameter-in-cycles).
 
 ![image](../media/beams.png)
+
+### Lasers
+
+Implementation of lasers in BlenderDMX does not use Blender lights for the
+laser rays but rather emitter material on a long, thin cylinder, projected from
+the laser's geometry onto objects which are in a `Laser collision collection`
+that must be created and then selected by the user. See [Laser article](../laser)
+for more details.
+
+
+

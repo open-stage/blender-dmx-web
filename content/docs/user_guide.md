@@ -6,7 +6,7 @@ category: "Help"
 
 **Index**
 
-- [Index](/docs/faq)
+- [Index & FAQ](/docs/faq)
 - [Installation](/docs/installation)
 - [Setup](../setup)
 - [Fixture](../fixture)

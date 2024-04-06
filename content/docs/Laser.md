@@ -26,8 +26,8 @@ Examples:
 
 Implementation in BlenderDMX is based on [this YouTube
 video](https://www.youtube.com/watch?v=akacnNMPK8M). This principle does not
-use Blender lights for the laser rays but rather emitter material on a
-cylinder, projected from the laser's geometry onto objects which are in a
+use Blender lights for the laser rays but rather emitter material on a long
+thin cylinder, projected from the laser's geometry onto objects which are in a
 `Laser collision collection` that must be created and then selected by the
 user.
 
