@@ -3,3 +3,5 @@
   [headers.values]
     Permissions-Policy = "browsing-topics=()"
 
+[build.environment]
+  HUGO_VERSION = "0.124.1"
