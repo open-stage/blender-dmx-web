@@ -1,6 +1,6 @@
 ---
 title: "Open Sound Control"
-date: 2024-02-15T22:01:55+0100
+date: 2024-04-07T10:56:53+0200
 category: "Help"
 ---
 OpenSoundControl (OSC) is a communication protocol which can allow to send information from BlenderDMX out to other software.

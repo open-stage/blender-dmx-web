@@ -1,6 +1,6 @@
 ---
 title: "Art-Net"
-date: 2024-02-15T22:01:55+0100
+date: 2024-04-07T10:57:58+0200
 category: "Help"
 ---
 > Art-Net universes are enumerated from 0, so first Art-Net universe is 0
