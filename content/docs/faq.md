@@ -91,7 +91,9 @@ This is currently not possible but if someone comes and implements this why not.
 <li>
 <a id="faq_mvr_import" href="#faq_mvr_import" class="uk-accordion-title">Can I import full MVR scene?</a>
 <div class="uk-accordion-content">
-Absolutely! Use the Fixtures → menu → Import MVR scene.
+Absolutely! Use the <a href="../setup/#import">Setup → Import → Import MVR Scene</a>. You can also use the
+<a href="../gdtffixture/#mvr-xchange-protocol">MVR-xchange protocol</a> if you work with
+another software which supports it.
 </div>
 </li>
 

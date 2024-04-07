@@ -129,6 +129,14 @@ By selecting the highest level of logging (`Debug`) and setting the Log filter,
 one specific parts of the BlenderDMX are logged, like data related to
 MVR-xchange protocol, DMX Data or data related to Fixtures.
 
+## Import
+
+![image](../media/setup_import.png)
+
+- GDTF files can also be imported via `Import GDTF Profile`, you can read more about [GDTF here](../gdtffixture/).
+- Full scene can be imported with the `Import MVR Scene`, you can read more about [MVR here](../gdtffixture/#mvr).
+
+
 ## Extras
 
 ![image](../media/setup_extras.png)
