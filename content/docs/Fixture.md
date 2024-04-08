@@ -80,11 +80,19 @@ When unselecting **Re-address only**:
   and growing according to the fixture footprints.
 - **Gel Color:** Same as GDTF Profile.
 
+
+## Remove fixture
+
+You can select fixture(s) and remove them by using the Remove Fixture menu item. There can be situations when the fixture is not possible to select. It can be removed by making the fixture list Editable and then clicking the cross icon:
+
+![image](../media/remove_fixture.png)
+
 ## Import IES File/Remove IES File
 
 This allows for more photo-realistic volumetric beam rendering. Example of beams without (left) and with (right) IES:
 
 ![image](../media/ies.png)
+
 
 {{% include-html Target.md %}}
 
