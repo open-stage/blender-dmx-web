@@ -136,7 +136,7 @@ volumetric beam to only provide front facing color mixing or strobing.
 devices. The laser fixture definition is based on GDTF. By creating a custom
 GDTF, there is a lot of flexibility of the types of lasers: single beam,
 multiple beams, zooming, color changing, different shapes and so on. See
-dedicated <a href="/docs/lasers">Laser article</a> for details.</div>
+dedicated <a href="/docs/laser">Laser article</a> for details.</div>
 </li>
 <li>
 <a id="faq_which_gdtf" href="#faq_which_gdtf" class="uk-accordion-title">What are good fixture files to start with?</a>
