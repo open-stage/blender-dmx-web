@@ -53,7 +53,10 @@ Features or properties of GDTF devices, controlled by DMX channels:
 - Tilt (8/16bit)
 - Shutter (Strobe)
 - ColorAdd_R, G, B
+- ColorRGB_Red, Green, Blue
 - ColorSub_C, M, Y
+- Color1, Color2
+- ColorMacro1
 - Zoom
 - Gobo1, Gobo2
 - Gobo1Pos, Gobo2Pos
