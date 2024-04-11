@@ -9,12 +9,15 @@ category: "Help"
 
 Ideally, do not change the IP address settings and leave it at the default 0.0.0.0 .
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/813672b7-3516-46bc-bf61-867c01a1649f)
+Create Universe, set it to Art-Net, enable Art-Net Input:
+
+![image](../media/enable_artnet.png)
+
+> Note: sACN Input can only be enabled if you have at least one Universe set to sACN
 
 # Using a console on the same computer
 
 When using an Art-Net source on the same computer, you have to make sure to start and enable Art-Net **first** in the BlenderDMX.
-
 
 ### BlenderDMX and QLCplus via Art-Net on the same computer
 

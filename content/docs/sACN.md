@@ -14,7 +14,9 @@ loopback interface, no complicated setup.
 
 Create Universe, set it to sACN, enable sACN Input:
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/fecc0d79-69d3-4b3f-9bb3-ea7dd87ad44c)
+![image](../media/enable_sacn.png)
+
+> Note: sACN Input can only be enabled if you have at least one Universe set to sACN
 
 ### Patch the fixture to the same universe
 
