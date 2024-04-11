@@ -13,7 +13,7 @@ Create Universe, set it to Art-Net, enable Art-Net Input:
 
 ![image](../media/enable_artnet.png)
 
-> Note: sACN Input can only be enabled if you have at least one Universe set to sACN
+> Note: Art-Net Input can only be enabled if you have at least one Universe set to Art-Net
 
 # Using a console on the same computer
 
