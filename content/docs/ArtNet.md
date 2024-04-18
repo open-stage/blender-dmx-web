@@ -17,7 +17,13 @@ Create Universe, set it to Art-Net, enable Art-Net Input:
 
 # Using a console on the same computer
 
-When using an Art-Net source on the same computer, you have to make sure to start and enable Art-Net **first** in the BlenderDMX.
+When using an Art-Net source on the same computer, you have to make sure to
+start and enable Art-Net **first** in the BlenderDMX.
+
+If running two pieces of Art-Net based software is not working for you, then
+save yourself the trouble and the best is to use another computer for the
+sending.
+
 
 ### BlenderDMX and QLCplus via Art-Net on the same computer
 
