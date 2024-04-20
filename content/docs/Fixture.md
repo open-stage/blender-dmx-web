@@ -137,6 +137,10 @@ player must be playing.
 
 ### Gobo visualization
 
+Eevee has to be used at least once with gobos, for gobos to render in Cycles.
+Simply switch the renderer to Eevee and back to Cycles and gobos will show up.
+This seems as either some combination of things or a bug in Blender.
+
 In order to see gobo rotation and better gobo projection (Eevee), the animation
 player must be in the "Play animation" state. This seems to be a Blender thing
 and it means that you cannot do a rendered output of gobo in Eevee. Cycles must
