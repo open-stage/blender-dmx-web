@@ -46,15 +46,16 @@ BlenderDMX utilizes GDTF files to be able to visualize a device. GDTF files from
 
 ## Supported GDTF Attributes
 
-Features or properties of GDTF devices, controlled by DMX channels:
+Features or properties of GDTF devices, controlled by DMX channels:ColorAdd_C
 
 - Dimmer (8/16bit)
 - Pan (8/16 bit)
 - Tilt (8/16bit)
-- Shutter (Strobe)
+- Shutter1 (used for Strobing in BlenderDMX)
 - ColorAdd_R, G, B
 - ColorRGB_Red, Green, Blue
 - ColorSub_C, M, Y
+- ColorAdd_C, M, Y
 - Color1, Color2
 - ColorMacro1
 - Zoom
@@ -65,10 +66,8 @@ Features or properties of GDTF devices, controlled by DMX channels:
 
 > ChannelFunctions and Physical Values are not implemented at the moment.
 
-> In order to see gobo rotation and better gobo projection, the animation player must be in the "Play animation" state:
-
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/c507c26d-cc63-4662-a45b-bc96ddf865bf)
-
+Read this section about usage and Implementation [details of GDTF Attributes in
+BlenderDMX](/docs/fixture/#gdtf-attributes-usage-in-blenderdmx).
 
 # MVR
 

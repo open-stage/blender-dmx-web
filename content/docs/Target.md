@@ -1,4 +1,4 @@
-## Target
+## Target and Pan/Tilt
 
 Each fixture can also be controlled via "Target" which is a virtual handle that
 can be manually dragged around in Blender, the head of fixtures will typically

@@ -93,6 +93,65 @@ This allows for more photo-realistic volumetric beam rendering. Example of beams
 
 ![image](../media/ies.png)
 
+## GDTF Attributes usage in BlenderDMX
+
+See sections below for details on how are some GDTF attributes applied in
+BlenderDMX.
+
+## Colors
+
+### Color Mixing
+
+All supported color mixing attributes (ColorAdd_R, G, B; ColorRGB_Red, Green,
+Blue; ColorSub_C, M, Y; ColorAdd_C, M, Y) are linked to the color picker. CMY
+is converted to RGB. By default, the color picker is set to white.
+
+### Color Wheels
+
+Supported attribures (Color1, Color2, ColorMacro1) are linked to the Color
+Wheel selection.
+
+### Color Mixing and Color Wheels together
+
+If Color Mixing is not at White and a Color Wheel is used, the colors are added
+together and the resulting color is applied to the projected beam. The current
+implementation is very basic. When later re-selecting a fixture and setting the
+Programmer, the previously calculated resulting color is applied to the color
+wheel.
+
+## Gobos
+
+### Gobo Selection
+
+Gobo1 and Gobo2 are supported. Only one gobo is projected at one moment (no
+gobo morphing or two gobos animation). All images from `media` folder are
+utilized, so if for example animation wheel image is in there, it is possible
+to select it.
+
+### Gobo Rotation
+
+Gobo1Pos and Gobo2Pos are supported. This is done by adding a Blender driver
+(`frame * selected value`) to the image Euler rotation. Blender animation
+player must be playing.
+
+
+### Gobo visualization
+
+In order to see gobo rotation and better gobo projection (Eevee), the animation
+player must be in the "Play animation" state:
+
+![image](https://github.com/open-stage/blender-dmx/assets/3680926/c507c26d-cc63-4662-a45b-bc96ddf865bf)
+
+In Cycles, beam is rendered as starting from the beam lens, with the width of
+the lens diameter. This can make gobo projection slightly blurry. See [details
+here](../setup/#beam-lens-diameter-in-cycles).
+
+![image](../media/beams.png)
+
+## Strobe
+
+Strobing is supported if the fixture has Shutter1 attribute. Strobe is
+currently not keyframeable.
 
 {{% include-html Target.md %}}
 
