@@ -138,13 +138,16 @@ player must be playing.
 ### Gobo visualization
 
 In order to see gobo rotation and better gobo projection (Eevee), the animation
-player must be in the "Play animation" state:
+player must be in the "Play animation" state. This seems to be a Blender thing
+and it means that you cannot do a rendered output of gobo in Eevee. Cycles must
+be used for that.
 
 ![image](https://github.com/open-stage/blender-dmx/assets/3680926/c507c26d-cc63-4662-a45b-bc96ddf865bf)
 
 In Cycles, beam is rendered as starting from the beam lens, with the width of
 the lens diameter. This can make gobo projection slightly blurry. See [details
-here](../setup/#beam-lens-diameter-in-cycles).
+here](../setup/#beam-lens-diameter-in-cycles). Note: this seems to also depend
+on graphics card driver/operating system and so on.
 
 ![image](../media/beams.png)
 
