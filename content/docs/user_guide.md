@@ -12,6 +12,7 @@ category: "Help"
 - [Fixture](/docs/fixture)
     - [Pan/Tilt/Target](/docs/fixture/#target-and-pantilt)
     - [IES Files](/docs/fixture/#import-ies-fileremove-ies-file)
+    - [Colors](/docs/fixture/#colors)
     - [Gobos](/docs/fixture/#gobos)
     - [Strobing](/docs/fixture/#strobe)
 - [Laser](/docs/laser)
