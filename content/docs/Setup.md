@@ -109,11 +109,13 @@ symbol will be also positioned and rotated in Z axis.
 
 ## Display Pigtails
 
-Show/Hide the Pigtail - position where the fixture's wiring connections are, typically indicating where back of the fixture is.
+Show/Hide the Pigtail - position where the fixture's wiring connections are,
+typically indicating where back of the fixture is.
 
 ## Allow Selecting Geometries
 
-Normally, only Base and Target of the fixture can be selected. This option allows to select any part of the fixture.
+Normally, only Base and Target of the fixture can be selected. This option
+allows to select any part of the fixture.
 
 ## Logging
 
@@ -133,9 +135,17 @@ MVR-xchange protocol, DMX Data or data related to Fixtures.
 
 ![image](../media/setup_import.png)
 
-- GDTF files can also be imported via `Import GDTF Profile`, you can read more about [GDTF here](../gdtffixture/).
-- Full scene can be imported with the `Import MVR Scene`, you can read more about [MVR here](../gdtffixture/#mvr).
+- GDTF files can also be imported via `Import GDTF Profile`, you can read more
+  about [GDTF here](../gdtffixture/).
+- Full scene can be imported with the `Import MVR Scene`, you can read more
+  about [MVR here](../gdtffixture/#mvr).
+- `Import Project data` - project data (GDTF files, gobos, MVR textures and so
+  on) can be Imported from previously Exported zip file with Project data.
 
+## Exported
+
+- Project data (GDTF files, gobos, MVR textures and so on) can be Exported to a
+  zip file, for a later Import.
 
 ## Extras
 

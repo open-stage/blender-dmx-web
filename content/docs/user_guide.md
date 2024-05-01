@@ -8,6 +8,7 @@ category: "Help"
 
 - [Index & FAQ](/docs/faq)
 - [Installation](/docs/installation)
+- [Updating](/docs/updating)
 - [Setup](/docs/setup)
 - [Fixture](/docs/fixture)
     - [Pan/Tilt/Target](/docs/fixture/#target-and-pantilt)

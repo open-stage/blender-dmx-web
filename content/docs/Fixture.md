@@ -121,6 +121,11 @@ wheel.
 
 ## Gobos
 
+Upon loading GDTF files, gobos must be converted to Blender's image sequence,
+in order to be possible to keyframe them. Image sequences cannot be saved into
+the blender file, this means that in order for the gobos to work, GDTF files
+must be kept within the addon directory.
+
 ### Gobo Selection
 
 Gobo1 and Gobo2 are supported. Only one gobo is projected at one moment (no
