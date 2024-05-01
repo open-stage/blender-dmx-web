@@ -6,6 +6,7 @@ category: "Help"
 
 Make sure you have installed [Blender](https://www.blender.org/download/) 3.4 or higher. Version 4.x is supported but do note that when importing MVR files, Blender 4.x can be 10x slower then Blender 3.x .
 
+To preserve data during addon update, see the [Updating procedure](/docs/updating).
 
 ### BlenderDMX installation
 <ol>
