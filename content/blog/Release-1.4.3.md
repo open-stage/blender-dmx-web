@@ -7,7 +7,7 @@ link: https://github.com/open-stage/blender-dmx/releases/tag/v1.4.3
 ---
 # Fix crash on Intel macOS, Add Device label to 2D view
 
-Thanks to @Bartel-C8, we have now identified the source of crash on Intel macOS :tada:. Devices can now show Device name, or DMX address, or Fixture ID in the 2D layout view. Project data can now not only be exported/imported but also completely cleared out (erased). Many small but important things were fixed.
+Thanks to @Bartel-C8, we have now identified the source of crash on Intel macOS :tada:. Devices can now show Device name, or DMX address, or Fixture ID in the 2D layout view. Project data can now not only be exported/imported but also completely cleared out (erased). Several small but important things were fixed.
 
 * Fix Intel Mac crashing on Create New Show - remove unnecessary setup class unregistration
 * Display device label (name, id, or dmx) in 2D
