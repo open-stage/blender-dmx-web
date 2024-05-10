@@ -46,7 +46,7 @@ BlenderDMX utilizes GDTF files to be able to visualize a device. GDTF files from
 
 ## Supported GDTF Attributes
 
-Features or properties of GDTF devices, controlled by DMX channels:ColorAdd_C
+Features or properties of GDTF devices, controlled by DMX channels:
 
 - Dimmer (8/16bit)
 - Pan (8/16 bit)
