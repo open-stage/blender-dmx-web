@@ -108,3 +108,31 @@ GDTF files can be downloaded directly from Blender:
 
 ![GDTF Share integration](../media/gdtf_integration.png)
 
+## After MVR import, GDTF fixtures have IDs and DMX but their bodies are not visible in 3D
+
+This depends on how you are doing the MVR export in Vectoworks, gMA3, Capture
+or other software. For example Capture never provides any useful GDTFs, only
+place-holders. Vectorworks provides useful GDTFs if you previously load them to
+VW and link them to each VW symbol. To fix this issue, you can use the Edit
+fixture function of BlenderDMX: after the MVR import to BlenderDMX, edit all
+fixtures → uncheck the Re-address only and choose GDTF files for each fixture.
+
+
+## Why do fixtures from GDTF have different features, like Gobo or Color and some not?
+
+GDTF is a format to describe real world devices, meaning that there are real
+lights out there which someone physically built and uses on real stages. Some
+of them are simple with just a lamp, some have colors, others may have gobos
+and pan/tilt and so on. If you don't care about this, you can choose any
+fixture. See also the next question.
+
+
+## Is there a difference between Spot and Wash fixtures in BlenderDMX?
+
+Yes. BlenderDMX supports Spot, Wash, Beam, Linear Strips, MultiPixel, Front
+Facing and other devices, including Lasers. Spots have a hard beam edge, and if
+they contain gobos, their projection is supported. Washes have a smooth blend
+on the beam. Narrow parallel beam angles aligned with the front beam lens (beam
+fixtures) are also supported. Pixel devices can be pixel controlled and any
+device can be set to not contain volumetric beam to only provide front facing
+color mixing or strobing.

@@ -47,6 +47,43 @@ slower then Blender 3.x .
 </div>
 </li>
 
+<li> <a id="faq_artnet" href="#faq_artnet" class="uk-accordion-title">I am
+having issues using Art-Net</a> <div class="uk-accordion-content"> You must
+have at least one Universe set to Art-Net, to be able to enable it. When
+enabling Art-Net, ideally, do not change the IP address settings and leave it
+at the default 0.0.0.0 . When using an Art-Net source on the same computer, you
+have to make sure to start and enable Art-Net <b>first</b> in the BlenderDMX.  If
+running two pieces of Art-Net based software on one computer is not working for
+you, then save yourself the trouble and the best is to use another computer for
+the sending.
+</div>
+</li>
+
+<li>
+<a id="faq_error" href="#faq_error" class="uk-accordion-title">I get a random error, what should is do?</a>
+<div class="uk-accordion-content">Oooups, this can happen. First, make sure you
+use Blender 3.4 and higher, 4.x is also supported. If BlenderDMX is not working
+for you at all, disable all other custom enabled addons to check for collision.
+In BlenderDMX, set <a href="../setup/#logging">Logging</a> to Debug, this will
+produce more information, saving it in the "blenderDMX.log" log file.
+Replicate the action leading to the error, then look into the "blenderDMX.log"
+logfile if you see anything obvious. Eventually, take the error message or the
+full blenderDMX.log log file and ask in the <strong><a rel="me"
+href="https://discord.gg/FQVVyc45T9"><i class="fa-brands fa-discord"
+aria-hidden="true"></i> Discord</a> </strong> group.
+</div>
+</li>
+
+<li>
+<a id="faq_shortcuts" href="#faq_shortcuts" class="uk-accordion-title">Are there any special shortcuts in BlenderDMX?</a>
+<div class="uk-accordion-content"> Yes, <a
+href="../fixture/#navigation-between-fixtures">several</a>. You can use
+Ctrl-Left / Ctrl-Right to go between fixtures (Previous/Next),
+Ctrl-Shift-Left/Ctrl-Shift-Right to go between fixture's targets
+(Previous/Next). When in the Fixtures list, you can use Shift to select
+multiple fixtures.
+</div>
+</li>
 <li>
 <a id="faq_error" href="#faq_error" class="uk-accordion-title">I get a random error, what should is do?</a>
 <div class="uk-accordion-content">Oooups, this can happen. First, make sure you

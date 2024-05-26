@@ -5,9 +5,12 @@ category: "Help"
 ---
 > Art-Net universes are enumerated from 0, so first Art-Net universe is 0
 
-### Enabling Art-Net
 
-Ideally, do not change the IP address settings and leave it at the default 0.0.0.0 .
+You must have at least one Universe set to Art-Net, to be able to enable it.
+When enabling Art-Net, ideally, do not change the IP address settings and leave
+it at the default 0.0.0.0 .
+
+### Enabling Art-Net
 
 Create Universe, set it to Art-Net, enable Art-Net Input:
 
@@ -20,9 +23,9 @@ Create Universe, set it to Art-Net, enable Art-Net Input:
 When using an Art-Net source on the same computer, you have to make sure to
 start and enable Art-Net **first** in the BlenderDMX.
 
-If running two pieces of Art-Net based software is not working for you, then
-save yourself the trouble and the best is to use another computer for the
-sending.
+If running two pieces of Art-Net based software on one computer is not working
+for you, then save yourself the trouble and the best is to use another computer
+for the sending.
 
 
 ### BlenderDMX and QLCplus via Art-Net on the same computer
