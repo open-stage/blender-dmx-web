@@ -100,17 +100,6 @@ aria-hidden="true"></i> Discord</a> </strong> group.
 </li>
 
 <li>
-<a id="faq_shortcuts" href="#faq_shortcuts" class="uk-accordion-title">Are there any special shortcuts in BlenderDMX?</a>
-<div class="uk-accordion-content"> Yes, <a
-href="../fixture/#navigation-between-fixtures">several</a>. You can use
-Ctrl-Left / Ctrl-Right to go between fixtures (Previous/Next),
-Ctrl-Shift-Left/Ctrl-Shift-Right to go between fixture's targets
-(Previous/Next). When in the Fixtures list, you can use Shift to select
-multiple fixtures.
-</div>
-</li>
-
-<li>
 <a id="faq_dmx_driver" href="#faq_dmx_driver" class="uk-accordion-title">Can i use DMX to control other parts of Blender?</a>
 <div class="uk-accordion-content"> Yes. You can use our dedicated <a
 href="../dmx#blenderdmx-dmx-driver-for-blender">DMX driver</a> for Blender to
