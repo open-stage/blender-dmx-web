@@ -5,6 +5,12 @@ menu:
     weight: 1
 ---
 
+For Blender from version 3.4 to version 4.1, download the latest release of
+addon as per the download button below. For Blender 4.2 Beta, use the
+[BlenderDMX
+Extension](https://extensions.blender.org/add-ons/open-stage-blender-dmx/).
+
+
 <div class="uk-container">
     <div class="uk-grid uk-grid-match uk-child-width-1-2@m uk-text-small" uk-grid>
         <div>

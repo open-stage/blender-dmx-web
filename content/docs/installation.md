@@ -8,7 +8,12 @@ Make sure you have installed [Blender](https://www.blender.org/download/) 3.4 or
 
 To preserve data during addon update, see the [Updating procedure](/docs/updating).
 
-### BlenderDMX installation
+For Blender from version 3.4 to version 4.1, see the instructions below. For
+Blender 4.2 Beta, use the [BlenderDMX
+Extension](https://extensions.blender.org/add-ons/open-stage-blender-dmx/).
+
+### BlenderDMX Addon installation
+
 <ol>
    <li id="version"> Download the zip file from the <a href="https://github.com/open-stage/blender-dmx/releases/latest">latest release</a> page.
    <li> Open Blender
