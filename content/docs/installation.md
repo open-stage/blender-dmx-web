@@ -20,7 +20,12 @@ Extension](https://extensions.blender.org/add-ons/open-stage-blender-dmx/).
    <li> Edit → Preferences → Add-ons → Install
    <li> Select the downloaded zip file
    <li> To enable the addon, go to Edit → Preferences → Add-ons, search for "DMX" and toggle the checkbox on.
+   <li> The addon is then placed in the Sidebar. The Sidebar can be displayed/hidden by pressing N or by clicking onto the small arrow on the side:
 </ol>
+
+
+![Sidebar hidden](../media/sidebar_hidden.png)
+![Sidebar visible](../media/sidebar_visible.png)
 
 You can continue to the <a href="../get_started" ><i class="fa-solid fa-truck-fast"></i> Getting Started Guide</a> or to the <a href="../setup" ><i class="fa-solid fa-circle-play"></i> User Guide</a>.
 
