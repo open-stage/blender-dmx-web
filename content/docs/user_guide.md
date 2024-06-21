@@ -7,6 +7,7 @@ category: "Help"
 **Index**
 
 - [Index & FAQ](/docs/faq)
+- [Download](/download)
 - [Installation](/docs/installation)
 - [Updating](/docs/updating)
 - [Setup](/docs/setup)

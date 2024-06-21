@@ -15,7 +15,7 @@ Extension](https://extensions.blender.org/add-ons/open-stage-blender-dmx/).
 ### BlenderDMX Addon installation
 
 <ol>
-   <li id="version"> Download the zip file from the <a href="https://github.com/open-stage/blender-dmx/releases/latest">latest release</a> page.
+   <li id="version"> Download the zip file from the <a href="/download">Download</a> page.
    <li> Open Blender
    <li> Edit → Preferences → Add-ons → Install
    <li> Select the downloaded zip file
@@ -33,10 +33,10 @@ You can continue to the <a href="../get_started" ><i class="fa-solid fa-truck-fa
 
 
 <script type="module">
-    let team = $("#version");
+    let download = $("#version");
     $.get("https://api.github.com/repos/open-stage/blender-dmx/releases/latest", (data) => {
-            team.html(
-              `From the <a href="https://github.com/open-stage/blender-dmx/releases/latest">latest release</a> page, download the <a href="${data.assets[0].browser_download_url}">${data.assets[0].name}</a>
+            download.html(
+              `From the <a href="/download">Download</a> page, download the <a href="${data.assets[0].browser_download_url}">${data.assets[0].name}</a>
               `);
 
     });
