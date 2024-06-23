@@ -32,4 +32,5 @@ category: "Help"
 - [Keyframe Animation and DMX Recording](/docs/keyframe-animations-recording)
 - [Rendering](/docs/rendering)
 - [OpenSoundControl](/docs/opensoundcontrol)
+- [PosiStageNet](/docs/psn)
 
