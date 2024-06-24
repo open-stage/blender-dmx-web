@@ -37,6 +37,12 @@
       href="/assets/img/safari-pinned-tab.svg"
       color="#45862b"
     />
+
+
+{{ partial "opengraph.html" . }}
+<meta property="article:publisher" content="https://blenderdmx.eu">
+<meta property="article:author" content="https://blenderdmx.eu">
+
     {{- block "head-meta" . }}{{ end }} {{ $style := resources.Get
     "scss/style.scss" | resources.ExecuteAsTemplate "assets/css/style.css" . |
     resources.ToCSS (dict "outputStyle" "compressed" "enableSourceMap" (not
