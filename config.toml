@@ -6,6 +6,7 @@ summaryLength = 30
 
 [params]
 docsUrl = "https://github.com/open-stage/blender-dmx-web"
+description = "Blender addon to design and render DMX lighting"
 
 
 [frontmatter]
