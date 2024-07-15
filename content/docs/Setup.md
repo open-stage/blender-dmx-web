@@ -34,7 +34,7 @@ already be available.
 ![image](../media/setup_beam_volume.png)
 
 Display a semi-transparent cone representing the light beam of the current
-active fixture.  It works by enabling Blender's native `Show Cone` feature of
+active fixture. It works by enabling Blender's native `Show Cone` feature of
 Spot Lights. This can be set to `None`, `Selected fixtures` and `All fixtures`.
 
 #### Disable Overlays
@@ -43,7 +43,6 @@ Don't display light-related overlays on the Viewport. Useful for scenes with
 dozens of lights.
 
 ### Volume Box
-
 
 ![image](../media/setup_volume_box.png)
 
@@ -79,7 +78,6 @@ via the following quick set buttons:
 
 ![image](../media/setup_beam_diameter_custom.png)
 
-
 ## Beam rendering
 
 Read more about [how to render lighting beams](../rendering) in BlenderDMX.
@@ -92,6 +90,7 @@ Read more about [how to render lighting beams](../rendering) in BlenderDMX.
 
 A background color. This picker alters the World Shading, by directly altering
 the Color Node attribute.
+
 ## Pause renderer
 
 During GDTF and MVR import and also in 2D View, rendering is paused, to prevent
@@ -121,15 +120,24 @@ allows to select any part of the fixture.
 
 ![image](../media/setup_logging_level.png)
 
-You can enable increased level of logging via this menu. Normally, `Errors` are
-displayed. By choosing `Warning`, `Info` or even `Debug` you get more and more
-details in the terminal. If you experience issues, it is good to start Blender
-from a terminal to see what the logging output shows and set increased level of
-logging.
+You can enable increased level of logging via this menu. Normally, only
+`Errors` are logged (displayed in the terminal and written to a log file). By
+choosing `Warning`, `Info` or even `Debug` you get more and more details. If
+you experience issues, it is good to start Blender from a terminal to see what
+the logging output shows and set increased level of logging.
 
-By selecting the highest level of logging (`Debug`) and setting the Log filter,
-one specific parts of the BlenderDMX are logged, like data related to
-MVR-xchange protocol, DMX Data or data related to Fixtures.
+You can also further filter the logging by selecting the highest level of
+logging (`Debug`) and setting the Log filter, to only log specific parts of the
+BlenderDMX, like data related to MVR-xchange protocol, DMX Data or data related
+to Fixtures.
+
+If you experience some issues or crashes, try to increase the logging level to
+`Debug` and replicate the action leading to the error, then look into the
+terminal and into the "blenderDMX.log" logfile if you see anything obvious.
+Eventually, take the error message or the full blenderDMX.log log file and ask
+in the <strong><a rel="me" href="https://discord.gg/FQVVyc45T9"><i
+class="fa-brands fa-discord" aria-hidden="true"></i> Discord</a> </strong>
+group.
 
 ## Import
 
@@ -152,4 +160,3 @@ MVR-xchange protocol, DMX Data or data related to Fixtures.
 ![image](../media/setup_extras.png)
 
 This allows to check if there is newer version of BlenderDMX released.
-
