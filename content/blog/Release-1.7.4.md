@@ -15,7 +15,7 @@ menu, the GDTF import allows to patch fixtures right away. When working with
 differently bright devices, it is sometimes useful to set the spot light to a
 brighter level - new "Multiply beams intensity" settings allows exactly that.
 
-https://github.com/user-attachments/assets/5aafbc6d-3b61-4f33-8a6e-e322de6a9e11
+[Video of aligh/distribute](https://github.com/user-attachments/assets/5aafbc6d-3b61-4f33-8a6e-e322de6a9e11)
 
 * Add Fixture Align and Distribute panel
 * Reworking MVR import
