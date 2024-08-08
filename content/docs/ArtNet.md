@@ -5,7 +5,6 @@ category: "Help"
 ---
 > Art-Net universes are enumerated from 0, so first Art-Net universe is 0
 
-
 You must have at least one Universe set to Art-Net, to be able to enable it.
 When enabling Art-Net, ideally, do not change the IP address settings and leave
 it at the default 0.0.0.0 .
@@ -26,6 +25,16 @@ start and enable Art-Net **first** in the BlenderDMX.
 If running two pieces of Art-Net based software on one computer is not working
 for you, then save yourself the trouble and the best is to use another computer
 for the sending.
+
+# Checking who/what is using the Art-Net port
+
+On Linux (and perhaps also on macOS) one can check what program (PID/name) is
+currently holding the port 6454 open, blocking it by running the following
+command in the terminal:
+
+```bash
+netstat -aop | grep 6454
+```
 
 
 ### BlenderDMX and QLCplus via Art-Net on the same computer
