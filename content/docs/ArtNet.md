@@ -29,8 +29,8 @@ for the sending.
 # Checking who/what is using the Art-Net port
 
 On Linux (and perhaps also on macOS) one can check what program (PID/name) is
-currently holding the port 6454 open, blocking it by running the following
-command in the terminal:
+currently holding the port 6454 open, blocking it. This can be checked by
+running the following command in the terminal:
 
 ```bash
 netstat -aop | grep 6454
