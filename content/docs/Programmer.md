@@ -17,8 +17,11 @@ BlenderDMX comes with a simple programmer, for more precise work [DMX](../dmx) i
 
 ![image](../media/fixtures_list.png)
 
+## Attributes
 
-Following control attributes are available: Dimmer, Color, Pan, Tilt, Zoom, Gobo, GoboPos, Shutter/Strobe.
+Following control attributes are available in the Programmer: Dimmer, Color,
+ColorWheel, Pan, Tilt, Zoom, Gobo, GoboPos, Shutter/Strobe. BlenderDMX itself
+supports [more GDTF attributes](../gdtffixture/#supported-gdtf-attributes).
 
 {{% include-html Target.md %}}
 
