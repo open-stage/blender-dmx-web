@@ -5,7 +5,7 @@ category: "Help"
 ---
 ### Download and Install BlenderDMX
 
-See dedicated [installation page here](../installation).
+See dedicated [Download page here](/download).
 
 
 ### Create new show

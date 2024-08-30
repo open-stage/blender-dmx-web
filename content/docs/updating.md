@@ -1,8 +1,9 @@
 ---
 title: "Updating"
 date: 2024-05-01T22:04:13+0200
-category: "Help"
 ---
+This page is deprecated, go to [Download page](/download).
+
 
 Updating the addon will cause all project data to be erased. To preserve the
 data, you can use the Project data Export/Import function:

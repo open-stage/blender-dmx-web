@@ -5,40 +5,34 @@ menu:
     weight: 1
 ---
 
-For Blender from version 3.4 to version 4.1, download the latest release of
-addon as per the download button below. For Blender 4.2 Beta, use the
-[BlenderDMX
-Extension](https://extensions.blender.org/add-ons/open-stage-blender-dmx/).
-
-
 <div class="uk-container">
     <div class="uk-grid uk-grid-match uk-child-width-1-2@m uk-text-small" uk-grid>
+<div>
+            <div class="uk-card uk-card-default">
+                <div class="uk-card-body" id="extension">
+              <h3 class="uk-card-title uk-margin-remove-bottom">Official Extension site for Blender 4.2 and newer</h3>
+                    <p class="uk-margin-small">
+                    To install BlenderDMX, continue to the Blender Extension site and click the Get Add-on button.
+                        <div class="uk-margin-medium-top">
+                            <a href="https://extensions.blender.org/add-ons/open-stage-blender-dmx/" class="uk-button uk-button-large uk-button-secondary uk-width-expand uk-margin-small-bottom"><i class="fa-solid fa-download"></i>Download</a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
         <div>
             <div class="uk-card uk-card-default">
                 <div class="uk-card-body" id="latest_release">
-              <h3 class="uk-card-title uk-margin-remove-bottom">Latest Release</h3>
+              <h3 class="uk-card-title uk-margin-remove-bottom">Manual install for Blender 4.1 and older</h3>
                     <p class="uk-margin-small" id="latest_release">
-                    Download BlenderDMX.
+                    Download old addon for BlenderDMX 4.1 and older.
                         <div class="uk-margin-medium-top">
-                            <a href="https://github.com/open-stage/blender-dmx/releases/latest" class="uk-button uk-button-large uk-button-primary uk-width-expand uk-margin-small-bottom"><i class="fa-solid fa-download"></i> Go to release page</a>
+                            <a href="https://github.com/open-stage/blender-dmx/releases/latest"> Go to release page</a>
                         </div>
                     </p>
                 </div>
             </div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default">
-                <div class="uk-card-body" id="">
-              <h3 class="uk-card-title uk-margin-remove-bottom">Installation Instructions</h3>
-                    <p class="uk-margin-small">
-                    Need help with the installation?
-                        <div class="uk-margin-medium-top">
-                            <a href="/docs/installation" class="uk-button uk-button-large uk-button-secondary uk-width-expand uk-margin-small-bottom"><i class="fa-solid fa-circle-question"></i> See instructions here</a>
-                        </div>
-                    </p>
-                </div>
-            </div>
-        </div>
+        </div>    
         <div>
         </div>
     </div>
@@ -53,7 +47,7 @@ Extension](https://extensions.blender.org/add-ons/open-stage-blender-dmx/).
         }, 0)
 
             team.html(
-              `<h3 class="uk-card-title uk-margin-remove-bottom">Latest Release</h3>
+              `<h3 class="uk-card-title uk-margin-remove-bottom">Old add-on for Blender 4.1 and older</h3>
                     <p class="uk-margin-small" id="latest_release">
 <h5 style="display:inline">Version:</h5> ${data[0].name}
 </br>
@@ -64,10 +58,8 @@ Extension](https://extensions.blender.org/add-ons/open-stage-blender-dmx/).
 
 
 Total releases: ${data.length}, Total downloads: ${total_downloads}, Latest release downloads: ${data[0].assets[0].download_count}
-                        <div class="uk-margin-medium-top ">
-                            <a href="${data[0].assets[0].browser_download_url}" class="uk-button uk-button-large uk-button-primary uk-width-expand uk-width-auto@m uk-margin-small-bottom"><i class="fa-solid fa-download"></i> Download zip</a>
-                            <a href="https://github.com/open-stage/blender-dmx/releases/latest" class="uk-button uk-button-large uk-button-secondary uk-width-expand uk-width-auto@m uk-margin-small-bottom"><i class="fa-brands fa-github"></i> Release page</a>
-                        </div>
+</br>
+Zipped addon:                            <a href="${data[0].assets[0].browser_download_url}" >Download zip</a>
                     </p>
               `);
 

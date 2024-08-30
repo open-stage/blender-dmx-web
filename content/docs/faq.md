@@ -11,7 +11,7 @@ category: "Help"
     <div class="uk-card-body">
         <h2 class="uk-margin-top-large uk-card-title">New to BlenderDMX?</h2>
         <ul class="uk-list uk-list-bullet uk-list-primary">
-            <li><strong><a href="/download" ><i class="fa-solid fa-download"></i>Downloading</a ></strong > and <strong><a href="/docs/installation" ><i class="fa-solid fa-download"></i>Installing</a ></strong > BlenderDMX.  </li>
+            <li><strong><a href="/download" ><i class="fa-solid fa-download"></i>Downloading</a ></strong > </strong > BlenderDMX.  </li>
             <li>Our <strong><a href="/docs/get_started" ><i class="fa-solid fa-rocket"></i> Getting Started Guide</a></strong> will get you
                 up and running quickly.</li>
             <li>Looking for more comprehensive documentation? Continue reading the <strong><a href="../setup" ><i class="fa-solid fa-book"></i> User Guide</a></strong>.</li>

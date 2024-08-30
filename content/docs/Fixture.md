@@ -103,8 +103,10 @@ BlenderDMX.
 ### Color Mixing
 
 All supported color mixing attributes (ColorAdd_R, G, B; ColorRGB_Red, Green,
-Blue; ColorSub_C, M, Y; ColorAdd_C, M, Y) are linked to the color picker. CMY
-is converted to RGB. By default, the color picker is set to white.
+Blue; ColorSub_C, M, Y; ColorAdd_C, M, Y, Amber, Lime, UV, White, WarmWhite,
+CoolWhite) are linked to the color picker. CMY is converted to RGB. By default,
+the color picker is set to white.
+
 
 ### Color Wheels
 
@@ -128,10 +130,9 @@ must be kept within the addon directory.
 
 ### Gobo Selection
 
-Gobo1 and Gobo2 are supported. Only one gobo is projected at one moment (no
-gobo morphing or two gobos animation). All images from `media` folder are
-utilized, so if for example animation wheel image is in there, it is possible
-to select it.
+Gobo1 and Gobo2 are supported. All images are available on both gobo wheels.
+All images from `media` folder are utilized, so if for example animation wheel
+image is in there, it is possible to select it.
 
 ### Gobo Rotation
 
@@ -146,10 +147,8 @@ Eevee has to be used at least once with gobos, for gobos to render in Cycles.
 Simply switch the renderer to Eevee and back to Cycles and gobos will show up.
 This seems as either some combination of things or a bug in Blender.
 
-In order to see gobo rotation and better gobo projection (Eevee), the animation
-player must be in the "Play animation" state. This seems to be a Blender thing
-and it means that you cannot do a rendered output of gobo in Eevee. Cycles must
-be used for that.
+In order to see gobo rotation, the animation player must be in the "Play
+animation" state. Cycles must be used for that.
 
 ![image](https://github.com/open-stage/blender-dmx/assets/3680926/c507c26d-cc63-4662-a45b-bc96ddf865bf)
 

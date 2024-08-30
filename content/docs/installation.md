@@ -1,8 +1,8 @@
 ---
 title: "Installation"
 date: 2024-04-07T10:55:50+0200
-category: "Help"
 ---
+This page is deprecated, go to [Download page](/download).
 
 Make sure you have installed [Blender](https://www.blender.org/download/) 3.4 or higher. Version 4.x is supported but do note that when importing MVR files, Blender 4.x can be 10x slower then Blender 3.x .
 
