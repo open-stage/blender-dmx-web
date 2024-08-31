@@ -26,7 +26,7 @@ Due to limitations of how object selection works (and is understood) in BlenderD
 
 The Clear selection icon triggers the fixture clean selection
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/8258b301-5583-4b63-8ef1-58b48633d126)
+![image](../media/osc.png)
 
 
 ## Defining OSC commands

@@ -8,7 +8,7 @@ BlenderDMX allows recording keyframes from external DMX like [ArtNet](../artnet)
 
 ### Keyframe Recorder
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/4ede8b00-1a7a-4387-8145-edf67ef25ece)
+![image](../media/keyframe_recorder.png)
 
 - Add Keyframe allows to manually insert keyframes related to the fixture attributes, like intensity, color, gobo, beam...
 - Auto Keying turns on Blender internal auto-keying + changes to fixtures attributes (intensity, colors, gobo, beam...) are also recorded.

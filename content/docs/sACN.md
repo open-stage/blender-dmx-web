@@ -20,10 +20,10 @@ Create Universe, set it to sACN, enable sACN Input:
 
 ### Patch the fixture to the same universe
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/17aaa53b-af50-4e71-86e4-bf8ad10cf82c)
+![image](../media/edit_uni.png)
 
 
 ### BlenderDMX with Chamsys via sACN on the same computer
 
-<video src="https://github.com/open-stage/blender-dmx/assets/3680926/6bd6d33f-532a-424f-a537-093870913d14" controls="controls" >
+<video src="../media/sacn.webm" controls="controls" >
 

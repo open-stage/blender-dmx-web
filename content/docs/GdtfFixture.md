@@ -94,7 +94,7 @@ screens, and other objects that are used in the entertainment industry.
 
 ## MVR-xchange Protocol
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/135bfaef-8319-470c-86e0-210c068a1e61)
+![image](../media/mvr_exchange.png)
 
 
 ## GDTF Share Integration in Blender
@@ -106,7 +106,7 @@ GDTF files can be downloaded directly from Blender:
 
 ![Preferences](../media/preferences00.png)
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/3da377dd-7b55-4b82-9432-eec19abaecca)
+![image](../media/gdtf_share_credentials.png)
 
 
 ![GDTF Share integration](../media/gdtf_integration.png)

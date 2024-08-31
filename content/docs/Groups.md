@@ -6,11 +6,11 @@ category: "Help"
 
 Grouping allows selecting multiple devices quickly.
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/9ceee811-80ce-4e19-a0ca-1b68362ae0d0)
+![image](../media/groups.png)
 
 Menu:
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/c2c1e027-aefd-4e89-90a3-f746aa152c2d)
+![image](../media/groups_edit.png)
 
 ## Create
 

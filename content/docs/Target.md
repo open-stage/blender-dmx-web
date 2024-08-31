@@ -5,7 +5,7 @@ can be manually dragged around in Blender, the head of fixtures will typically
 follow and point at this Target. Other programs (for example Vectorworks) call
 this "focus point".
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/d7f6462b-23c2-4076-8b15-3de7b3615486)
+![image](../media/target.png)
 
 If the fixture has a pan and tilt, the Target and DMX from console or from the
 Programmer can interfere with the Target (DMX has priority). One can lock the

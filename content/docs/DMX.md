@@ -59,11 +59,10 @@ protocols to control the devices:
 
 ## BlenderDMX DMX driver for Blender
 
-ℹ️  *when using the Programmer in BlenderDMX, there is no need to set this
-driver up to control patched lighting fixtures as patched fixtures receive DMX
-automatically.*
+ℹ️  *There is no need to set this driver up to control patched lighting 
+fixtures as patched fixtures receive DMX automatically.*
 
-The BlenderDMX addon provides a custom DMX driver `\#bdmx` for Blender,
+The BlenderDMX addon provides a custom DMX driver `#bdmx` for Blender,
 allowing to use received DMX values and use them as input for any Blender
 property. To utilize this feature, `#bdmx(universe,channels(s))` keyword can be
 used, `universe` is desired universe, `channel` is an address and it can either
@@ -72,13 +71,13 @@ be a single one for 8 bit value or multiple, for 16, 24, 32... bit values.
 So to receive 8bit value from universe 1, address 20, this is the syntax:
 `#bdmx(1, 20)`:
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/15fccec8-58dd-4a9d-b3d4-e0744aed20db)
+![image](../media/driver_8.png)
 
 
 To receive a 16bit value from universe 2, address 30 and 31, this is the
 syntax: `#bdmx(2, 30, 31)`. 
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/ec17099b-e8db-4c20-9019-d0d67eafab25)
+![image](../media/driver_16.png)
 
 The channels can be in any order, depending on how the console is sending it,
 for example `#bdmx(1, 21, 20)`:
@@ -86,7 +85,7 @@ for example `#bdmx(1, 21, 20)`:
 In order to see 3D objects being animated through this driver, the animation
 player must be in the "Play animation" state:
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/c507c26d-cc63-4662-a45b-bc96ddf865bf)
+![image](../media/player_play.png)
 
 
 

@@ -39,5 +39,5 @@ netstat -aop | grep 6454
 
 ### BlenderDMX and QLCplus via Art-Net on the same computer
 
-<video src="https://github.com/open-stage/blender-dmx/assets/3680926/17bf5c20-35fe-4e11-8122-0f58e46398e7" controls="controls" >
+<video src="../media/artnet.webm" controls="controls" >
 

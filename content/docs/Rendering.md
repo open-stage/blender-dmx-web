@@ -37,26 +37,16 @@ To enable the Volumetric beams:
 
 ![Volume](../media/volume.png)
 
-### Tweak Volumetrics in Eevee
-
-(This is in right side panel, under Render)
-
-* Set start/end to smaller values. This depends on camera, so you need to experiment. 
-    * Start: 1m
-    * End: 20m
-* Tile size: 2px
-* Samples: 128
-* Distribution: 0.1
-
-- **Start/end:** smaller values will make it more performant
-- **Tile size:** nice rendering but more compute demanding
-- **Samples:** bigger number makes it better but much more compute demanding
-
 #### Eevee
 
-To prevent flicker, make sure that Play Animation is in the Play state:
+##### Tweak Volumetrics in Eevee
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/c507c26d-cc63-4662-a45b-bc96ddf865bf)
+This is in right side panel, under Render - Volumes:
+
+* Set start/end to smaller values. This depends on camera, so you need to experiment. 
+* Resolution
+* Steps
+* Distribution
 
 #### Cycles
 
