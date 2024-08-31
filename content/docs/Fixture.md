@@ -12,11 +12,11 @@ Fixture represents a GDTF device. This can be a static/moving lighting fixture b
 
 Listing mode:
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/d582d474-a5f6-4cac-9541-87eb5ff2898b)
+![image](../media/fixtures_listing.png)
 
 Edit mode:
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/8885b964-1dd3-4c21-a5e7-7e397eff1026)
+![image](../media/fixtures_edit.png)
 
 The `Fixture Panel` selection is synced to the Viewport.
 
@@ -25,7 +25,7 @@ well.
 
 ## Fixture menu
 
-The fixture menu allows to Add/Edit/Delete a fixture. GDTF files can also be imported here. Full scene can be imported with the `Import MVR Scene`, you can read more about [MVR here](../gdtffixture/#mvr).
+The fixture menu allows to Add/Edit/Delete a fixture.
 
 ![image](../media/fixture_menu.png)
 
@@ -52,9 +52,9 @@ The fixture menu allows to Add/Edit/Delete a fixture. GDTF files can also be imp
 
 ## Edit Fixture
 
-If `Re-address only` is checked, the GDTF Profile, DMX Mode and Gel Color are not editable, this speeds up the editing as the GDTF profile does not need to be re-evaluated. This option also allows to assign and remove an IES photometric file to the selected fixtures.
+If `Advanced edit` is unchecked, the GDTF Profile, DMX Mode and Gel Color are not editable, this speeds up the editing as the GDTF profile does not need to be re-evaluated. This option also allows to assign and remove an IES photometric file to the selected fixtures.
 
-![Edit Single Fixture](../media/edit_readress_only.png)
+![Edit Single Fixture](../media/edit_simple.png)
 
 - **Universe:** Set DMX Universe
 - **Address:** The addresses are set starting at the first selected Fixture
@@ -68,7 +68,7 @@ If `Re-address only` is un-checked, all options are available and the GDTF Profi
 
 ![Edit Single Fixture](../media/edit_full.png)
 
-When unselecting **Re-address only**:
+When selecting **Advanced edit**
 
 - **Name:** If you keep the `*`, it keeps fixture names. Otherwise, it appends
   an integer index to the end of the given name for each fixture being edited.
@@ -108,6 +108,10 @@ CoolWhite) are linked to the color picker. CMY is converted to RGB. By default,
 the color picker is set to white.
 
 
+### Color Temperature Control (CTC)
+
+CTO, CTC and CTB are used to adjust color temperature from 1100K to 1200K. 
+
 ### Color Wheels
 
 Supported attribures (Color1, Color2, ColorMacro1) are linked to the Color
@@ -143,14 +147,10 @@ player must be playing.
 
 ### Gobo visualization
 
-Eevee has to be used at least once with gobos, for gobos to render in Cycles.
-Simply switch the renderer to Eevee and back to Cycles and gobos will show up.
-This seems as either some combination of things or a bug in Blender.
-
-In order to see gobo rotation, the animation player must be in the "Play
-animation" state. Cycles must be used for that.
-
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/c507c26d-cc63-4662-a45b-bc96ddf865bf)
+Eevee has to be used at least once with gobos, for gobos to render in Cycles,
+otherwise pink color is rendered instead of images.  Simply switch the renderer
+to Eevee and back to Cycles and gobos will show up.  This seems as either some
+combination of things or a bug in Blender.
 
 In Cycles, beam is rendered as starting from the beam lens, with the width of
 the lens diameter. This can make gobo projection slightly blurry. See [details
@@ -163,6 +163,8 @@ on graphics card driver/operating system and so on.
 
 Strobing is supported if the fixture has Shutter1 attribute. Strobe is
 currently not keyframeable.
+
+{{% include-html Subfixtures.md %}}
 
 {{% include-html Target.md %}}
 

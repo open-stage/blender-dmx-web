@@ -19,5 +19,7 @@ You can use these selection icons in the programmer to:
 - Select Visible Lights Only (only filtered)
 - Deselect All
 - Targets to zero - places Targets to the center of the 3D space
+- Reset targets - places Targets to defined +/- X, Y, or Z
 - Lock Movement - locks movement to ignore pan/tilt data
 - Unlock Movement
+- Center view to selected object

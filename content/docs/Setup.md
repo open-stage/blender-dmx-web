@@ -37,7 +37,7 @@ Display a semi-transparent cone representing the light beam of the current
 active fixture. It works by enabling Blender's native `Show Cone` feature of
 Spot Lights. This can be set to `None`, `Selected fixtures` and `All fixtures`.
 
-#### Disable Overlays
+#### Disable Beam Outlines
 
 Don't display light-related overlays on the Viewport. Useful for scenes with
 dozens of lights.
@@ -91,7 +91,7 @@ Read more about [how to render lighting beams](../rendering) in BlenderDMX.
 A background color. This picker alters the World Shading, by directly altering
 the Color Node attribute.
 
-## Pause renderer
+## Pause Renderer
 
 During GDTF and MVR import and also in 2D View, rendering is paused, to prevent
 issues and to speed things up. This toggle is here in case it needs to be
@@ -104,7 +104,11 @@ symbol from GDTF. This 2D is aligned with 3D. Clicking on 2D will make 3D model
 of selected fixture visible and it can now by positioned and rotated. The 2D
 symbol will be also positioned and rotated in Z axis.
 
-![image](https://github.com/open-stage/blender-dmx/assets/3680926/a6a0b2e9-4e56-438d-8d9a-072c320f7c71)
+![image](../media/2d_view.png)
+
+## Display Device Label
+
+Shows a label with device name/DMX address/Fixture ID above te device in 2D or 3D.
 
 ## Display Pigtails
 
@@ -143,20 +147,29 @@ group.
 
 ![image](../media/setup_import.png)
 
-- GDTF files can also be imported via `Import GDTF Profile`, you can read more
-  about [GDTF here](../gdtffixture/).
-- Full scene can be imported with the `Import MVR Scene`, you can read more
-  about [MVR here](../gdtffixture/#mvr).
+- GDTF files can also be imported via `Import GDTF Profile` or via Blender -
+  File - Import. You can read more about [GDTF here](../gdtffixture/).
+- Full scene can be imported with the `Import MVR Scene`, or via Blender - File
+  \- Import. You can read more about [MVR here](../gdtffixture/#mvr).
 - `Import Project data` - project data (GDTF files, gobos, MVR textures and so
   on) can be Imported from previously Exported zip file with Project data.
 
-## Exported
+## Export
+
+![image](../media/setup_export.png)
 
 - Project data (GDTF files, gobos, MVR textures and so on) can be Exported to a
   zip file, for a later Import.
+- MVR export currently supports expoting fixtures.
 
 ## Extras
 
 ![image](../media/setup_extras.png)
 
-This allows to check if there is newer version of BlenderDMX released.
+## Clear Project Data
+
+Clears the assets directory.
+
+## User Guide
+
+Opens this documentation in web browser.

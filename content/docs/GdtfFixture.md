@@ -56,6 +56,9 @@ Features or properties of GDTF devices, controlled by DMX channels:
 - ColorRGB_Red, Green, Blue
 - ColorSub_C, M, Y
 - ColorAdd_C, M, Y
+- ColorAdd_W, WW, CW (white, warmwhite, cold white)
+- ColorAdd_RY, GY, UV (amber, lime, uv)
+- Iris
 - Color1, Color2
 - ColorMacro1
 - Zoom

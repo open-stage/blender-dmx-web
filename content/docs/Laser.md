@@ -72,13 +72,9 @@ In Fixtures list, select the laser, set Color, Dimmer, Pan, Tilt... also, set Vi
 
 ## Extras
 
-You can make lasers look better by turning on Bloom in Eevee:
+You can make lasers look better by turning on Bloom:
 
-![image](../media/05_enable_bloom.png)
-
-To create the following two color effect, choose a color for the laser where for example red and blue is used, like this pink. Then set one of the colors as the Bloom color:
-
-![image](../media/laser_bloom.png)
+![image](../media/laser_bloom_only.png)
 
 ## Note on Laser collision collection
 

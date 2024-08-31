@@ -9,10 +9,8 @@ this "focus point".
 
 If the fixture has a pan and tilt, the Target and DMX from console or from the
 Programmer can interfere with the Target (DMX has priority). One can lock the
-fixtures in place, pointing to the Target by pressing the lock icon. If you
-have adjusted focusing of the fixture by dragging the Target, pan and tilt are
-automatically set to the locked state. The lock icon is then also displayed in
-the Fixture list:
+fixtures in place, pointing to the Target by pressing the lock icon. The lock
+icon is then also displayed in the Fixture list:
 
 ![image](../media/fixtures_locked.png)
 

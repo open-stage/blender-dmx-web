@@ -4,13 +4,15 @@ date: 2024-04-07T10:56:47+0200
 category: "Help"
 ---
 
-BlenderDMX comes with a simple programmer, for more precise work [DMX](../dmx) is recommended.
+## Programmer
 
 ![image](../media/programmer.png)
 
 ## To use the programmer:
 
 - fixtures must support the corresponding attributes, for example Dimmer or Pan/Tilt.
+- when a single type of fixture(s) is selected, only controls supported by the fixture type are visible
+- when subfixtures of one fixture type are selected, only controls supported by the subfixtures are visible
 - fixtures must be assigned to a Universe called BlenderDMX:
 
 ![image](../media/protocols_blenderdmx.png)
@@ -20,8 +22,11 @@ BlenderDMX comes with a simple programmer, for more precise work [DMX](../dmx) i
 ## Attributes
 
 Following control attributes are available in the Programmer: Dimmer, Color,
-ColorWheel, Pan, Tilt, Zoom, Gobo, GoboPos, Shutter/Strobe. BlenderDMX itself
-supports [more GDTF attributes](../gdtffixture/#supported-gdtf-attributes).
+Color Wheel, Color Temperature, Pan, Tilt, Zoom, Iris, Gobo 1 and 2, Gobo
+Indexing and Rotation, Shutter/Strobe. BlenderDMX itself supports [more GDTF
+attributes](../gdtffixture/#supported-gdtf-attributes).
+
+{{% include-html Subfixtures.md %}}
 
 {{% include-html Target.md %}}
 
