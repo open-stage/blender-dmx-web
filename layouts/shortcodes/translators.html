@@ -1,0 +1,7 @@
+<ul>
+    {{ range $lang, $contributors := .Site.Data.translators }}
+        <li>
+            {{ $lang }}: {{ range $index, $contributor := $contributors }}{{ if gt $index 0 }},{{ end }} {{ .full_name }}{{- end -}}
+        </li>
+    {{ end }}
+</ul>

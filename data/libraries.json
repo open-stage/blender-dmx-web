@@ -1,0 +1,70 @@
+[
+  {
+    "name": "pyGDTF",
+    "description": "Python library for GDTF",
+    "license": "MIT",
+    "organization": "Open Stage",
+    "url": "https://github.com/open-stage/python-gdtf",
+    "github_url": "open-stage/python-gdtf"
+  },
+  {
+    "name": "pyMVR",
+    "organization": "Open Stage",
+    "description": "MVR parser in Python",
+    "license": "MIT",
+    "url": "https://github.com/open-stage/python-mvr",
+    "github_url": "open-stage/python-mvr"
+  },
+  {
+    "name": "sACN",
+    "description": "A simple ANSI E1.31 (aka sACN) module for python",
+    "license": "MIT",
+    "organization": "Hundemeier",
+    "url": "https://github.com/Hundemeier/sacn",
+    "github_url": "Hundemeier/sacn"
+  },
+  {
+    "name": "io_scene_3ds",
+    "description": "Autodesk 3D Studio Add-on",
+    "license": "GPL-2.0-or-later",
+    "organization": "Bob Holcomb, Campbell Barton, Sebastian Schrand",
+    "url": "https://projects.blender.org/extensions/io_scene_3ds"
+  },
+  {
+    "name": "ifaddr",
+    "description": "Python Library to enumerate all network interfaces",
+    "license": "MIT",
+    "url": "https://github.com/ifaddr/ifaddr",
+    "github_url": "ifaddr/ifaddr"
+  },
+  {
+    "name": "OSCPy",
+    "description": "An efficient OSC implementation compatible with python2.7 and 3.5+",
+    "license": "MIT",
+    "organization": "Kivy",
+    "url": "https://github.com/kivy/oscpy",
+    "github_url": "kivy/oscpy"
+  },
+  {
+    "name": "async-timeout",
+    "description": "asyncio-compatible timeout class",
+    "license": "Apache",
+    "url": "https://github.com/aio-libs/async-timeout",
+    "github_url": "aio-libs/async-timeout"
+  },
+  {
+    "name": "python-zeroconf",
+    "description": "A pure python implementation of multicast DNS service discovery",
+    "license": "LGPL-2.1",
+    "url": "https://github.com/python-zeroconf/python-zeroconf",
+    "github_url": "python-zeroconf/python-zeroconf"
+  },
+  {
+    "name": "node-arrange",
+    "description": "Arrange Blender node trees with one click ",
+    "license": "GPL-3.0 license",
+    "organization": "Leonardo-Pike-Excell",
+    "url": "https://github.com/Leonardo-Pike-Excell/node-arrange",
+    "github_url": "Leonardo-Pike-Excell/node-arrange"
+  }
+]
