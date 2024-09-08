@@ -47,7 +47,7 @@ menu:
         }, 0)
 
             team.html(
-              `<h3 class="uk-card-title uk-margin-remove-bottom">Old add-on for Blender 4.1 and older</h3>
+              `<h3 class="uk-card-title uk-margin-remove-bottom">Legacy add-on for Blender 4.1 and older</h3>
                     <p class="uk-margin-small" id="latest_release">
 <h5 style="display:inline">Version:</h5> ${data[0].name}
 </br>

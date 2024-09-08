@@ -51,6 +51,8 @@ Features or properties of GDTF devices, controlled by DMX channels:
 - Dimmer (8/16bit)
 - Pan (8/16 bit)
 - Tilt (8/16bit)
+- PanRotation
+- TiltRotation
 - Shutter1 (used for Strobing in BlenderDMX)
 - ColorAdd_R, G, B
 - ColorRGB_Red, Green, Blue
@@ -58,6 +60,7 @@ Features or properties of GDTF devices, controlled by DMX channels:
 - ColorAdd_C, M, Y
 - ColorAdd_W, WW, CW (white, warmwhite, cold white)
 - ColorAdd_RY, GY, UV (amber, lime, uv)
+- CTC, CTO, CTB (color temperature control)
 - Iris
 - Color1, Color2
 - ColorMacro1
