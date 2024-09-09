@@ -4,24 +4,25 @@ date: 2024-04-07T10:57:39+0200
 category: "Help"
 ---
 
-GDTF and MVR are open standards for the entertainment industry, 
+GDTF and MVR are open standards for the entertainment industry,
 main site [GDTF Share](https://gdtf-share.com), documentation and projects on [GDTF.eu](https://gdtf.eu).
 
 # GDTF
-GDTF: The General Device Type Format is an open standard for describing 
-devices of the entertainment industry. 
 
-These devices may be lighting fixtures, trusses, distribution boxes, 
+GDTF: The General Device Type Format is an open standard for describing
+devices of the entertainment industry.
+
+These devices may be lighting fixtures, trusses, distribution boxes,
 media servers, lasers or other devices used in the entertainment industry.
 
-A GDTF Profile includes 3D Models, information about Geometry, DMX channels, 
+A GDTF Profile includes 3D Models, information about Geometry, DMX channels,
 Color Wheels and a lot of other properties a Lighting Fixture might have.
 
 ## Download and Build Profiles
 
 The [GDTF Share](https://gdtf-share.com/) contains profiles from multiple
-brands, as well as profiles built by the community. GDTF Share is 
-fully [integrated](#gdtf-share-integration-in-blender) into Blender-DMX, allowing 
+brands, as well as profiles built by the community. GDTF Share is
+fully [integrated](#gdtf-share-integration-in-blender) into Blender-DMX, allowing
 downloading GDTF profiles directly from Blender-DMX.
 
 There's also a [GDTF Builder](https://fixturebuilder.gdtf-share.com/) available
@@ -58,15 +59,16 @@ Features or properties of GDTF devices, controlled by DMX channels:
 - ColorRGB_Red, Green, Blue
 - ColorSub_C, M, Y
 - ColorAdd_C, M, Y
-- ColorAdd_W, WW, CW (white, warmwhite, cold white)
-- ColorAdd_RY, GY, UV (amber, lime, uv)
-- CTC, CTO, CTB (color temperature control)
+- ColorAdd_W, WW, CW (White, Warm White, Cold White)
+- ColorAdd_RY, GY, UV (Amber, Lime, UV)
+- CTC, CTO, CTB (Color Temperature Control)
 - Iris
 - Color1, Color2
 - ColorMacro1
 - Zoom
 - Gobo1, Gobo2
 - Gobo1Pos, Gobo2Pos
+- Gobo1PosRotate, Gobo2PosRotate
 - XYZ_X, Y, Z
 - Rot_X, Y, Z
 
@@ -79,38 +81,47 @@ BlenderDMX](/docs/fixture/#gdtf-attributes-usage-in-blenderdmx).
 
 > Do note that when importing MVR files, Blender 4.x can be 10x slower then Blender 3.x .
 
-MVR: The My Virtual Rig file format is an open standard which allows 
-programs to share data and geometry of a scene for the entertainment industry.
+MVR: The My Virtual Rig file format is an open standard which allows programs
+to share data and geometry of a scene for the entertainment industry.
 
-A scene is a set of parametric objects such as fixtures, trusses, video 
+A scene is a set of parametric objects such as fixtures, trusses, video
 screens, and other objects that are used in the entertainment industry.
 
 ## Supported MVR features
+
+### Import
 
 - Fixtures (with Address, Focus Points, Fixture Color, Fixture ID...)
 - Scene Objects (with Symbols and Symdef...)
 - Trusses
 - Layers
+- Classes
 - Group Objects
 - more features as per [pymvr](https://github.com/open-stage/python-mvr) library
 - [MVR-xchange Protocol](#mvr-xchange-protocol)
+
+### Export
+
+- Fixtures (with Address, Focus Points, Fixture Color, Fixture ID...) on a single layer
 
 ## MVR-xchange Protocol
 
 ![image](../media/mvr_exchange.png)
 
+MVR-xchange can be used to receive an MVR file from other network applications
+with MVR-xchange support, for example [Production
+Assist](https://www.production-assist.com/).
 
 ## GDTF Share Integration in Blender
 
 GDTF files can be downloaded directly from Blender:
 
-* Register a free account on [GDTF Share](https://gdtf-share.com/) 
-* Fill in username and password into Blender-DMX addon preferences
+- Register a free account on [GDTF Share](https://gdtf-share.com/)
+- Fill in username and password into Blender-DMX addon preferences
 
 ![Preferences](../media/preferences00.png)
 
 ![image](../media/gdtf_share_credentials.png)
-
 
 ![GDTF Share integration](../media/gdtf_integration.png)
 
@@ -123,15 +134,13 @@ VW and link them to each VW symbol. To fix this issue, you can use the Edit
 fixture function of BlenderDMX: after the MVR import to BlenderDMX, edit all
 fixtures → uncheck the Re-address only and choose GDTF files for each fixture.
 
-
 ## Why do fixtures from GDTF have different features, like Gobo or Color and some not?
 
 GDTF is a format to describe real world devices, meaning that there are real
-lights out there which someone physically built and uses on real stages. Some
-of them are simple with just a lamp, some have colors, others may have gobos
-and pan/tilt and so on. If you don't care about this, you can choose any
-fixture. See also the next question.
-
+lights out there which some manufacturer produces and which people use on real
+stages. Some of them are simple with just a lamp, some have colors, others may
+have gobos and pan/tilt and so on. If you don't care about this, you can choose
+any fixture. See also the next question.
 
 ## Is there a difference between Spot and Wash fixtures in BlenderDMX?
 

@@ -140,10 +140,10 @@ image is in there, it is possible to select it.
 
 ### Gobo Rotation
 
-Gobo1Pos and Gobo2Pos are supported. This is done by adding a Blender driver
-(`frame * selected value`) to the image Euler rotation. Blender animation
+Gobo1Pos, Gobo2Pos and Gobo1PosRotate, Gobo2PosRotate are supported. This is
+done by adjusting angle (for static indexing) and adding a Blender driver
+(`frame * selected value`) to the image Euler for rotation. Blender animation
 player must be playing.
-
 
 ### Gobo visualization
 

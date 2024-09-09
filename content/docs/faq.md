@@ -85,7 +85,6 @@ multiple fixtures.
 </div>
 </li>
 
-
 <li>
 <a id="faq_dmx_driver" href="#faq_dmx_driver" class="uk-accordion-title">Can i use DMX to control other parts of Blender?</a>
 <div class="uk-accordion-content"> Yes. You can use our dedicated <a
@@ -123,11 +122,11 @@ fixtures → uncheck the Re-address only and choose GDTF files for each fixture.
 
 <li>
 <a id="faq_gdtf_fixtures" href="#faq_gdtf_fixtures" class="uk-accordion-title">Why do fixtures from GDTF have different features, like Gobo or Color and some not?</a>
-<div class="uk-accordion-content"> GDTF is a format to describe real world
-devices, meaning that there are real lights out there which someone physically
-built and uses on real stages. Some of them are simple with just a lamp, some
-have colors, others may have gobos and pan/tilt and so on. If you don't care
-about this, you can choose any fixture. See also the next question.
+<div class="uk-accordion-content">GDTF is a format to describe real world devices, meaning that there are real
+lights out there which some manufacturer produces and which people use on real
+stages. Some of them are simple with just a lamp, some have colors, others may
+have gobos and pan/tilt and so on. If you don't care about this, you can choose
+any fixture. See also the next question.
 </div>
 </li>
 
