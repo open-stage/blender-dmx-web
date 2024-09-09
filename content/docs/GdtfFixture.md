@@ -34,7 +34,8 @@ BlenderDMX utilizes GDTF files to be able to visualize a device. GDTF files from
 
 - A dynamic fixture object from a GDTF profile, either from
   primitives or custom models from 3DS and GLB mesh files
-- GeometryReferences
+- GeometryReferences (thus correct DMX footprint and kinematic chain)
+- DMX Breaks (correct total DMX footprint is calculated, fixture is patched at a single address)
 - BeamGeometry and it's attributes (Lamp Power, Beam Angle, Beam Type)
 - LaserGeometry and it's Beam Diameter attribute
 - CameraGeometry (and selecting a view through the camera)
@@ -79,8 +80,6 @@ BlenderDMX](/docs/fixture/#gdtf-attributes-usage-in-blenderdmx).
 
 # MVR
 
-> Do note that when importing MVR files, Blender 4.x can be 10x slower then Blender 3.x .
-
 MVR: The My Virtual Rig file format is an open standard which allows programs
 to share data and geometry of a scene for the entertainment industry.
 
@@ -120,6 +119,8 @@ GDTF files can be downloaded directly from Blender:
 - Fill in username and password into Blender-DMX addon preferences
 
 ![Preferences](../media/preferences00.png)
+
+![image](../media/gdtf_share_details.png)
 
 ![image](../media/gdtf_share_credentials.png)
 

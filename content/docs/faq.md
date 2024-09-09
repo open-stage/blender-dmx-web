@@ -39,13 +39,10 @@ You can learn more about <a href="/docs/dmx">DMX here</a>.
 </div>
 </li>
 
-<li> <a id="faq_blender" href="#faq_blender" class="uk-accordion-title">Can i use
-Blender 2.9?</a> <div class="uk-accordion-content">No, you need to install <a
-href="https://www.blender.org/download/">Blender</a> 3.4 or higher. Version 4.x
-is supported but do note that when importing MVR files, Blender 4.x can be 10x
-slower then Blender 3.x .
-</div>
-</li>
+<li> <a id="faq_blender" href="#faq_blender" class="uk-accordion-title">Can i
+use Blender 2.9?</a> <div class="uk-accordion-content">No, you need to install
+<a href="https://www.blender.org/download/">Blender</a> 3.4 or higher, 4.2 and
+newer is recommended, to have all features.  </div> </li>
 
 <li> <a id="faq_artnet" href="#faq_artnet" class="uk-accordion-title">I am
 having issues using Art-Net</a> <div class="uk-accordion-content"> You must

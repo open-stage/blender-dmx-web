@@ -4,7 +4,8 @@ date: 2024-04-07T10:55:50+0200
 ---
 This page is deprecated, go to [Download page](/download).
 
-Make sure you have installed [Blender](https://www.blender.org/download/) 3.4 or higher. Version 4.x is supported but do note that when importing MVR files, Blender 4.x can be 10x slower then Blender 3.x .
+Make sure you have installed [Blender](https://www.blender.org/download/) 3.4
+or higher, 4.2 and newer is recommended to have all features.
 
 To preserve data during addon update, see the [Updating procedure](/docs/updating).
 
