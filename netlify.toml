@@ -5,3 +5,6 @@
 
 [build.environment]
   HUGO_VERSION = "0.124.1"
+
+[context.production]
+  command = "hugo -b $URL --gc --minify --ignoreCache"
