@@ -1,0 +1,10 @@
+[
+  {
+    "name": "io_scene_mvr",
+    "description": "My Virtual Rig Format for Blender3D",
+    "license": "GPL-3.0",
+    "organization": "Sebastian",
+    "url": "https://github.com/nrgsille76/io_scene_mvr",
+    "github_url": "nrgsille76/io_scene_mvr"
+  }
+]

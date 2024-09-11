@@ -8,6 +8,14 @@
     "github_url": "open-stage/python-gdtf"
   },
   {
+    "name": "pyPSN",
+    "organization": "Open Stage",
+    "description": "Pure Python parsing library for PosiStageNet",
+    "license": "MIT",
+    "url": "https://github.com/open-stage/python-psn",
+    "github_url": "open-stage/python-psn"
+  },
+  {
     "name": "pyMVR",
     "organization": "Open Stage",
     "description": "MVR parser in Python",
