@@ -154,8 +154,7 @@ combination of things or a bug in Blender.
 
 In Cycles, beam is rendered as starting from the beam lens, with the width of
 the lens diameter. This can make gobo projection slightly blurry. See [details
-here](../setup/#beam-lens-diameter-in-cycles). Note: this seems to also depend
-on graphics card driver/operating system and so on.
+here](../setup/#beam-lens-diameter-in-cycles).
 
 ![image](../media/beams.png)
 
