@@ -1,5 +1,5 @@
 ---
-title: BlenderDMX Blog
+title: BlenderDMX Addon Blog
 draft: false
 menu:
   main:

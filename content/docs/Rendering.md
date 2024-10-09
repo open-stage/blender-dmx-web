@@ -6,7 +6,7 @@ category: "Help"
 
 ### Beam
 
-BlenderDMX is generating two styles of light output. The lense is rendered as an emitter material and the beam is rendered as a spot light.
+BlenderDMX Addon is generating two styles of light output. The lense is rendered as an emitter material and the beam is rendered as a spot light.
 
 The default 3D view viewport shading in Blender is Solid, you cannot see neither the emmiter nor the beam:
 
@@ -58,7 +58,7 @@ here](../setup/#beam-lens-diameter-in-cycles).
 
 ### Lasers
 
-Implementation of lasers in BlenderDMX does not use Blender lights for the
+Implementation of lasers in BlenderDMX Addon does not use Blender lights for the
 laser rays but rather emitter material on a long, thin cylinder, projected from
 the laser's geometry onto objects which are in a `Laser collision collection`
 that must be created and then selected by the user. See [Laser article](../laser)

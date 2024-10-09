@@ -1,5 +1,5 @@
 ---
-title: "BlenderDMX 1.8.0 Released"
+title: "BlenderDMX Addon 1.8.0 Released"
 date: 2024-09-07T23:45:39+0200
 category: "Releases"
 author: vanous
@@ -15,10 +15,10 @@ together, for combined projection like in the real world. The color system
 (mixing, color wheel and color temperature control) mixes all parts together in
 an additive fashion.
 
-## Compatibility with .blender files created in older versions of BlenderDMX
+## Compatibility with .blender files created in older versions of BlenderDMX Addon
 
 
-Upon opening a .blender file created in older BlenderDMX, there is a warning
+Upon opening a .blender file created in older BlenderDMX Addon, there is a warning
 popup and a message in the Setup panel. This is because the Shader three had to
 be completely re-organized and gobo loading needed to be refactored. There is a
 migration procedure in place, but very likely, older .blender files will not
@@ -46,7 +46,7 @@ To re-build fixtures from their GDTF files, you can do the following:
   can take a few minutes.
 
 This will work as long as you still have the original GDTF files located in the
-BlenderDMX addon. If you get an error, best is to close the .blender file
+BlenderDMX Addon. If you get an error, best is to close the .blender file
 without saving, re-open it, first import the required GDTF files (Setup -
 Import - Import GDTF Profile) and then re-edit the fixtures. In the Advanced
 Edit screen, you can also select the GDTF Profile and DMX Mode, to update the
@@ -66,7 +66,7 @@ Supporting older Blender is becoming harder and harder:
 - Looking at the downloads count, it is very obvious that most people
   have moved onto Blender 4.2.
 
-This all means that future development of BlenderDMX will most likely focus
+This all means that future development of BlenderDMX Addon will most likely focus
 mostly on Extension for Blender 4.2 and up.
 
 ## Changelog

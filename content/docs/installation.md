@@ -10,7 +10,7 @@ or higher, 4.2 and newer is recommended to have all features.
 To preserve data during addon update, see the [Updating procedure](/docs/updating).
 
 For Blender from version 3.4 to version 4.1, see the instructions below. For
-Blender 4.2 Beta, use the [BlenderDMX
+Blender 4.2 Beta, use the [BlenderDMX Addon
 Extension](https://extensions.blender.org/add-ons/open-stage-blender-dmx/).
 
 ### BlenderDMX Addon installation

@@ -12,7 +12,7 @@ menu:
                 <div class="uk-card-body" id="extension">
               <h3 class="uk-card-title uk-margin-remove-bottom">Official Extension site for Blender 4.2 and newer</h3>
                     <p class="uk-margin-small">
-                    To install BlenderDMX, continue to the Blender Extension site and click the Get Add-on button.
+                    To install BlenderDMX Addon, continue to the Blender Extension site and click the Get Add-on button.
                         <div class="uk-margin-medium-top">
                             <a href="https://extensions.blender.org/add-ons/open-stage-blender-dmx/" class="uk-button uk-button-large uk-button-secondary uk-width-expand uk-margin-small-bottom"><i class="fa-solid fa-download"></i>Download</a>
                         </div>
@@ -25,7 +25,7 @@ menu:
                 <div class="uk-card-body" id="latest_release">
               <h3 class="uk-card-title uk-margin-remove-bottom">Manual install for Blender 4.1 and older</h3>
                     <p class="uk-margin-small" id="latest_release">
-                    Download old addon for BlenderDMX 4.1 and older.
+                    Download old addon for Blender 4.1 and older.
                         <div class="uk-margin-medium-top">
                             <a href="https://github.com/open-stage/blender-dmx/releases/latest"> Go to release page</a>
                         </div>

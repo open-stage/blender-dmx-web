@@ -36,7 +36,7 @@ The fixture menu allows to Add/Edit/Delete a fixture.
 ![image](../media/add_fixture.png)
 
 - **Name:** Name of the Fixture.
-- **GDTF Profile:** Select the GDTF Profile from the BlenderDMX library.
+- **GDTF Profile:** Select the GDTF Profile from the BlenderDMX Addon library.
 - **DMX Mode:** Select the DMX Mode of the selected GDTF Profile.
 - **Universe:** DMX Universe of the Fixture.
 - **Address:** DMX Address of the Fixture.
@@ -44,7 +44,7 @@ The fixture menu allows to Add/Edit/Delete a fixture.
 - **Units:** How many fixtures should be created.
 - **Increment DMX address:** Whether to increase DMX address when adding multiple devices
 - **Increment Fixture ID:** Whether to increase Fixture ID when adding multiple devices
-- **Fixture ID:** An ID of the fixture. Currently this is not used in BlenderDMX. It can be a number or text
+- **Fixture ID:** An ID of the fixture. Currently this is not used in BlenderDMX Addon. It can be a number or text
 - **Display beams:** Eevee has limit of 120 beam per scene, so sometimes it is useful to create front facing devices only with the Emitter lens but without a beam
 - **Add Target:** When adding for example XYZ_X,Y,Z fixtures, the target is not needed. Also, sometimes the Target is not useful. This allows not to add it.
 - **Gel Color:** A subtractive color filter applied to the lamp color. Useful
@@ -93,10 +93,10 @@ This allows for more photo-realistic volumetric beam rendering. Example of beams
 
 ![image](../media/ies.png)
 
-## GDTF Attributes usage in BlenderDMX
+## GDTF Attributes usage in BlenderDMX Addon
 
 See sections below for details on how are some GDTF attributes applied in
-BlenderDMX.
+BlenderDMX Addon.
 
 ## Colors
 

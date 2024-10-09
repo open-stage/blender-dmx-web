@@ -1,5 +1,5 @@
 ---
-title: "BlenderDMX 0.5.0 Beta Released"
+title: "BlenderDMX Addon 0.5.0 Beta Released"
 date: 2022-01-31
 category: "Releases"
 author: vanous

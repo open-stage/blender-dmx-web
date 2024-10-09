@@ -23,7 +23,7 @@ category: "Help"
 
 Following control attributes are available in the Programmer: Dimmer, Color,
 Color Wheel, Color Temperature, Pan, Tilt, PanRotate, TiltRotate, Zoom, Iris,
-Gobo 1 and 2, Gobo Indexing and Rotation, Shutter/Strobe. BlenderDMX itself
+Gobo 1 and 2, Gobo Indexing and Rotation, Shutter/Strobe. BlenderDMX Addon itself
 supports [more GDTF attributes](../gdtffixture/#supported-gdtf-attributes).
 
 {{% include-html Subfixtures.md %}}

@@ -1,5 +1,5 @@
 ---
-title: "BlenderDMX 1.0.1 Released"
+title: "BlenderDMX Addon 1.0.1 Released"
 date: 2023-09-17
 category: "Releases"
 author: vanous
@@ -25,5 +25,5 @@ The main feature of this release is much improved MVR Import which now supports 
 * Improve logging
 * Fix Live DMX logic
 * Ignore packets with dmxStartCode set
-* Add support for migrations of older BlenderDMX file versions
+* Add support for migrations of older BlenderDMX Addon file versions
 * Process deeper GeometryReference trees

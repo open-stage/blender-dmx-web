@@ -1,5 +1,5 @@
 ---
-title: "BlenderDMX 1.0.0 Vanilla Released"
+title: "BlenderDMX Addon 1.0.0 Vanilla Released"
 date: 2023-03-04
 category: "Releases"
 author: vanous
@@ -12,7 +12,7 @@ link: https://github.com/open-stage/blender-dmx/releases/tag/v1.0.0-vanilla
 **Name:** Vanilla
 **Contributors:** @vanous, @kasparsj 
 
-This is the first major release of BlenderDMX, it includes a lot of new features and improvements. It definitely brings a lot to the table, so have fun with it and please report any bugs you find on the Discord server.
+This is the first major release of BlenderDMX Addon, it includes a lot of new features and improvements. It definitely brings a lot to the table, so have fun with it and please report any bugs you find on the Discord server.
 
 Special thanks for @vanous for the dedication.
 

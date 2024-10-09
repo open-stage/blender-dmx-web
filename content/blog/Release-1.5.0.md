@@ -1,5 +1,5 @@
 ---
-title: "BlenderDMX 1.5.1 Released"
+title: "BlenderDMX Addon 1.5.1 Released"
 date: 2024-06-16T01:50:35+0200
 category: "Releases"
 author: vanous
@@ -19,15 +19,15 @@ link: https://github.com/open-stage/blender-dmx/releases/tag/v1.5.1
 What started as a bunch of small improvements and fixes resulted in a huge code
 re-organizing, together with speed optimizations and also with nice
 enhancements to GDTF models loading. The Addon has been reworked into an
-Extension for Blender 4.2 (in beta as of June 2024) and the new BlenderDMX
+Extension for Blender 4.2 (in beta as of June 2024) and the new BlenderDMX Addon
 extension is now [available on the official online Extension
 site](https://extensions.blender.org/add-ons/open-stage-blender-dmx/). The
 bundled moving head GDTF now includes zoom and gobos, to make it easier to
-start exploring BlenderDMX. New RGB glowing tube GDTF has been bundled in.
+start exploring BlenderDMX Addon. New RGB glowing tube GDTF has been bundled in.
 
 * Fix showing fixtures after disabling 2D layout view
-* Adding RGB glowing tube BlenderDMX provided device
-* Adding Zoom and Gobos to the BlenderDMX provided Beam GDTF file
+* Adding RGB glowing tube BlenderDMX Addon provided device
+* Adding Zoom and Gobos to the BlenderDMX Addon provided Beam GDTF file
 * Add custom cutoff_distance to lights to make gobos work in Eevee Next
 * Remove onDepsgraph - prevents crashes and improves performance
 * Big changes in architecture of the python code (split dmx.py from \_\_init\_\_.py, rework import to be all relative, do not use import \*)

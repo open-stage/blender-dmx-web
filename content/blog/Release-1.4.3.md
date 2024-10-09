@@ -1,5 +1,5 @@
 ---
-title: "BlenderDMX 1.4.3 Released"
+title: "BlenderDMX Addon 1.4.3 Released"
 date: 2024-05-04T08:22:38+0200
 category: "Releases"
 author: vanous
@@ -13,7 +13,7 @@ Thanks to @Bartel-C8, we have now identified the source of crash on Intel macOS 
 * Display device label (name, id, or dmx) in 2D
 * Rework 'Re-address only' to 'Advanced edit' for clarity
 * Add Clear Project data button to clear the addon directory
-* Add development related 'Reload BlenderDMX addon' button to Extras
+* Add development related 'Reload BlenderDMX Addon' button to Extras
 * Update translations
 * Reload profiles after data clearing or loading
 * Fix Volume box migration - prevent always deleting volume box on file load

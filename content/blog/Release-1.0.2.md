@@ -1,5 +1,5 @@
 ---
-title: "BlenderDMX 1.0.2 Released"
+title: "BlenderDMX Addon 1.0.2 Released"
 date: 2023-11-14
 category: "Releases"
 author: vanous

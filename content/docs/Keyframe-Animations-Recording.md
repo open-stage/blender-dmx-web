@@ -4,7 +4,7 @@ date: 2024-04-07T10:57:27+0200
 category: "Help"
 ---
 
-BlenderDMX allows recording keyframes from external DMX like [ArtNet](../artnet) or [sACN](../sacn) and also from the included [Programmer](../programmer).
+BlenderDMX Addon allows recording keyframes from external DMX like [ArtNet](../artnet) or [sACN](../sacn) and also from the included [Programmer](../programmer).
 
 ### Keyframe Recorder
 

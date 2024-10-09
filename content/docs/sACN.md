@@ -5,7 +5,7 @@ category: "Help"
 ---
 
 Unlike Art-Net, sACN does not require the DMX source and the DMX receivers (a
-console and BlenderDMX) to be on the same IP range or anything. No dedicated
+console and BlenderDMX Addon) to be on the same IP range or anything. No dedicated
 loopback interface, no complicated setup.
 
 > sACN universes are enumerated from 1, so first sACN universe is 1
@@ -23,7 +23,7 @@ Create Universe, set it to sACN, enable sACN Input:
 ![image](../media/edit_uni.png)
 
 
-### BlenderDMX with Chamsys via sACN on the same computer
+### BlenderDMX Addon with Chamsys via sACN on the same computer
 
 <video src="../media/sacn.webm" controls="controls" >
 

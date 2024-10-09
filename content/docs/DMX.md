@@ -45,24 +45,24 @@ addresses on the DMX console.
 This was a very quick introduction. You can read more about [DMX512 on the
 web](https://duckduckgo.com/?q=DMX512). 
 
-## DMX Universes and DMX Protocols in BlenderDMX
+## DMX Universes and DMX Protocols in BlenderDMX Addon
 
-A Universe is a group of 512 DMX channels. BlenderDMX supports the following
+A Universe is a group of 512 DMX channels. BlenderDMX Addon supports the following
 protocols to control the devices:
 
-- BlenderDMX contains a built-in [Programmer](../programmer) for Dimmer, Pan,
+- BlenderDMX Addon contains a built-in [Programmer](../programmer) for Dimmer, Pan,
   Tilt and [more](../programmer#attributes), universe counting starts from 0.
 - [sACN](../sacn) protocol counts universes from 1, thus the first universe is
   1, second 2...
 - [Art-Net](../artnet) protocol counts universes from 0, thus the first
   universe is 0, second 1...
 
-## BlenderDMX DMX driver for Blender
+## BlenderDMX Addon DMX driver for Blender
 
 ℹ️  *There is no need to set this driver up to control patched lighting 
 fixtures as patched fixtures receive DMX automatically.*
 
-The BlenderDMX addon provides a custom DMX driver `#bdmx` for Blender,
+The BlenderDMX Addon provides a custom DMX driver `#bdmx` for Blender,
 allowing to use received DMX values and use them as input for any Blender
 property. To utilize this feature, `#bdmx(universe,channels(s))` keyword can be
 used, `universe` is desired universe, `channel` is an address and it can either

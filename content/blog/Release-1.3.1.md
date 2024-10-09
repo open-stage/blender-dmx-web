@@ -1,5 +1,5 @@
 ---
-title: "BlenderDMX 1.3.1 Released"
+title: "BlenderDMX Addon 1.3.1 Released"
 date: 2024-03-03T12:52:23+0100
 category: "Releases"
 author: vanous
@@ -14,4 +14,4 @@ IES Photometrics import and assignments to spot light allows for more photo-real
 * Allow changing beam lens diameter for Cycles, based on global or per fixture settings
 * Set hidden objects as hidden also for renderer
 * Make more items translatable, disable automatic translation for Fixture controls
-* Add version checks on start for Python, Blender, and for the BlenderDMX addon
+* Add version checks on start for Python, Blender, and for the BlenderDMX Addon

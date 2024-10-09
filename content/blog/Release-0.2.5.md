@@ -1,5 +1,5 @@
 ---
-title: "BlenderDMX 0.3.0 Alpha Released"
+title: "BlenderDMX Addon 0.3.0 Alpha Released"
 date: 2020-11-22
 category: "Releases"
 author: vanous

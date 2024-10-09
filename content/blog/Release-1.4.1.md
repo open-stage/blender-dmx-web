@@ -1,5 +1,5 @@
 ---
-title: "BlenderDMX 1.4.1 Released"
+title: "BlenderDMX Addon 1.4.1 Released"
 date: 2024-04-13T12:55:42+0200
 category: "Releases"
 author: vanous

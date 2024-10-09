@@ -4,13 +4,13 @@ date: 2024-04-07T10:57:11+0200
 category: "Help"
 ---
 
-BlenderDMX allows to visualize laser devices. The laser fixture definition is
+BlenderDMX Addon allows to visualize laser devices. The laser fixture definition is
 based on [GDTF](../gdtffixture). By creating a custom GDTF, there is a lot of
 flexibility of the types of lasers: single beam, multiple beams, zooming, color
 changing, different shapes and so on.
 
 The following laser specific GDTF properties are currently utilized for lasers
-in BlenderDMX:
+in BlenderDMX Addon:
 
 - number of laser geometries
 - position and rotation of laser geometries
@@ -24,7 +24,7 @@ Examples:
 
 ![image](../media/laser_bloom.png)
 
-Implementation in BlenderDMX is based on [this YouTube
+Implementation in BlenderDMX Addon is based on [this YouTube
 video](https://www.youtube.com/watch?v=akacnNMPK8M). This principle does not
 use Blender lights for the laser rays but rather emitter material on a long
 thin cylinder, projected from the laser's geometry onto objects which are in a
@@ -35,7 +35,7 @@ user.
 
 ## Add laser
 
-Add a Laser fixture by using the `Add Fixture` menu. BlenderDMX comes with a default
+Add a Laser fixture by using the `Add Fixture` menu. BlenderDMX Addon comes with a default
 Laser included. It is useful to uncheck `Add Target`:
 
 ![image](../media/01_add_laser.png)

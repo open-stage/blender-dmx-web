@@ -1,5 +1,5 @@
 ---
-title: "BlenderDMX 1.0.3 Released"
+title: "BlenderDMX Addon 1.0.3 Released"
 date: 2023-11-25
 category: "Releases"
 author: vanous
@@ -35,5 +35,5 @@ This version comes with added Blender 4.x compatibility, although Blender 3.6 is
   * Check for existence of Dimmer for fixtures without dimmer (prevent errors)
   * Add possibility to make fixture geometries selectable
   * Display Volume cone on all lights when enabled
-  * Add generix XYZ fixture to BlenderDMX
+  * Add generix XYZ fixture to BlenderDMX Addon
   * Add support for XYZ Z,Y,Z and Rot X,Y,Z attributes and for devices without target

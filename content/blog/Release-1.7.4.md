@@ -1,5 +1,5 @@
 ---
-title: "BlenderDMX 1.7.4 Released"
+title: "BlenderDMX Addon 1.7.4 Released"
 date: 2024-07-29T00:24:47+0200
 category: "Releases"
 author: vanous
@@ -19,7 +19,7 @@ brighter level - new "Multiply beams intensity" settings allows exactly that.
 
 * Add Fixture Align and Distribute panel
 * Reworking MVR import
-* Add global option to Multiply BlenderDMX Spot Lights Intensity
+* Add global option to Multiply BlenderDMX Addon Spot Lights Intensity
 * Add GDTF/MVR Import/Export to Blender menu
 * Add Multiply beams intensity settings
 * Other small fixes, improvements and translations

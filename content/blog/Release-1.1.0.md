@@ -1,5 +1,5 @@
 ---
-title: "BlenderDMX 1.1.0 Released"
+title: "BlenderDMX Addon 1.1.0 Released"
 date: 2024-01-18
 category: "Releases"
 author: vanous
@@ -8,7 +8,7 @@ link: https://github.com/open-stage/blender-dmx/releases/tag/v1.1.0
 
 # Big MVR-xchange update and many quality of life improvements
 
-MVR-xchange support has been redesigned to follow the MVR Spec more closely, given the fact that BlenderDMX does not export MVR files, making it a data consumer only at this point. LiveDMX view has been optimized and it can now show DMX values realtime without delay. Fixture add/edit has been improved to allow incrementing (or not) fixture IDs and addresses. BlenderDMX now creates a log file for easier reporting.
+MVR-xchange support has been redesigned to follow the MVR Spec more closely, given the fact that BlenderDMX Addon does not export MVR files, making it a data consumer only at this point. LiveDMX view has been optimized and it can now show DMX values realtime without delay. Fixture add/edit has been improved to allow incrementing (or not) fixture IDs and addresses. BlenderDMX Addon now creates a log file for easier reporting.
 
 [Better_LiveDMX.webm](https://user-images.githubusercontent.com/3680926/297882089-de76687e-4245-4359-9535-ddc449ae6739.webm)
 

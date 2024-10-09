@@ -9,9 +9,9 @@ category: "Help"
 
 <section class="uk-card uk-card-default">
     <div class="uk-card-body">
-        <h2 class="uk-margin-top-large uk-card-title">New to BlenderDMX?</h2>
+        <h2 class="uk-margin-top-large uk-card-title">New to BlenderDMX Addon?</h2>
         <ul class="uk-list uk-list-bullet uk-list-primary">
-            <li><strong><a href="/download" ><i class="fa-solid fa-download"></i>Downloading</a ></strong > </strong > BlenderDMX.  </li>
+            <li><strong><a href="/download" ><i class="fa-solid fa-download"></i>Downloading</a ></strong > </strong > BlenderDMX Addon.  </li>
             <li>Our <strong><a href="/docs/get_started" ><i class="fa-solid fa-rocket"></i> Getting Started Guide</a></strong> will get you
                 up and running quickly.</li>
             <li>Looking for more comprehensive documentation? Continue reading the <strong><a href="../setup" ><i class="fa-solid fa-book"></i> User Guide</a></strong>.</li>
@@ -31,9 +31,9 @@ category: "Help"
 
 <li>
 <a id="faq_dmx" href="#faq_dmx" class="uk-accordion-title">What is DMX and do i need it?</a>
-<div class="uk-accordion-content"> BlenderDMX is primarily a visualizing tool
+<div class="uk-accordion-content"> BlenderDMX Addon is primarily a visualizing tool
 for entertainment lighting, which typically is controlled by <a
-href="../dmx">DMX protocol</a>. It is not strictly needed for BlenderDMX as you
+href="../dmx">DMX protocol</a>. It is not strictly needed for BlenderDMX Addon as you
 can program by using <a href="../keyframe-animations-recording">keyframes</a>.
 You can learn more about <a href="/docs/dmx">DMX here</a>.
 </div>
@@ -49,7 +49,7 @@ having issues using Art-Net</a> <div class="uk-accordion-content"> You must
 have at least one Universe set to Art-Net, to be able to enable it. When
 enabling Art-Net, ideally, do not change the IP address settings and leave it
 at the default 0.0.0.0 . When using an Art-Net source on the same computer, you
-have to make sure to start and enable Art-Net <b>first</b> in the BlenderDMX.  If
+have to make sure to start and enable Art-Net <b>first</b> in the BlenderDMX Addon.  If
 running two pieces of Art-Net based software on one computer is not working for
 you, then save yourself the trouble and the best is to use another computer for
 the sending.
@@ -59,9 +59,9 @@ the sending.
 <li>
 <a id="faq_error" href="#faq_error" class="uk-accordion-title">I get a random error, what should is do?</a>
 <div class="uk-accordion-content">Oooups, this can happen. First, make sure you
-use Blender 3.4 and higher, 4.x is also supported. If BlenderDMX is not working
+use Blender 3.4 and higher, 4.x is also supported. If BlenderDMX Addon is not working
 for you at all, disable all other custom enabled addons to check for collision.
-In BlenderDMX, set <a href="../setup/#logging">Logging</a> to Debug, this will
+In BlenderDMX Addon, set <a href="../setup/#logging">Logging</a> to Debug, this will
 produce more information, saving it in the "blenderDMX.log" log file.
 Replicate the action leading to the error, then look into the "blenderDMX.log"
 logfile if you see anything obvious. Eventually, take the error message or the
@@ -72,7 +72,7 @@ aria-hidden="true"></i> Discord</a> </strong> group.
 </li>
 
 <li>
-<a id="faq_shortcuts" href="#faq_shortcuts" class="uk-accordion-title">Are there any special shortcuts in BlenderDMX?</a>
+<a id="faq_shortcuts" href="#faq_shortcuts" class="uk-accordion-title">Are there any special shortcuts in BlenderDMX Addon?</a>
 <div class="uk-accordion-content"> Yes, <a
 href="../fixture/#navigation-between-fixtures">several</a>. You can use
 Ctrl-Left / Ctrl-Right to go between fixtures (Previous/Next),
@@ -91,7 +91,7 @@ use DMX as source of values for any Blender property.
 </li>
 
 <li>
-<a id="faq_dmx_out" href="#faq_dmx_out" class="uk-accordion-title">Can BlenderDMX output DMX and be used as a DMX controller?</a>
+<a id="faq_dmx_out" href="#faq_dmx_out" class="uk-accordion-title">Can BlenderDMX Addon output DMX and be used as a DMX controller?</a>
 <div class="uk-accordion-content">
 This is currently not possible but if someone comes and implements this why not.
 </div>
@@ -112,7 +112,7 @@ another software which supports it.
 export in Vectoworks/Capture. Capture never provides any useful GDTFs, only
 place-holders. Vectorworks provides useful GDTFs if you previously load them to
 VW and link them to each VW symbol. To fix this issue, you can use the Edit
-fixture function of BlenderDMX: after the MVR import to BlenderDMX, edit all
+fixture function of BlenderDMX Addon: after the MVR import to BlenderDMX Addon, edit all
 fixtures → uncheck the Re-address only and choose GDTF files for each fixture.
 </div>
 </li>
@@ -128,8 +128,8 @@ any fixture. See also the next question.
 </li>
 
 <li>
-<a id="faq_spot_wash" href="#faq_spot_wash" class="uk-accordion-title">Is there a difference between Spot and Wash fixtures in BlenderDMX?</a>
-<div class="uk-accordion-content"> Yes. BlenderDMX supports Spot, Wash, Beam,
+<a id="faq_spot_wash" href="#faq_spot_wash" class="uk-accordion-title">Is there a difference between Spot and Wash fixtures in BlenderDMX Addon?</a>
+<div class="uk-accordion-content"> Yes. BlenderDMX Addon supports Spot, Wash, Beam,
 Linear Strips, MultiPixel, Front Facing and other devices, including Lasers.
 Spots have a hard beam edge, and if they contain gobos, their projection is
 supported. Washes have a smooth blend on the beam. Narrow parallel beam angles
@@ -141,7 +141,7 @@ volumetric beam to only provide front facing color mixing or strobing.
 
 <li>
 <a id="faq_lasers" href="#faq_lasers" class="uk-accordion-title">Are Lasers supported?</a>
-<div class="uk-accordion-content">Yes. BlenderDMX allows to visualize laser
+<div class="uk-accordion-content">Yes. BlenderDMX Addon allows to visualize laser
 devices. The laser fixture definition is based on GDTF. By creating a custom
 GDTF, there is a lot of flexibility of the types of lasers: single beam,
 multiple beams, zooming, color changing, different shapes and so on. See
@@ -167,7 +167,7 @@ more.
 <a id="faq_cycles_eevee" href="#faq_cycles_eevee" class="uk-accordion-title">What is the difference between Cycles and Eevee?</a>
 <div class="uk-accordion-content"> Blender has multiple rendering engines.
 Eevee is a realtime renderer, while Cycles is an offline renderer that
-calculates 3D data to produce realistic scenes. BlenderDMX has to implement
+calculates 3D data to produce realistic scenes. BlenderDMX Addon has to implement
 each feature two times, once for Eevee, once for Cycles. Saving keyframes is a
 technique to prepare views and transitions for the Cycles renderer. Read about
 Eevee and Cycles on the <a

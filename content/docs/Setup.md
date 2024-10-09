@@ -80,7 +80,7 @@ via the following quick set buttons:
 
 ## Beam rendering
 
-Read more about [how to render lighting beams](../rendering) in BlenderDMX.
+Read more about [how to render lighting beams](../rendering) in BlenderDMX Addon.
 
 # Viewport
 
@@ -132,7 +132,7 @@ the logging output shows and set increased level of logging.
 
 You can also further filter the logging by selecting the highest level of
 logging (`Debug`) and setting the Log filter, to only log specific parts of the
-BlenderDMX, like data related to MVR-xchange protocol, DMX Data or data related
+BlenderDMX Addon, like data related to MVR-xchange protocol, DMX Data or data related
 to Fixtures.
 
 If you experience some issues or crashes, try to increase the logging level to

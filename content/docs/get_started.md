@@ -3,7 +3,7 @@ title: "Getting Started"
 date: 2024-04-07T10:55:44+0200
 category: "Help"
 ---
-### Download and Install BlenderDMX
+### Download and Install BlenderDMX Addon
 
 See dedicated [Download page here](/download).
 
@@ -24,7 +24,7 @@ Select Add:
 
 ![image](../media/fixture_menu.png)
 
-In the GDTF Profile - BlenderDMX, select Moving Beam. Keep the rest as is and
+In the GDTF Profile - BlenderDMX Addon, select Moving Beam. Keep the rest as is and
 click OK:
 
 ![image](../media/fixture_add.png)
@@ -55,7 +55,7 @@ href="../rendering/" >Beam Rendering.</a> for more information.
 
 ### Record keyframe
 
-Keyframe recording in BlenderDMX is in menu Keyframe Recorder:
+Keyframe recording in BlenderDMX Addon is in menu Keyframe Recorder:
 
 - Add Keyframe allows to manually insert keyframes related to the fixture attributes, like intensity, color, gobo, beam...
 - Auto Keying turns on Blender internal auto-keying + changes to fixtures attributes (intensity, colors, gobo, beam...) are also recorded.

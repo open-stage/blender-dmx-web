@@ -1,5 +1,5 @@
 ---
-title: "BlenderDMX 1.4.0 Released"
+title: "BlenderDMX Addon 1.4.0 Released"
 date: 2024-04-04T21:38:50+0200
 category: "Releases"
 author: vanous
@@ -10,9 +10,9 @@ link: https://github.com/open-stage/blender-dmx/releases/tag/v1.4.0
 
 This release adds support for laser projection. Laser fixtures can be defined
 via GDTF, beams can be rotated via pan and tilt, dimmed, colored and can also
-be adjusted by zoom. Full documentation is available on the BlenderDMX [laser
+be adjusted by zoom. Full documentation is available on the BlenderDMX Addon [laser
 documentation page](https://blenderdmx.eu/docs/laser/). Materials of models of
-default geometries and BlenderDMX fixtures have been adjusted - set to dark
+default geometries and BlenderDMX Addon fixtures have been adjusted - set to dark
 material.
 
 *  Add initial support for laser projection

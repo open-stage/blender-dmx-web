@@ -28,9 +28,9 @@ downloading GDTF profiles directly from Blender-DMX.
 There's also a [GDTF Builder](https://fixturebuilder.gdtf-share.com/) available
 for creating and editing GDTF Profiles.
 
-## Supported GDTF features in BlenderDMX
+## Supported GDTF features in BlenderDMX Addon
 
-BlenderDMX utilizes GDTF files to be able to visualize a device. GDTF files from GDTF Share can be downloaded directly from BlenderDMX. Following GDTF properties are utilized:
+BlenderDMX Addon utilizes GDTF files to be able to visualize a device. GDTF files from GDTF Share can be downloaded directly from BlenderDMX Addon. Following GDTF properties are utilized:
 
 - A dynamic fixture object from a GDTF profile, either from
   primitives or custom models from 3DS and GLB mesh files
@@ -55,7 +55,7 @@ Features or properties of GDTF devices, controlled by DMX channels:
 - Tilt (8/16bit)
 - PanRotation
 - TiltRotation
-- Shutter1 (used for Strobing in BlenderDMX)
+- Shutter1 (used for Strobing in BlenderDMX Addon)
 - ColorAdd_R, G, B
 - ColorRGB_Red, Green, Blue
 - ColorSub_C, M, Y
@@ -76,7 +76,7 @@ Features or properties of GDTF devices, controlled by DMX channels:
 > ChannelFunctions and Physical Values are not implemented at the moment.
 
 Read this section about usage and Implementation [details of GDTF Attributes in
-BlenderDMX](/docs/fixture/#gdtf-attributes-usage-in-blenderdmx).
+BlenderDMX Addon](/docs/fixture/#gdtf-attributes-usage-in-blenderdmx).
 
 # MVR
 
@@ -132,7 +132,7 @@ This depends on how you are doing the MVR export in Vectoworks, gMA3, Capture
 or other software. For example Capture never provides any useful GDTFs, only
 place-holders. Vectorworks provides useful GDTFs if you previously load them to
 VW and link them to each VW symbol. To fix this issue, you can use the Edit
-fixture function of BlenderDMX: after the MVR import to BlenderDMX, edit all
+fixture function of BlenderDMX Addon: after the MVR import to BlenderDMX Addon, edit all
 fixtures → uncheck the Re-address only and choose GDTF files for each fixture.
 
 ## Why do fixtures from GDTF have different features, like Gobo or Color and some not?
@@ -143,9 +143,9 @@ stages. Some of them are simple with just a lamp, some have colors, others may
 have gobos and pan/tilt and so on. If you don't care about this, you can choose
 any fixture. See also the next question.
 
-## Is there a difference between Spot and Wash fixtures in BlenderDMX?
+## Is there a difference between Spot and Wash fixtures in BlenderDMX Addon?
 
-Yes. BlenderDMX supports Spot, Wash, Beam, Linear Strips, MultiPixel, Front
+Yes. BlenderDMX Addon supports Spot, Wash, Beam, Linear Strips, MultiPixel, Front
 Facing and other devices, including Lasers. Spots have a hard beam edge, and if
 they contain gobos, their projection is supported. Washes have a smooth blend
 on the beam. Narrow parallel beam angles aligned with the front beam lens (beam
