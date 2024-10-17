@@ -3,18 +3,18 @@ title: "Getting Started"
 date: 2024-04-07T10:55:44+0200
 category: "Help"
 ---
+
 ### Download and Install BlenderDMX Addon
 
 See dedicated [Download page here](/download).
 
-
 ### Create new show
 
-After enabling the Addon, it shows up at the `3D View`, as a `DMX` tab on the
-right side, which shows a single panel. Start the addon by clicking `Create New Show`.
+After enabling the Addon, it shows up at the `3D View` as a `DMX` tab on the
+right side, which shows a single panel. If you cannot see the side bar, press
+`N`. Start the addon by clicking `Create New Show` in the `DMX` tab.
 
 ![image](../media/create_new_show.png)
-
 
 ### Add fixtures
 
@@ -63,5 +63,3 @@ Keyframe recording in BlenderDMX Addon is in menu Keyframe Recorder:
 ![image](../media/keyframe_recorder.png)
 
 You can continue to the <a href="../setup" ><i class="fa-solid fa-circle-play"></i> User Guide</a>
-
-
