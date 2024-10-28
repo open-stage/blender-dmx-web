@@ -8,6 +8,14 @@ category: "Help"
 
 See dedicated [Download page here](/download).
 
+### Important
+
+Upon `Create New Show` BlenderDMX Addon creates a DMX collection in which the
+BlenderDMX data is stored. Fixtures imported from GDTF reside here and these
+have their own node trees for them. Manually editing or deleting data from the
+DMX collection, in fixtures' geometries or node trees will likely cause the
+addon to stop working. Generally, avoid such manual edits.
+
 ### Create new show
 
 After enabling the Addon, it shows up at the `3D View` as a `DMX` tab on the

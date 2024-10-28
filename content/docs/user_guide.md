@@ -9,6 +9,7 @@ category: "Help"
 - [Index & FAQ](/docs/faq)
 - [Download](/download)
 - [Setup](/docs/setup)
+- [Issues and Solutions](/docs/issues)
 - [Fixture](/docs/fixture)
     - [Pan/Tilt/Target](/docs/fixture/#target-and-pantilt)
     - [IES Files](/docs/fixture/#import-ies-fileremove-ies-file)
