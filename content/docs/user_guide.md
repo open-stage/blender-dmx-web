@@ -29,6 +29,7 @@ category: "Help"
     - [Art-Net](/docs/artnet)
     - [Driver for Blender](/docs/dmx/#blenderdmx-dmx-driver-for-blender)
 - [Keyframe Animation and DMX Recording](/docs/keyframe-animations-recording)
+- [Sound to Animation Programming](/docs/soundbaking)
 - [Rendering](/docs/rendering)
 - [OpenSoundControl](/docs/opensoundcontrol)
 - [PosiStageNet](/docs/psn)

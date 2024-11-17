@@ -22,3 +22,14 @@ To record external DMX, turn on Auto Keying, start DMX source and set the animat
 
 These buttons allow to quickly delete all keyframes from selected/all fixtures.
 
+### Recording \#bdmx driver
+
+Object with \#bdmx driver can be recorded to keyframes, but in order to play
+the animation, the \#bdmx driver must be removed or disabled. As disabling it
+does not seem to be possible in Blender, BlenderDMX Addon adds extra options to
+the Keyframe recording panel.
+
+This allows object with the driver to be either Recorded or Played back:
+
+![image](../media/keyframe_driver_options.png)
+

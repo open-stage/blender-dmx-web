@@ -87,6 +87,9 @@ player must be in the "Play animation" state:
 
 ![image](../media/player_play.png)
 
-
+See [Recording #bdmx
+driver](../keyframe-animations-recording/#recording-bdmx-driver) for
+information on how the driver data can be recorded to keyframes and then played
+back.
 
 
