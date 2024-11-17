@@ -85,7 +85,7 @@ multiple fixtures.
 <li>
 <a id="faq_dmx_driver" href="#faq_dmx_driver" class="uk-accordion-title">Can i use DMX to control other parts of Blender?</a>
 <div class="uk-accordion-content"> Yes. You can use our dedicated <a
-href="../dmx#blenderdmx-dmx-driver-for-blender">DMX driver</a> for Blender to
+href="../dmx#blenderdmx-addon-dmx-driver-for-blender">DMX driver</a> for Blender to
 use DMX as source of values for any Blender property.
 </div>
 </li>
