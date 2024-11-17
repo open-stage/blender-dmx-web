@@ -10,7 +10,7 @@ link: https://github.com/open-stage/blender-dmx/releases/tag/v1.0.8
 
 After much of trials and research, initial gobo support has been added. For rotation, the Blender Animation player must be in the Play state. Gobos from GDTF are utilized, these can be indexed and continuously rotated. **Makers**: you can now be creative and add for example iris support. 
 
-Breaking change: The BlenderDMX Addon driver for blender has been renamed to `#bdmx`. This is to make the (still very young) [driver simpler](/docs/dmx/#blenderdmx-dmx-driver-for-blender).
+Breaking change: The BlenderDMX Addon driver for blender has been renamed to `#bdmx`. This is to make the (still very young) [driver simpler](/docs/dmx/#blenderdmx-addon-dmx-driver-for-blender).
 
 
 

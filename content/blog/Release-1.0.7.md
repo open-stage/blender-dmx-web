@@ -21,7 +21,7 @@ Setting up Network protocols like Art-Net could sometimes be challenging, this r
     * Support for MVR_COMMIT message
     * Rewrite of the protocol code
 * Add custom namespace driver for Blender, to use DMX for general animations of
-  any 3D objects in Blender, see [wiki](/docs/dmx/#blenderdmx-dmx-driver-for-blender) for details
+  any 3D objects in Blender, see [wiki](/docs/dmx/#blenderdmx-addon-dmx-driver-for-blender) for details
 * Improved Network DMX protocols:
     * Separate sACN from Art-Net
     * Improve Art-Net handling (ArtPoll, error messages, timeout)

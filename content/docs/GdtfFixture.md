@@ -76,7 +76,7 @@ Features or properties of GDTF devices, controlled by DMX channels:
 > ChannelFunctions and Physical Values are not implemented at the moment.
 
 Read this section about usage and Implementation [details of GDTF Attributes in
-BlenderDMX Addon](/docs/fixture/#gdtf-attributes-usage-in-blenderdmx).
+BlenderDMX Addon](/docs/fixture/#gdtf-attributes-usage-in-blenderdmx-addon).
 
 # MVR
 
