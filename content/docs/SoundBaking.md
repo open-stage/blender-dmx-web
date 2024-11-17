@@ -20,24 +20,24 @@ run-down on how to test/start with this with BlenderDMX addon:
 
     ![image](../media/sound_baking_01.jpg)
 
-3. Bake sound to F-curves:
+3. Add sound to the Video sequencer
+    - Open Video Sequencer
+    - Select Add - Sound and select the audio track
+
+    ![image](../media/sound_baking_04.jpg)
+
+4. Bake sound to F-curves:
     - Open Graph editor
     - Select desired item in the listing of recorded elements, for example Spot size (Zoom)
     - Select Channel - Sound to Samples
     - This adds the audio waveform to the timeline
-    - Now when you play the timeline, the zoom
+    - Now when you play the timeline, the zoom will react 
 
     ![image](../media/sound_baking_02.jpg)
 
     ![image](../media/sound_baking_03.jpg)
 
-4. Optional - Add sound to the Video sequencer
-    - Open Video Sequencer
-    - Select Add - Sound and select the same audio track as before
-
-    ![image](../media/sound_baking_04.jpg)
-
-5. Done, play the animation with sound:
+5. Play the animation with sound:
     - Note: audio seems a bit offset from video while playing in the web browser.
 
     {{< video "../media/sound_baking_05.jpg" "../media/sound_baking_05.mp4" >}}
