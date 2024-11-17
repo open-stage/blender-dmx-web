@@ -27,7 +27,7 @@ category: "Help"
     - [Programmer](/docs/programmer)
     - [sACN](/docs/sacn)
     - [Art-Net](/docs/artnet)
-    - [Driver for Blender](/docs/dmx/#blenderdmx-dmx-driver-for-blender)
+    - [Driver for Blender](/docs/dmx/#blenderdmx-addon-dmx-driver-for-blender)
 - [Keyframe Animation and DMX Recording](/docs/keyframe-animations-recording)
 - [Sound to Animation Programming](/docs/soundbaking)
 - [Rendering](/docs/rendering)
