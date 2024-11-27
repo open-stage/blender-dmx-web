@@ -80,11 +80,11 @@ You can make lasers look better by turning on Bloom:
 
 - You need to have at least one object or bounding box in the `Laser collision
   collection` for the laser beams to be created.
-- You need to add any objects which should stop/interact with the laser beam to the `Laser
-  collision collection`.
+- You need to add any objects which should stop/interact with the laser beam to
+  the `Laser collision collection`.
 - You can use the `Volume Box` as the bounding box and add it to the Laser
-  collision collection, just note that the `Volume Box`.
-- After adding new laser into the show, make sure to go to `Setup` - `Beam
+  collision collection.
+- After adding any new laser into the show, make sure to go to `Setup` - `Beam
   Volume` - `Laser collision collection` and  select the correct collection.
   This will add this collection as a collision parameter for all lasers in the
   show.
