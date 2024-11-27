@@ -18,6 +18,16 @@ Edit mode:
 
 ![image](../media/fixtures_edit.png)
 
+Explanation of extra icons:
+
+![image](../media/fixtures_list_explanation.png)
+
+1) Pan/Tilt locked
+2) IES Photometrics linked
+3) Unsaved changes in the Programmer
+4) DMX footprint overlap
+
+
 The `Fixture Panel` selection is synced to the Viewport.
 
 If you delete a fixture on the Viewport, it is deleted from the DMX show and [Groups](../groups) as
