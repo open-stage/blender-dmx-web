@@ -1,7 +1,7 @@
 ---
 title: "BlenderDMX Addon 1.8.2 Released"
 date: 2024-12-28T19:44:59+0100
-category: "Releases
+category: "Releases"
 author: vanous
 link: https://github.com/open-stage/blender-dmx/releases/tag/v1.8.2
 ---
