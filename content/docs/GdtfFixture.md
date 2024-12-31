@@ -96,20 +96,40 @@ screens, and other objects that are used in the entertainment industry.
 - Layers
 - Classes
 - Group Objects
-- more features as per [pymvr](https://github.com/open-stage/python-mvr) library
+- some more features as per [pymvr](https://github.com/open-stage/python-mvr)
+  library
 - [MVR-xchange Protocol](#mvr-xchange-protocol)
 
 ### Export
 
-- Fixtures (with Address, Focus Points, Fixture Color, Fixture ID...) on a single layer
+- Fixtures (with Address, Focus Points, Fixture Color, Fixture ID...) are
+  exported onto a single layer
 
 ## MVR-xchange Protocol
 
-![image](../media/mvr_exchange.png)
+![image](../media/mvr_xchange.png)
 
-MVR-xchange can be used to receive an MVR file from other network applications
-with MVR-xchange support, for example [Production
+[MVR-xchange protocol](https://gdtf.eu/mvr/mvr-spec/xchange/) allows you to
+exchange MVR files with other network applications that support MVR-xchange,
+such as other instances of BlenderDMX or [Production
 Assist](https://www.production-assist.com/).
+
+* **Group Cooperation**: Stations must cooperate within the same group. You can
+  name the group as you prefer, but please use only basic Latin characters. The
+  group name is determined by the station you are connecting to. When you
+  establish a connection with another station, your group will automatically
+  change to match the group name of the station you are connecting to.
+
+* **Station Discovery**: Your BlenderDMX Addon station will automatically
+  discover any stations in any groups and can connect to them. This enables you
+  to receive MVR files from stations you connect to. When a connected-to
+  station shares an MVR file, you will be notified and can fetch the file to
+  apply it to your scene.
+
+* **Sharing MVR Files**: Any station that wants to receive MVR files from you
+  can connect to your station. When you share a version, connected stations
+  will be notified and can choose to fetch the MVR file from your station and
+  apply it to their scene.
 
 ## GDTF Share Integration in Blender
 
