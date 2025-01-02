@@ -20,17 +20,6 @@
             <i class="fa-solid fa-file-arrow-down"></i> Download Page
           </a>
 
-        {{ if isset .Params "link" }}
-
-          <a
-            class="uk-button uk-button-large uk-button-secondary uk-width-expand uk-width-auto@s uk-margin-small-bottom"
-            href="{{ .Params.Link }}"
-            role="button"
-            uk-scroll="offset: 50"
-          >
-            <i class="fa-brands fa-github"></i> Release page
-          </a>
-        {{ end }}
     </article>
 </div>
 {{ end }}
