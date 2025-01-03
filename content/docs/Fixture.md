@@ -18,6 +18,10 @@ Integration](/docs/gdtffixture/#gdtf-share-integration-in-blender) into
 BlenderDMX Addon, to download and import the GDTF files provided on the GDTF
 Share.
 
+GDTF Profiles imported into the BlenderDMX Addon can then be used via the
+menu: [Fixture - Add - GDTF Profile](#add-fixture).
+
+
 # Fixture
 
 Fixture represents a GDTF device. This can be a static/moving lighting fixture
