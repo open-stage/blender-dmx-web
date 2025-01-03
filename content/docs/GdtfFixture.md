@@ -20,17 +20,17 @@ Color Wheels and a lot of other properties a Lighting Fixture might have.
 
 ## Download and Build Profiles
 
-The [GDTF Share](https://gdtf-share.com/) contains profiles from multiple
-brands, as well as profiles built by the community. GDTF Share is
-fully [integrated](#gdtf-share-integration-in-blender) into Blender-DMX, allowing
-downloading GDTF profiles directly from Blender-DMX.
+The [GDTF Share](https://gdtf-share.com/) is the central distribution platform
+for GDTF files. GDTF Share is fully
+[integrated](#gdtf-share-integration-in-blender) into Blender-DMX, allowing
+downloading and import of GDTF profiles directly from BlenderDMX Addon.
 
-There's also a [GDTF Builder](https://fixturebuilder.gdtf-share.com/) available
-for creating and editing GDTF Profiles.
+The [GDTF Builder](https://fixturebuilder.gdtf-share.com/) allows creating and
+editing GDTF Profiles.
 
 ## Supported GDTF features in BlenderDMX Addon
 
-BlenderDMX Addon utilizes GDTF files to be able to visualize a device. GDTF files from GDTF Share can be downloaded directly from BlenderDMX Addon. Following GDTF properties are utilized:
+BlenderDMX Addon utilizes GDTF files to be able to visualize a device. Local GDTF files can be [imported](/docs/fixture/#importing-gdtf-files) into BlenderDMX Addon, or files from the GDTF Share can be [downloaded directly](#gdtf-share-integration-in-blender) from BlenderDMX Addon. Following GDTF properties are utilized:
 
 - A dynamic fixture object from a GDTF profile, either from
   primitives or custom models from 3DS and GLB mesh files
@@ -144,7 +144,12 @@ GDTF files can be downloaded directly from Blender:
 
 ![image](../media/gdtf_share_credentials.png)
 
+Update the GDTF Share index will refresh the list of available profiles. Each
+profile can be downwloaded by clicking on the download icon:
+
 ![GDTF Share integration](../media/gdtf_integration.png)
+
+# Common Questions and Answers:
 
 ## After MVR import, GDTF fixtures have IDs and DMX but their bodies are not visible in 3D
 

@@ -11,6 +11,7 @@ category: "Help"
 - [Setup](/docs/setup)
 - [Issues and Solutions](/docs/issues)
 - [Fixture](/docs/fixture)
+    - [Importing GDTF files](/docs/fixture/#importing-gdtf-files)
     - [Pan/Tilt/Target](/docs/fixture/#target-and-pantilt)
     - [IES Files](/docs/fixture/#import-ies-fileremove-ies-file)
     - [Colors](/docs/fixture/#colors)

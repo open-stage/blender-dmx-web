@@ -4,10 +4,19 @@ date: 2024-04-07T10:57:47+0200
 category: "Help"
 ---
 
-Fixture profiles come from GDTF, [read details here](../gdtffixture). To import
-a GDTF file, use the `Setup - Import - Import GDTF Profile`:
+Fixture profiles come from GDTF, [read details here](../gdtffixture).
+
+# Importing GDTF files
+
+To import an existing local GDTF file, use the `Setup - Import - Import GDTF
+Profile`:
 
 ![image](../media/gdtf_fixture_import.png)
+
+You can also use the [GDTF Share
+Integration](/docs/gdtffixture/#gdtf-share-integration-in-blender) into
+BlenderDMX Addon, to download and import the GDTF files provided on the GDTF
+Share.
 
 # Fixture
 
