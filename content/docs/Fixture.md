@@ -4,11 +4,15 @@ date: 2024-04-07T10:57:47+0200
 category: "Help"
 ---
 
-Fixture profiles come from GDTF, [read details here](../gdtffixture).
+Fixture profiles come from GDTF, [read details here](../gdtffixture). To import
+a GDTF file, use the `Setup - Import - Import GDTF Profile`:
+
+![image](../media/gdtf_fixture_import.png)
 
 # Fixture
 
-Fixture represents a GDTF device. This can be a static/moving lighting fixture but also a truss or any other 3D object in a GDTF file.
+Fixture represents a GDTF device. This can be a static/moving lighting fixture
+but also a laser, a truss or any other 3D object in a GDTF file.
 
 Listing mode:
 
