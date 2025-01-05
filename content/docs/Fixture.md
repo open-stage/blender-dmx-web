@@ -190,6 +190,18 @@ here](../setup/#beam-lens-diameter-in-cycles).
 Strobing is supported if the fixture has Shutter1 attribute. Strobe is
 currently not keyframeable.
 
+## Continuous pan/tilt rotation
+
+PanRotation/TiltRotation attributes are used to provide continuous pan/tilt
+rotation. Blender animation player must be playing to see the rotation. If you
+want just one axis to be moving, the other axis can be locked (unlocked) via
+the provided Lock/Unlock icons.
+
+**NOTE:**: After pressing the lock/unlock icon, you must change the pan or tilt
+value once for the lock to be activated.
+
+![image](../media/pan_tilt_rot.png)
+
 {{% include-html Subfixtures.md %}}
 
 {{% include-html Target.md %}}
