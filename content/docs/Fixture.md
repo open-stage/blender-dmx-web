@@ -137,7 +137,7 @@ the color picker is set to white.
 
 ### Color Temperature Control (CTC)
 
-CTO, CTC and CTB are used to adjust color temperature from 1100K to 1200K. 
+CTO, CTC and CTB are used to adjust color temperature from 1100K to 12000K. 
 
 ### Color Wheels
 
@@ -202,9 +202,9 @@ value once for the lock to be activated.
 
 ![image](../media/pan_tilt_rot.png)
 
-{{% include-html Subfixtures.md %}}
-
 {{% include-html Target.md %}}
+
+{{% include-html Subfixtures.md %}}
 
 {{% include-html Navigation.md %}}
 
