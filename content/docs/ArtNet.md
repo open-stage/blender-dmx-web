@@ -35,6 +35,23 @@ running the following command in the terminal:
 ```bash
 netstat -aop | grep 6454
 ```
+## Examples
+
+### BlinderKitten
+
+Art-Net related settings in BlenderDMX Addon and in [BlinderKitten](https://blinderkitten.lighting/) DMX console:
+
+Universe settings in BlenderDMX Addon:
+
+![image](../media/artnet_blinderkitten_01.png)
+
+Universe settings in BlinderKitten:
+
+![image](../media/artnet_blinderkitten_02.png)
+
+Fixture patch settings in BlinderKitten:
+
+![image](../media/artnet_blinderkitten_03.png)
 
 
 ### BlenderDMX Addon and QLCplus via Art-Net on the same computer
