@@ -22,6 +22,14 @@ To record external DMX, turn on Auto Keying, start DMX source and set the animat
 
 These buttons allow to quickly delete all keyframes from selected/all fixtures.
 
+### Recorded data
+
+Recorded data can be seen in the timeline, make sure to uncheck `Only Show Selected`.
+
+![image](../media/keyframe_list.png)
+
+The keyframed data no longer have any DMX information in them and they cannot be converted back to DMX.
+
 ### Recording \#bdmx driver
 
 Object with \#bdmx driver can be recorded to keyframes, but in order to play
