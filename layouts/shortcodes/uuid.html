@@ -1,0 +1,33 @@
+
+<div style="display: flex; align-items: center; margin-top: 20px;">
+    <pre id="uuid" style="margin: 0; padding: 10px; border: 1px solid #ccc; width: fit-content;"></pre>
+    <button id="copyBtn" style="display: none; margin-left: 10px;" class="uk-button uk-button-secondary ">Copy</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+<script>
+    function generateUUID() {
+        var newUuid = uuid.v4();
+        var url = `https://${newUuid}.mvr.blenderdmx.eu`;
+        document.getElementById('uuid').textContent = url;
+        document.getElementById('copyBtn').style.display = 'inline';
+    }
+
+    document.getElementById('copyBtn').addEventListener('click', function() {
+        var urlText = document.getElementById('uuid').textContent;
+        navigator.clipboard.writeText(urlText)
+            .then(() => {
+                this.innerHTML = 'Copied <span uk-icon="icon: check; ratio: 2"></span>';
+                this.disabled = true; 
+                setTimeout(() => {
+                    this.innerHTML = 'Copy'; 
+                    this.disabled = false; 
+                }, 2000); 
+            })
+            .catch(err => {
+                console.error('Failed to copy: ', err); 
+            });
+    });
+
+    window.onload = generateUUID;
+</script>

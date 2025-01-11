@@ -8,27 +8,47 @@ menu:
     weight: 3
 ---
 
-<h2 id="">Website</h2>
-<p>
-  When you visit our website, we don't collect any data and we don't store any
-  cookies.
-</p>
+<h2 id="">Website</h2> <p> When you visit our website, we don't collect any
+    data and we don't store any cookies.  </p>
+
+<p> Website statistics are utilizing <a
+        href="https://www.goatcounter.com/">Goat Counter</a> - a privacy
+    friendly web counter without any tracking of personal data.  </p>
+
+<h2 id="">BlenderDMX Addon</h2> 
+
+<p> BlenderDMX Addon runs locally on your computer inside Blender. At no time
+    will any of your stored personal data be sent to us or a third party unless
+    you initialize the action for example via MVR-xchange.  </p>
+
+<p> BlenderDMX Addon can log debug information to a file. You can set the level
+    of debug detail included. If you send the logfile to someone for debugging,
+    check that it does not contain private, sensitive, or not-disclosable data
+first.  </p>
+
+
+<h2 id="">MVR-xchange server</h2> 
 
 <p>
-  Website statistics are utilizing
-  <a href="https://www.goatcounter.com/">Goat Counter</a> - a privacy friendly
-  web counter without any tracking of personal data.
+You should NOT share private data via the server. The data is not publicly
+visible or available, but it is visible to the operators of the server. We will
+not share the data, but we want to be sure that a random mistake will not
+result in private data exposure.
 </p>
 
-<h2 id="">BlenderDMX Addon</h2>
-<p>
-  BlenderDMX Addon runs locally on your computer inside Blender. At no time will any
-  of your stored personal data be sent to us or a third party unless you
-  initialize the action for example via MVR-xchange.
-</p>
+<p> We save the provided MVR file - it is a function of the server to receive
+    the MVR file and to distribute it in the same group to other clients who
+    request this file. We log IP addresses in order to prevent abuse of the
+    system. We clean the data (the MVR files and the logs) weekly.  </p> 
 
-<p>
-  BlenderDMX Addon can log debug information to a file. You can set the level of debug
-  detail included. If you send the logfile to someone for debugging, check that
-  it does not contain private, sensitive, or not-disclosable data first.
-</p>
+
+<p> Groups in MVR-xchange on BlenderDMX.eu are
+    organized via subdomains, where each domain is a very long string in the
+        form of a UUID v4. There is no authentication, as the randomness of the
+        UUID guarantees (<a
+                             href="https://security.stackexchange.com/questions/53458/is-it-safe-to-rely-on-uuids-for-privacy">discussion</a>) that the chances of someone randomly guessing a v4 UUID are
+     infinitesimally small. It's so tiny that it's not worth serious
+     consideration, as it would take about 103 trillion guesses if the UUID
+     creation is truly random. The choice of the group to be an UUID is our
+     implementation choice, it could potentially be any string, but UUIDs
+ contribute to robustness of system.  </p>
