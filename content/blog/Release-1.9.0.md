@@ -46,13 +46,13 @@ that the chances of someone randomly guessing a v4 UUID are infinitesimally
 small. It's so tiny that it's not worth serious consideration, as it would take
 about 103 trillion guesses if the UUID creation is truly random. The choice of
 the group to be an UUID is our implementation choice, it could potentially be
-any string, but UUIDs contribute to robustness of system.
+any string, but UUIDs contribute to the robustness of system.
 
 You can get a random group to be filled into the BlenderDMX Addon settings here:
 
 {{< uuid >}}
 
-Report your finding in the [BlenderDMX Discord](https://discord.gg/FQVVyc45T9).
+Report your findings in the [BlenderDMX Discord](https://discord.gg/FQVVyc45T9).
 
 ## List of changes
 
