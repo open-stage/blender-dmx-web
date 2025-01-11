@@ -54,6 +54,11 @@ You can get a random group to be filled into the BlenderDMX Addon settings here:
 
 Report your findings in the [BlenderDMX Discord](https://discord.gg/FQVVyc45T9).
 
+## Fix SVG loading
+
+Many thanks to [Lily Hopkins](https://github.com/lilopkins) for the fix of SVG
+2D symbol loading.
+
 ## List of changes
 
 * MVR-xchange - initial websockets implementation
