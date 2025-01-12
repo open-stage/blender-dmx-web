@@ -22,7 +22,8 @@ coordination server, which is now available for testing purposes on
 
 BlenderDMX.eu provides a test server for the MVR-xchange and will offer it for
 a few weeks to test and confirm the MVR-xchange implementation in the
-BlenderDMX Addon.
+BlenderDMX Addon. The maximum file size is limited to about 8-10MB, which
+should be sufficient for testing.
 
 You should NOT share private data via the server. The data is not publicly
 visible or available, but it is visible to the operators of the server. We will
