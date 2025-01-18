@@ -8,7 +8,7 @@
 <script>
     function generateUUID() {
         var newUuid = uuid.v4();
-        var url = `https://${newUuid}.mvr.blenderdmx.eu`;
+        var url = `wss://${newUuid}.mvr.blenderdmx.eu`;
         document.getElementById('uuid').textContent = url;
         document.getElementById('copyBtn').style.display = 'inline';
     }
