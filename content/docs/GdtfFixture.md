@@ -114,6 +114,24 @@ exchange MVR files with other network applications that support MVR-xchange,
 such as other instances of BlenderDMX or [Production
 Assist](https://www.production-assist.com/).
 
+### Internet version
+
+Internet version of MVR-xchange requires a wss:// address of a coordinating
+server. This address defines a group of stations coordinating together.
+
+* **Sharing MVR Files**: Any station that wants to receive MVR files from you
+  can connect to the same group address station. When you share a version,
+  connected stations will be notified and can choose to fetch the MVR file from
+  your station and apply it to their scene.
+
+* **Testing server**: BlenderDMX.eu provides a testing server, see details and
+  privacy notice in [this blog post](/blog/release-1.9.0/).
+
+### Local version
+
+Local version of the MVR-xchange uses only local network and local discovery
+for the stations.
+
 * **Group Cooperation**: Stations must cooperate within the same group. You can
   name the group as you prefer, but please use only basic Latin characters. The
   group name is determined by the station you are connecting to. When you
