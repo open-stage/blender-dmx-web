@@ -15,4 +15,8 @@ linked to these as followers.
 
 ![image](../media/psn02.png)
 
+Example of mapping mouse to PSN coordinates in
+[Chataigne](https://benjamin.kuperberg.fr/chataigne/en) and controlling a
+fixture in the BlenderDMX Addon:
 
+<video src="../media/psn_chataigne.mp4" controls="controls" >
