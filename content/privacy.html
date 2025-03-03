@@ -25,30 +25,3 @@ menu:
     of debug detail included. If you send the logfile to someone for debugging,
     check that it does not contain private, sensitive, or not-disclosable data
 first.  </p>
-
-
-<h2 id="">MVR-xchange server</h2> 
-
-<p>
-You should NOT share private data via the server. The data is not publicly
-visible or available, but it is visible to the operators of the server. We will
-not share the data, but we want to be sure that a random mistake will not
-result in private data exposure.
-</p>
-
-<p> We save the provided MVR file - it is a function of the server to receive
-    the MVR file and to distribute it in the same group to other clients who
-    request this file. We log IP addresses in order to prevent abuse of the
-    system. We clean the data (the MVR files and the logs) weekly.  </p> 
-
-
-<p> Groups in MVR-xchange on BlenderDMX.eu are
-    organized via subdomains, where each domain is a very long string in the
-        form of a UUID v4. There is no authentication, as the randomness of the
-        UUID guarantees (<a
-                             href="https://security.stackexchange.com/questions/53458/is-it-safe-to-rely-on-uuids-for-privacy">discussion</a>) that the chances of someone randomly guessing a v4 UUID are
-     infinitesimally small. It's so tiny that it's not worth serious
-     consideration, as it would take about 103 trillion guesses if the UUID
-     creation is truly random. The choice of the group to be an UUID is our
-     implementation choice, it could potentially be any string, but UUIDs
- contribute to robustness of system.  </p>

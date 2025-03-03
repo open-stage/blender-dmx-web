@@ -20,7 +20,9 @@ coordination server, which is now available for testing purposes on
 
 ### BlenderDMX Testing MVR-xchange Server
 
-BlenderDMX.eu provides a test server for the MVR-xchange and will offer it for
+UPDATE: The testing server period had ended, the publicly available testing server has been removed.
+
+<s>BlenderDMX.eu provides a test server for the MVR-xchange and will offer it for
 a few weeks to test and confirm the MVR-xchange implementation in the
 BlenderDMX Addon. The maximum file size is limited to about 8-10MB, which
 should be sufficient for testing.
@@ -50,11 +52,11 @@ the group to be an UUID is our implementation choice, it could potentially be
 any string, but UUIDs contribute to the robustness of system.
 
 You can get a random group to be filled into the BlenderDMX Addon settings here:
-
-{{< uuid >}}
-
+</s>
+UPDATE: The testing server period had ended, the publicly available testing server has been removed.
+<s>
 Report your findings in the [BlenderDMX Discord](https://discord.gg/FQVVyc45T9).
-
+</s>
 ## Fix SVG loading
 
 Many thanks to [Lily Hopkins](https://github.com/lilopkins) for the fix of SVG

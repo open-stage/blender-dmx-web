@@ -22,7 +22,7 @@ scheme wss, rather then https.
 For more details about the MVR-xchange Internet version and about the testing
 server, read the [blog post for v1.9.0](/blog/release-1.9.0/).
 
-{{< uuid >}}
+UPDATE: The testing server period had ended, the publicly available testing server has been removed.
 
 Report your findings in the [BlenderDMX Discord](https://discord.gg/FQVVyc45T9).
 

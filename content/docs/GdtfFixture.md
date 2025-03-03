@@ -124,9 +124,6 @@ server. This address defines a group of stations coordinating together.
   connected stations will be notified and can choose to fetch the MVR file from
   your station and apply it to their scene.
 
-* **Testing server**: BlenderDMX.eu provides a testing server, see details and
-  privacy notice in [this blog post](/blog/release-1.9.0/).
-
 ### Local version
 
 Local version of the MVR-xchange uses only local network and local discovery
