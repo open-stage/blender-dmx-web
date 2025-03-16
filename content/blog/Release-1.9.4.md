@@ -12,8 +12,12 @@ Fixtures with multiple levels of sub geometries where control attributes of
 color mixing or dimmer are linked to a parent geometry can now be controlled
 even if the parent geometry is several layers up the chain.
 
-With that, we also have improved getting correct default values for DMX
-channels (the pygdtf library still was using the GDTF 1.1 style of defaults).
+Auto white calculation is now applied to ColorAdd_W (white emitter), when
+selecting colors from the color picker.
+
+With all the above, we also have improved getting correct default values for
+DMX channels (the pygdtf library still was using the GDTF 1.1 style of
+defaults).
 
 See the changelong for more information, or developers can look at [git
 log](https://github.com/open-stage/blender-dmx/commits/main/) for full details.
