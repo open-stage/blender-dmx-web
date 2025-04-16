@@ -108,6 +108,18 @@ When selecting **Advanced edit**
 - **Gel Color:** Same as GDTF Profile.
 
 
+## DMX Addressing
+
+Each fixture needs to have a DMX address. This address is a starting value from
+which the fixture will be receiving data from the DMX stream and the amount of
+received data depends on the amount and type of controllable parameters of the
+fixture. Different types of fixtures typically have different amount of
+controllable parameters, thus different amount of required DMX channels (often
+called "DMX footprint"). The addresses thus need to be spaced in such a way
+that the fixtures and their DMX footprints do not overlap. See more details
+about [DMX here](../dmx).
+
+
 ## Remove fixture
 
 You can select fixture(s) and remove them by using the Remove Fixture menu item. There can be situations when the fixture is not possible to select. It can be removed by making the fixture list Editable and then clicking the cross icon:

@@ -7,7 +7,7 @@ category: "Help"
 DMX 512 is a method to control entertainment devices. It works by sending 512
 values (these values are called channels, each value (each channel) is a digit
 between 0 and 255). These channels are sent either over RS485 or over Ethernet
-network via protocols like [ArtNet](../artnet) or [sACN](../sacn). When DMX is
+network via protocols like [sACN](../sacn) or [ArtNet](../artnet). When DMX is
 sent over Ethernet, each group of 512 channels is called a Universe.
 
 Each controlled device requires certain number of DMX channels, each channel
@@ -27,20 +27,25 @@ comes in](../gdtffixture).
 
 ## DMX Addressing
 
+Each fixture needs to have a DMX address. This address is a starting value from
+which the fixture will be receiving data from the DMX stream and the amount of
+received data depends on the amount and type of controllable parameters of the
+fixture. Different types of fixtures typically have different amount of
+controllable parameters, thus different amount of required DMX channels (often
+called "DMX footprint"). The addresses thus need to be spaced in such a way
+that the fixtures and their DMX footprints do not overlap.
+
 As the DMX512 contains 512 channels, it can for example control up to 512
 single channel based devices. A Dimmer is a good example of a device which
-needs just a single channel, to be controlled. Each Dimmer will have it's own
-address (1-512). If the device is for example LED fixture with RGB channels (3
-channels) one can control 512/3 = 170 RGB fixtures. Each fixture will be
-addressed in such a way that it's channels are not overlapping with other
-fixtures, so for example: 1, 4, 7... More complex devices require more
-channels.
-
-Each device needs a DMX address, this is the "starting" DMX channel of the DMX
-signal. If more universes of DMX are used, a Universe number is also required.
-If more devices are given the same DMX address, they will react together and
-cannot be controlled separately. This is sometimes wanted in order to save DMX
-addresses on the DMX console.
+needs just a single channel to be controlled. Each Dimmer will have it's own
+address (1-512). If the device is for example LED fixture with RGB colors, each
+color will be one channel, then this fixture will need 3 channels and one can
+control up to 170 RGB fixtures on one DMX line (512 total possible channels / 3
+channels required by the fixture = 170 fixtures possible to control
+individually over one DMX line). Each fixture will be addressed in such a way
+that it's channels are not overlapping with other fixtures, so for example: 1,
+4, 7, 10, 13...  More complex devices require more channels, thus more
+spaced-out addressing.
 
 This was a very quick introduction. You can read more about [DMX512 on the
 web](https://duckduckgo.com/?q=DMX512). 
