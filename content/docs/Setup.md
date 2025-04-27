@@ -82,6 +82,20 @@ via the following quick set buttons:
 
 Read more about [how to render lighting beams](../rendering) in BlenderDMX Addon.
 
+## Laser collistion collection
+
+[See Laser](/docs/laser)
+
+## Custom Cutoff Distance
+
+Eevee Next tries to automatically calculate the clip start/clip end based on
+the maximum projection (Cutoff) distance. This automatic calculation causes
+gobos to stop working, thus the Cutoff distance is set to 23m in BlenderDMX
+Addon which allows the gobo projection to work. If longer beam projection is
+needed, the cutoff can be adjusted manually.
+
+![image](../media/cutoff_custom_distance.png)
+
 # Viewport
 
 ![image](../media/setup_viewport.png)
