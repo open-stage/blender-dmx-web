@@ -13,8 +13,8 @@ it additionally contains measurements of movement ranges, beam angles, rotation
 speeds, and other physical parameters. This release of [BlenderDMX
 Addon](https://blenderdmx.eu/) adds initial support for utilizing these
 measurements on supported visualized device properties, transforming it from a
-"nice effects generator" into a robust lighting visualizer, representing real
-lighting fixtures behavior.
+"nice effects generator" into a lighting visualizer representing real lighting
+fixtures behavior.
 
 ### The following currently supported GDTF Attributes now utilize physical measurements from both Channel Functions and Channel Sets:
 
