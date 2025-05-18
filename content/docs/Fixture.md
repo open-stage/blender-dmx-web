@@ -153,16 +153,17 @@ CTO, CTC and CTB are used to adjust color temperature from 1100K to 12000K.
 
 ### Color Wheels
 
-Supported attribures (Color1, Color2, ColorMacro1) are linked to the Color
+Supported attribures (Color1, Color2, Color3, ColorMacro1) are linked to the Color
 Wheel selection.
 
-### Color Mixing and Color Wheels together
+### Color Mixing, Color Wheels and ColorTemperatur together
 
 If Color Mixing is not at White and a Color Wheel is used, the colors are added
 together and the resulting color is applied to the projected beam. The current
-implementation is very basic. When later re-selecting a fixture and setting the
-Programmer, the previously calculated resulting color is applied to the color
-wheel.
+implementation is very basic and it is recommended to only use only one of the
+RGB, CMY, CTO/C/O or a Color Wheel/ColorMacro at the same time. When later
+re-selecting a fixture and setting the Programmer, the previously calculated
+resulting color is applied to the color.
 
 ## Gobos
 
@@ -170,12 +171,6 @@ Upon loading GDTF files, gobos must be converted to Blender's image sequence,
 in order to be possible to keyframe them. Image sequences cannot be saved into
 the blender file, this means that in order for the gobos to work, GDTF files
 must be kept within the addon directory.
-
-### Gobo Selection
-
-Gobo1 and Gobo2 are supported. All images are available on both gobo wheels.
-All images from `media` folder are utilized, so if for example animation wheel
-image is in there, it is possible to select it.
 
 ### Gobo Rotation
 
@@ -199,20 +194,15 @@ here](../setup/#beam-lens-diameter-in-cycles).
 
 ## Strobe
 
-Strobing is supported if the fixture has Shutter1 attribute. Strobe is
-currently not keyframeable.
+Strobing is supported if the fixture has Shutter1Strobe attribute.
 
 ## Continuous pan/tilt rotation
 
 PanRotation/TiltRotation attributes are used to provide continuous pan/tilt
-rotation. Blender animation player must be playing to see the rotation. If you
-want just one axis to be moving, the other axis can be locked (unlocked) via
-the provided Lock/Unlock icons.
+rotation. Blender animation player must be playing to see the rotation.
 
-**NOTE:**: After pressing the lock/unlock icon, you must change the pan or tilt
-value once for the lock to be activated.
-
-![image](../media/pan_tilt_rot.png)
+Read this section [Supported GDTF Attributes in BlenderDMX
+Addon](/docs/gdtffixture/#supported-gdtf-attributes) for further details.
 
 {{% include-html Target.md %}}
 

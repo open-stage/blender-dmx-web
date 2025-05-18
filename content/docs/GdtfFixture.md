@@ -35,13 +35,13 @@ BlenderDMX Addon utilizes GDTF files to be able to visualize a device. Local GDT
 - A dynamic fixture object from a GDTF profile, either from
   primitives or custom models from 3DS and GLB mesh files
 - GeometryReferences (thus correct DMX footprint and kinematic chain)
-- DMX Breaks (correct total DMX footprint is calculated, fixture is patched at a single address)
+- DMX Breaks (each DMX Break can be patched to it's own address)
 - BeamGeometry and it's attributes (Lamp Power, Beam Angle, Beam Type)
 - LaserGeometry and it's Beam Diameter attribute
 - CameraGeometry (and selecting a view through the camera)
 - Pigtail geometry (identifying typically back of the fixture)
 - 2D SVG symbol
-- media images (gobo) from wheels folder
+- media images (gobo) on each Gobo Wheel
 - [Supported GDTF Attributes](#supported-gdtf-attributes)
 - [GDTF Share integration](#gdtf-share-integration-in-blender)
 - more features as per [pygdtf](https://github.com/open-stage/python-gdtf) library
@@ -55,7 +55,11 @@ Features or properties of GDTF devices, controlled by DMX channels:
 - Tilt (8/16bit)
 - PanRotation
 - TiltRotation
-- Shutter1 (used for Strobing in BlenderDMX Addon)
+- PanMode
+- TiltMode
+- PanTiltMode
+- Shutter1
+- Shutter1Strobe
 - ColorAdd_R, G, B
 - ColorRGB_Red, Green, Blue
 - ColorSub_C, M, Y
@@ -64,7 +68,7 @@ Features or properties of GDTF devices, controlled by DMX channels:
 - ColorAdd_RY, GY, UV (Amber, Lime, UV)
 - CTC, CTO, CTB (Color Temperature Control)
 - Iris
-- Color1, Color2
+- Color1, Color2, Color3
 - ColorMacro1
 - Zoom
 - Gobo1, Gobo2
@@ -73,7 +77,35 @@ Features or properties of GDTF devices, controlled by DMX channels:
 - XYZ_X, Y, Z
 - Rot_X, Y, Z
 
-> ChannelFunctions and Physical Values are not implemented at the moment.
+
+# Physical Properties
+
+## The following currently supported GDTF Attributes now utilize physical measurements from both Channel Functions and Channel Sets:
+
+* Pan, Tilt, PanRotate, TiltRotate
+* Zoom, Iris
+* CTC, CTB, CTO
+* Shutter1, Dimmer, ShutterStrobe
+* Color1, Color2, Color3, ColorMacro1
+* Gobo1, Gobo1Pos, Gobo1PosRotate
+* Gobo2, Gobo2Pos, Gobo2PosRotate
+
+### Current limitations:
+
+* Acceleration and time for the movement is not utilized yet (so for example
+  Pan or Tilt can move unrealistically fast).
+* Strobing should be improved for short "flashes", rather then "blinks".
+* Combining multiple colors on a single device needs to be improved (for
+  example using RGB and CTO at the same time).
+
+### Enhancements thanks to using physical properties:
+
+* Selecting colors on ColorWheels or gobos on GoboWheels uses
+correct Wheel Slots.
+* Some behavior of the device can be conditionally affected by a value of
+multiple channels (for example Gobo Indexing and Gobo Rotation, Pan and
+PanRotation or Zoom ranges) and this is supported by utilizing the Mode
+dependency (Mode Masters) feature of GDTF.
 
 Read this section about usage and Implementation [details of GDTF Attributes in
 BlenderDMX Addon](/docs/fixture/#gdtf-attributes-usage-in-blenderdmx-addon).
