@@ -65,7 +65,12 @@ will be useful.
 * When zooming in to smaller diameter, the intensity is now being increased,
   further mimicking real world behavior. 
 
-## For more details, see the changelog for this 2.0.0 release:
+## Updating:
+
+After updating BlenderDMX and opening .blend files created in older versions,
+GDTF fixtures need to be re-edited in the Advanced mode: select fixture, go to
+Fixtures → Edit → Advanced edit, make sure a correct GDTF profile is selected,
+click OK.
 
 * Add support for ChannelFunctions and ChannelSets with their Physical From,
   Physical To and WheelSlotIndex:
