@@ -4,7 +4,35 @@ date: 2024-04-07T10:57:47+0200
 category: "Help"
 ---
 
-Fixture profiles come from GDTF, [read details here](../gdtffixture).
+# Fixture definitions
+
+BlenderDMX Addon uses GDTF fixture profiles for the device definitions, and
+comes with the following fixtures already included:
+
+
+- Moving Beam
+    - a moving head with RGB color mixing, zoom, two gobo wheels - each with 11
+      gobos
+    - besides regular pan/tilt it also features continuous pan/tilt rotation
+      via the PanMode and TiltMode channels
+
+- LED PAR 64
+    - contains two DMX Modes - RGBW or RGBA color mixing
+
+- PAR 64
+    - contains two modes, one with white output, second with RGB color mixing
+
+- RGB Tube
+    - an example of emitter only based body
+
+- Laser
+    - a fixture with laser beams
+
+- XYZ Cube
+    - special fixture with XYZ position and XYZ rotation attributes
+
+Other fixture profiles can be imported, they are based on GDTF definitions,
+[read details here](../gdtffixture).
 
 # Importing GDTF files
 
