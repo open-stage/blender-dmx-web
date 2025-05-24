@@ -107,4 +107,4 @@ click OK.
 * Add support for channel sets by @vanous in https://github.com/open-stage/blender-dmx/pull/265
 * Release v2.0.0 by @vanous in https://github.com/open-stage/blender-dmx/pull/266
 
-**Full Changelog**: https://github.com/open-stage/blender-dmx/compare/v1.9.6...v2.0.0
+**[Full Changelog](https://github.com/open-stage/blender-dmx/compare/v1.9.6...v2.0.0)**

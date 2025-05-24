@@ -7,6 +7,11 @@ link: https://github.com/open-stage/blender-dmx/releases/tag/v2.0.1
 ---
 ## Small re-adjustments after the big 2.0 release
 
+These are small but important things that didn't make it into the [2.0.0
+release](https://blenderdmx.eu/blog/release-2.0.0/) and they result in better
+GDTF functioning, slight speed improvements, include some fixes and bring
+updates to the packaged GDTF profiles.
+
 Fixture channel-functions and channel-set processing now has an initial caching system to eliminate some of the the small penalty added by using the real-world physical properties for the fixture. Both the color picker and the pan/tilt fader handling has been improved to eliminate spontaneous value drifting on selecting/unselecting fixtures. BlenderDMX Addon provided GDTF profiles have been revised - several were updated and improved, some were removed (they remain in the GDTF Share should they be needed, along with many much better ones).
 
 * Improve migration from older blend files
@@ -22,4 +27,4 @@ Fixture channel-functions and channel-set processing now has an initial caching 
 * Save and apply XML provided offset to pan/tilt geometrie
 * Map pan, tilt, color picker to DMX RGB/CMY correctly and without drifting
 
-**Full Changelog**: https://github.com/open-stage/blender-dmx/compare/v2.0.0...v2.0.1
+**[Full Changelog](https://github.com/open-stage/blender-dmx/compare/v2.0.0...v2.0.1)**
