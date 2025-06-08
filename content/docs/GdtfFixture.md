@@ -32,11 +32,15 @@ editing GDTF Profiles.
 
 BlenderDMX Addon utilizes GDTF files to be able to visualize a device. Local GDTF files can be [imported](/docs/fixture/#importing-gdtf-files) into BlenderDMX Addon, or files from the GDTF Share can be [downloaded directly](#gdtf-share-integration-in-blender) from BlenderDMX Addon. Following GDTF properties are utilized:
 
-- A dynamic fixture object from a GDTF profile, either from
-  primitives or custom models from 3DS and GLB mesh files
+- A dynamic fixture object from a GDTF profile, either from primitives or
+  custom models from 3DS and GLB mesh files
 - GeometryReferences (thus correct DMX footprint and kinematic chain)
 - DMX Breaks (each DMX Break can be patched to it's own address)
-- BeamGeometry and it's attributes (Lamp Power, Beam Angle, Beam Type)
+- BeamGeometry and its attributes (Lamp Power, Beam Angle, Beam Type) by using
+  SpotLight
+- BeamGeometry and its attributes as PointLight if the Beam Angle is set to
+  360° or if Beam Angle is > 180° and the device does not have a Zoom
+  attribute.
 - LaserGeometry and it's Beam Diameter attribute
 - CameraGeometry (and selecting a view through the camera)
 - Pigtail geometry (identifying typically back of the fixture)
@@ -44,7 +48,8 @@ BlenderDMX Addon utilizes GDTF files to be able to visualize a device. Local GDT
 - media images (gobo) on each Gobo Wheel
 - [Supported GDTF Attributes](#supported-gdtf-attributes)
 - [GDTF Share integration](#gdtf-share-integration-in-blender)
-- more features as per [pygdtf](https://github.com/open-stage/python-gdtf) library
+- more features as per [pygdtf](https://github.com/open-stage/python-gdtf)
+  library
 
 ## Supported GDTF Attributes
 
