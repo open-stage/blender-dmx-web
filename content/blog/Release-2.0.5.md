@@ -1,6 +1,6 @@
 ---
 title: "BlenderDMX Addon 2.0.5 Released"
-date: 2025-06-16T22:31:46+0200n
+date: 2025-06-16T23:27:49+0200
 category: "Releases"
 author: vanous
 link: https://github.com/open-stage/blender-dmx/releases/tag/v2.0.5
