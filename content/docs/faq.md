@@ -52,10 +52,18 @@ at the default 0.0.0.0 . When using an Art-Net source on the same computer, you
 have to make sure to start and enable Art-Net <b>first</b> in the BlenderDMX Addon.  If
 running two pieces of Art-Net based software on one computer is not working for
 you, then save yourself the trouble and the best is to use another computer for
-the sending.
+the sending. See more about <a href="../artnet/">Art-Net</a>.
 </div>
 </li>
 
+<li> <a id="faq_sacn" href="#faq_sacn" class="uk-accordion-title">I am having
+issues using sACN</a> <div class="uk-accordion-content">In case of issues with
+sACN, install <a href="https://sacnview.org/">sACNView</a>, this allows you to
+see sACN sources on the network. In some situations (bad hardware, bad network
+configuration), just by running it, sACNView may help to arrange the multicast
+subscription to get things working. See more about <a href=../sacn/>sACN</a>.
+</div>
+</li>
 <li>
 <a id="faq_error" href="#faq_error" class="uk-accordion-title">I get a random error, what should is do?</a>
 <div class="uk-accordion-content">Oooups, this can happen. First, make sure you

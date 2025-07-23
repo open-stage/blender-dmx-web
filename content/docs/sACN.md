@@ -25,5 +25,14 @@ Create Universe, set it to sACN, enable sACN Input:
 
 ### BlenderDMX Addon with Chamsys via sACN on the same computer
 
-<video src="../media/sacn.webm" controls="controls" >
+<video src="../media/sacn.webm" controls="controls"></video>
+
+
+### Troubleshooting
+
+In case of issues with sACN install <a
+href="https://sacnview.org/">sACNView</a>, this allows you to see sACN sources
+on the network. In some situations (bad hardware, bad network configuration),
+just by running it, sACNView may help to arrange the multicast subscription to
+get things working.
 
