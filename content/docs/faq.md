@@ -7,8 +7,15 @@ menu:
 category: "Help"
 ---
 
+<script src="{{ "js/search.js" | absURL }}"></script>
 <section class="uk-card uk-card-default">
     <div class="uk-card-body">
+        <div class="">
+        <form action="/search" method="GET">
+            <input class="uk-input uk-form-width-medium" type="search" name="q" id="search-query" placeholder="Search....">
+            <button class="uk-button uk-button-medium uk-button-secondary " type="submit">Search</button>
+        </form>
+        </div>
         <h2 class="uk-margin-top-large uk-card-title">New to BlenderDMX Addon?</h2>
         <ul class="uk-list uk-list-bullet uk-list-primary">
             <li><strong><a href="/download" ><i class="fa-solid fa-download"></i>Downloading</a ></strong > </strong > BlenderDMX Addon.  </li>

@@ -8,6 +8,8 @@ summaryLength = 30
 docsUrl = "https://github.com/open-stage/blender-dmx-web"
 description = "Blender addon to design and render DMX lighting"
 
+[outputs]
+    home = ["HTML", "JSON"]
 
 [frontmatter]
 date = ['publishDate', 'date', 'lastmod']

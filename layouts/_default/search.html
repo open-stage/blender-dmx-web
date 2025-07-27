@@ -1,0 +1,51 @@
+
+{{ define "main" }}
+
+
+<div class="uk-section">
+  <article class="uk-article uk-container uk-margin-medium">
+    <div class="uk-container">
+
+<section class="uk-card uk-card-default">
+    <div class="uk-card-body">
+        <div class="">
+            <form action="/search" method="GET">
+                <input class="uk-input uk-form-width-medium" type="search" name="q" id="search-query" placeholder="Search....">
+                <button class="uk-button uk-button-medium uk-button-secondary " type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</section>
+<hr>
+
+<section class="uk-card uk-card-default">
+    <div class="uk-card-body">
+        <h2 class="uk-margin-top-large uk-card-title">Search results:</h2>
+    <div id="search-results">
+        <div class="search-loading">Loading...</div>
+    </div>
+
+    <script id="search-result-template" type="text/x-js-template">
+        <ul class="uk-list uk-list-bullet uk-list-primary">
+    <div id="summary-${key}">
+        <h3><a href="${link}">${title}</a></h3>
+        <p>${snippet}</p>
+        <p>
+            <small>
+                ${ isset tags }Tags: ${tags}<br>${ end }
+            </small>
+        </p>
+    </div>
+        </ul>
+    </script>
+    </div>
+</section>
+ </div>
+ </article>
+ </div>
+
+<script src="{{ "js/fuse.min.js" | absURL }}"></script>
+<script src="{{ "js/mark.min.js" | absURL }}"></script>
+<script src="{{ "js/search.js" | absURL }}"></script>
+
+{{ end }}
