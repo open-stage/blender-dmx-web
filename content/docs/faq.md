@@ -17,8 +17,10 @@ category: "Help"
     <div class="uk-card-body">
         <div >
         <form class="uk-child-width-expand" action="/search" method="GET">
-            <input class="uk-input" type="search" name="q" id="search-query" placeholder="Search....">
-            <button class="uk-button uk-button-medium uk-button-secondary  uk-button-secondary" type="submit">Search</button>
+            <div class="uk-inline">
+                <button class="uk-button uk-button-medium uk-button-secondary uk-form-icon uk-form-icon-flip" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input class="uk-input" type="search" name="q" id="search-query" placeholder="Search....">
+            </div>
         </form>
         </div>
         <h2 class="uk-margin-top-large uk-card-title">New to BlenderDMX Addon?</h2>
