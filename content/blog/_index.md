@@ -5,7 +5,9 @@ menu:
   main:
     name: Blog
     weight: 2
-  footer:
+  footer1:
     name: Blog
     weight: 2
+    params:
+      icon: fa-blog
 ---

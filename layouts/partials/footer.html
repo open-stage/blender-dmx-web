@@ -20,15 +20,20 @@
                 <nav class="uk-grid uk-child-width-expand uk-grid-large" uk-grid aria-label="Footer">
                     {{- block "footer-nav" . }}
                     <ul class="uk-list">
-                        {{- range .Site.Menus.footer }}
-                            <li><a href="{{ .URL }}{{ .Params.fragment }}">{{ .Name }}</a></li>
+                        {{- range .Site.Menus.footer1 }}
+                        <li><i class="fa-solid {{ .Params.icon }}" aria-hidden="true"></i> <a href="{{ .URL }}{{ .Params.fragment }}">{{ .Name }}</a></li>
                         {{- end }}
-                        <li><a href="/community#contact">Contact</a>
+                    </ul>
+
+                    <ul class="uk-list">
+                        {{- range .Site.Menus.footer2 }}
+                        <li><i class="fa-solid {{ .Params.icon }}" aria-hidden="true"></i> <a href="{{ .URL }}{{ .Params.fragment }}">{{ .Name }}</a></li>
+                        {{- end }}
                     </ul>
                     <ul class="uk-list">
                         <li><i class="fa-brands fa-github" aria-hidden="true"></i> <a rel="me" href="https://github.com/open-stage/blender-dmx">GitHub</a>
                         <li><i class="fa-brands fa-discord" aria-hidden="true"></i> <a rel="me" href="https://discord.gg/FQVVyc45T9">Discord</a>
-                        <li><i class="fa-solid fa-rss" aria-hidden="true"></i> <a rel="me" href="/blog/index.xml">RSS Feed</a>
+                        <li><i class="fa-solid fa-square-rss" aria-hidden="true"></i> <a rel="me" href="/blog/index.xml">RSS Feed</a>
                     </ul>
                 </nav>
                 {{- end }}

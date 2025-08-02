@@ -3,6 +3,11 @@ title: Download
 menu:
   main:
     weight: 1
+  footer2:
+    name: Download
+    weight: 3
+    params:
+      icon: fa-download
 ---
 
 <div class="uk-container">

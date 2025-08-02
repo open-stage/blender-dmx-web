@@ -4,16 +4,21 @@ menu:
   main:
     name: Docs / FAQ
     weight: 5
+  footer2:
+    name: Docs
+    weight: 2
+    params:
+      icon: fa-book
 category: "Help"
 ---
 
 <script src="{{ "js/search.js" | absURL }}"></script>
 <section class="uk-card uk-card-default">
     <div class="uk-card-body">
-        <div class="">
-        <form action="/search" method="GET">
-            <input class="uk-input uk-form-width-medium" type="search" name="q" id="search-query" placeholder="Search....">
-            <button class="uk-button uk-button-medium uk-button-secondary " type="submit">Search</button>
+        <div >
+        <form class="uk-child-width-expand" action="/search" method="GET">
+            <input class="uk-input" type="search" name="q" id="search-query" placeholder="Search....">
+            <button class="uk-button uk-button-medium uk-button-secondary  uk-button-secondary" type="submit">Search</button>
         </form>
         </div>
         <h2 class="uk-margin-top-large uk-card-title">New to BlenderDMX Addon?</h2>
