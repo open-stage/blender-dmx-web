@@ -11,6 +11,10 @@ description = "Blender addon to design and render DMX lighting"
 [outputs]
     home = ["HTML", "JSON"]
 
+[services]
+  [services.rss]
+    limit = 10
+
 [frontmatter]
 date = ['publishDate', 'date', 'lastmod']
 expiryDate = ['expiryDate']
