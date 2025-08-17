@@ -4,7 +4,7 @@
   {{ range $index, $item := $data }}
     {{ range $lang, $entries := $item }}
       <li>{{ $lang }}:
-          {{ range $index, $entry := $entries }}{{ if gt $index 0 }}, {{ end }} {{ $entry.full_name }} {{- end -}}
+          {{ range $index, $entry := $entries }}{{ if gt $index 0 }}, {{ end }} <a href="https://hosted.weblate.org/user/{{ $entry.username }}" target="_blank">{{ $entry.full_name }}</a> {{- end -}}
       </li>
     {{ end }}
   {{ end }}
