@@ -140,16 +140,19 @@ screens, and other objects that are used in the entertainment industry.
 ### Export
 
 - Fixtures (with Address, Focus Points, Fixture Color, Fixture ID...) are
-  exported onto a single layer
+  exported.
 
 ## MVR-xchange Protocol
 
 ![image](../media/mvr_xchange.png)
 
-[MVR-xchange protocol](https://gdtf.eu/mvr/mvr-spec/xchange/) allows you to
+[MVR-xchange protocol](https://gdtf.eu/mvr/mvr-spec/xchange/) allows to
 exchange MVR files with other network applications that support MVR-xchange,
-such as other instances of BlenderDMX or [Production
-Assist](https://www.production-assist.com/).
+such as other instances of BlenderDMX, [Vectorworks
+Spotlight](https://www.vectorworks.net/spotlight), [Production
+Assist](https://www.production-assist.com/),
+[grandMA3](https://www.malighting.com/grandma3/),
+[zactrack](https://www.zactrack.com/), and so on.
 
 ### Internet version
 
