@@ -4,7 +4,7 @@
     Permissions-Policy = "browsing-topics=()"
 
 [build.environment]
-  HUGO_VERSION = "0.131.0"
+  HUGO_VERSION = "0.150.1"
 
 [context.production]
   command = "hugo -b $URL --gc --minify --ignoreCache"

@@ -43,10 +43,15 @@
 <meta property="article:publisher" content="https://blenderdmx.eu">
 <meta property="article:author" content="https://blenderdmx.eu">
 
-    {{- block "head-meta" . }}{{ end }} {{ $style := resources.Get
-    "scss/style.scss" | resources.ExecuteAsTemplate "assets/css/style.css" . |
-    resources.ToCSS (dict "outputStyle" "compressed" "enableSourceMap" (not
-    hugo.IsProduction) "includePaths" (slice ".")) | fingerprint -}}
+
+{{- block "head-meta" . }}{{ end }} 
+{{ $style := resources.Get "scss/style.scss" 
+    | resources.ExecuteAsTemplate "assets/css/style.css" . 
+    | css.Sass (dict 
+        "outputStyle" "compressed" 
+        "enableSourceMap" (not hugo.IsProduction) 
+        "includePaths" (slice ".")) 
+    | fingerprint -}}
     <link href="{{ $style.RelPermalink }}" rel="stylesheet" />
     <link
       rel="stylesheet"

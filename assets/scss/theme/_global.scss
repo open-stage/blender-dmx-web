@@ -56,7 +56,8 @@ figure {
     }
 
     a:hover img, a:focus img {
-        @extend .uk-card-default.uk-card-hover:hover;
+        @extend .uk-card-default;
+        @extend .uk-card-hover;
     }
 
     &.no-border img, &.no-border a:hover img, &.no-border a:focus img {
