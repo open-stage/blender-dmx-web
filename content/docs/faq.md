@@ -55,8 +55,7 @@ You can learn more about <a href="/docs/dmx">DMX here</a>.
 
 <li> <a id="faq_blender" href="#faq_blender" class="uk-accordion-title">Can i
 use Blender 2.9?</a> <div class="uk-accordion-content">No, you need to install
-<a href="https://www.blender.org/download/">Blender</a> 3.4 or higher, 4.2 and
-newer is recommended, to have all features.  </div> </li>
+<a href="https://www.blender.org/download/">Blender</a> 4.2 or higher.</div> </li>
 
 <li> <a id="faq_artnet" href="#faq_artnet" class="uk-accordion-title">I am
 having issues using Art-Net</a> <div class="uk-accordion-content"> You must
@@ -81,7 +80,7 @@ subscription to get things working. See more about <a href=../sacn/>sACN</a>.
 <li>
 <a id="faq_error" href="#faq_error" class="uk-accordion-title">I get a random error, what should is do?</a>
 <div class="uk-accordion-content">Oooups, this can happen. First, make sure you
-use Blender 3.4 and higher, 4.x is also supported. If BlenderDMX Addon is not working
+use Blender 4.2 and higher. If BlenderDMX Addon is not working
 for you at all, disable all other custom enabled addons to check for collision.
 In BlenderDMX Addon, set <a href="../setup/#logging">Logging</a> to Debug, this will
 produce more information, saving it in the "blenderDMX.log" log file.

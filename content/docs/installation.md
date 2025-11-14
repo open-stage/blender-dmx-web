@@ -4,13 +4,12 @@ date: 2024-04-07T10:55:50+0200
 ---
 This page is deprecated, go to [Download page](/download).
 
-Make sure you have installed [Blender](https://www.blender.org/download/) 3.4
-or higher, 4.2 and newer is recommended to have all features.
+Make sure you have installed [Blender](https://www.blender.org/download/) 4.2 or higher.
 
 To preserve data during addon update, see the [Updating procedure](/docs/updating).
 
 For Blender from version 3.4 to version 4.1, see the instructions below. For
-Blender 4.2 Beta, use the [BlenderDMX Addon
+Blender 4.2 and higher, use the [BlenderDMX Addon
 Extension](https://extensions.blender.org/add-ons/open-stage-blender-dmx/).
 
 ### BlenderDMX Addon installation
