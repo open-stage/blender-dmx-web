@@ -9,10 +9,14 @@ Try to also look at [Frequently Asked Section (FAQ)](/docs/faq#faq-top).
 
 #### Seeing Blender error messages.
 
-Best way to see errors is to open a terminal of your computer and start Blender
-form the command line. Yo will then see all details and errors being printed
-into the terminal. One can also see details and errors in the error logs (see
-[Logging](#logging) below and in the [docs](../setup/#logging).
+Best way to see errors is to observe Blender's console output.
+
+If you are on Windows, open the system console via Blender - menu - Window -
+Open System Console.  If you are on other systems, run Blender from the
+terminal, to see the messages: open a terminal app of your computer and start
+Blender form the command line. Yo will then see all details and errors being
+printed into the terminal. One can also see details and errors in the error
+logs (see [Logging](#logging) below and in the [docs](../setup/#logging).
 
 #### Direct editing of fixtures and their properties
 
