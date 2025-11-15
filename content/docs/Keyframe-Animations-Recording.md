@@ -74,7 +74,8 @@ Auto-keying and also the animation/timeline play state. There is a special
 BlenderControl fixture included in the BlenderDMX addon and [available in GDTF
 Share](https://gdtf-share.com/userPage.php?name=BlenderDMX&page=Revisions&fixtureId=33474).
 To control Blender's controls, patch the BlenderControl fixture into BlenderDMX
-and into your DMX console.
+and into your DMX console. See [DMX chart of the
+BlenderControl](/assets/BlenderControl_DMX_Chart.pdf).
 
 ![image](../media/blender_control.png)
 
@@ -85,10 +86,10 @@ and into your DMX console.
 | Function        |   DMX    |
 |-----------------|:--------:|
 | No Function     |    0     |
-| Pause           |  50–99   |
-| Rewind and Play | 100–149  |
-| Play <<         | 150–199  |
-| Play >>         | 200–255  |
+| Pause           |  50 - 99   |
+| Rewind and Play | 100 - 149  |
+| Play <<         | 150 - 199  |
+| Play >>         | 200 - 255  |
 
 </div>
 
@@ -97,7 +98,7 @@ and into your DMX console.
 <div class="dmx-table">
 
 | Function           | DMX       |
-| -------------      | :--------: |
+| -------------      | :-------: |
 | No Function        | 0         |
 | Recording Disabled | 1 - 128   |
 | Recording Enabled  | 129 - 255 |
