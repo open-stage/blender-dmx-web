@@ -1,11 +1,16 @@
 ---
 title: "Issues and Solutions"
-date: 2024-10-28T15:02:06+0100
+date: 2025-11-15T11:14:14+0100
 ---
 
 Try to also look at [Frequently Asked Section (FAQ)](/docs/faq#faq-top).
 
 ### Issues
+
+#### Blender version
+
+Make sure you use Blender 4.2 and higher. If BlenderDMX Addon is not working
+for you at all, disable all other custom enabled addons to check for collisions.
 
 #### Seeing Blender error messages.
 
