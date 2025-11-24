@@ -99,9 +99,6 @@ Features or properties of GDTF devices, controlled by DMX channels:
 
 * Acceleration and time for the movement is not utilized yet (so for example
   Pan or Tilt can move unrealistically fast).
-* Strobing should be improved for short "flashes", rather then "blinks".
-* Combining multiple colors on a single device needs to be improved (for
-  example using RGB and CTO at the same time).
 
 ### Enhancements thanks to using physical properties:
 

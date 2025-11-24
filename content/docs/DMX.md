@@ -97,4 +97,4 @@ driver](../keyframe-animations-recording/#recording-bdmx-driver) for
 information on how the driver data can be recorded to keyframes and then played
 back.
 
-
+{{% include-html BlenderControl.md %}}
