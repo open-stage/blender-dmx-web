@@ -122,7 +122,7 @@ screens, and other objects that are used in the entertainment industry.
 
 ## Supported MVR features
 
-### Import
+### Import and Export
 
 - Fixtures (with Address, Focus Points, Fixture Color, Fixture ID...)
 - Scene Objects (with Symbols and Symdef...)
@@ -133,11 +133,6 @@ screens, and other objects that are used in the entertainment industry.
 - some more features as per [pymvr](https://github.com/open-stage/python-mvr)
   library
 - [MVR-xchange Protocol](#mvr-xchange-protocol)
-
-### Export
-
-- Fixtures (with Address, Focus Points, Fixture Color, Fixture ID...) are
-  exported.
 
 ## MVR-xchange Protocol
 
