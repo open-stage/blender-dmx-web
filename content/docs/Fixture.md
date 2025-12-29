@@ -7,29 +7,17 @@ category: "Help"
 # Fixture definitions
 
 BlenderDMX Addon uses GDTF fixture profiles for the device definitions, and
-comes with the following fixtures already included:
+comes with the following fixtures already included with the addon during installation.
 
+All BlenderDMX fixtures in [GDTF Bench](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=AEB77B41-D095-4728-979E-1221208DA80D,D0549705-BC37-470F-B1D3-5D1FE4868E90,77D0E573-ADBB-40D7-BBDF-264D833D7ABE,0CCC66E4-CAA4-4476-AE7D-2EE24E89C69F,B504AA63-2AC7-46E5-9A5A-13F14EE59448,4A7383F3-BB37-4066-9C72-D20377A9C63B,2B35AC1F-F665-4F1B-93A2-65A56CA1AA87).
 
-- Moving Beam
-    - a moving head with RGB color mixing, zoom, two gobo wheels - each with 11
-      gobos
-    - besides regular pan/tilt it also features continuous pan/tilt rotation
-      via the PanMode and TiltMode channels
-
-- LED PAR 64
-    - contains two DMX Modes - RGBW or RGBA color mixing
-
-- PAR 64
-    - contains two modes, one with white output, second with RGB color mixing
-
-- RGB Tube
-    - an example of emitter only based body
-
-- Laser
-    - a fixture with laser beams
-
-- XYZ Cube
-    - special fixture with XYZ position and XYZ rotation attributes
+- Moving Beam [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=AEB77B41-D095-4728-979E-1221208DA80D&mode=channels_charts)
+- LED PAR 64 [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=77D0E573-ADBB-40D7-BBDF-264D833D7ABE&mode=channels_charts)
+- PAR 64 [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=D0549705-BC37-470F-B1D3-5D1FE4868E90&mode=channels_charts)
+- RGB Tube [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=0CCC66E4-CAA4-4476-AE7D-2EE24E89C69F&mode=channels_charts)
+- Laser [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=4A7383F3-BB37-4066-9C72-D20377A9C63B&mode=channels_charts)
+- XYZ Cube [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=C7544FF5-783F-48A2-B3EE-63F58B3953BA&mode=channels_charts)
+- BlenderDMX Control [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=B504AA63-2AC7-46E5-9A5A-13F14EE59448&mode=channels_charts)
 
 Other fixture profiles can be imported, they are based on GDTF definitions,
 [read details here](../gdtffixture).
@@ -39,7 +27,18 @@ Other fixture profiles can be imported, they are based on GDTF definitions,
 To import an existing local GDTF file, use the `Setup - Import - Import GDTF
 Profile`:
 
-![image](../media/gdtf_fixture_import.png)
+
+<img src="../media/gdtf_fixture_import.png" alt="Fixture import" width="400px">
+
+<br />
+<br />
+
+<img src="../media/gdtf_import_screen.png" alt="GDTF import screen" width="400px" >
+
+This will import the fixture into Blender, but will not patch it. If you want
+to patch it right away, check the "Patch into the scene" checkbox. To patch it
+with more detailed parameters (DMX Mode, Fixture ID..., use the [Add
+Fixture](#add-fixture) menu.
 
 You can also use the [GDTF Share
 Integration](/docs/gdtffixture/#gdtf-share-integration-in-blender) into
