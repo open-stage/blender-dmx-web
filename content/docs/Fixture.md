@@ -9,15 +9,16 @@ category: "Help"
 BlenderDMX Addon uses GDTF fixture profiles for the device definitions, and
 comes with the following fixtures already included with the addon during installation.
 
-All BlenderDMX fixtures in [GDTF Bench](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=AEB77B41-D095-4728-979E-1221208DA80D,D0549705-BC37-470F-B1D3-5D1FE4868E90,77D0E573-ADBB-40D7-BBDF-264D833D7ABE,0CCC66E4-CAA4-4476-AE7D-2EE24E89C69F,B504AA63-2AC7-46E5-9A5A-13F14EE59448,4A7383F3-BB37-4066-9C72-D20377A9C63B,2B35AC1F-F665-4F1B-93A2-65A56CA1AA87).
+All BlenderDMX fixtures in [GDTF Bench](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=B23A4BE7-73EC-4781-851B-B4AA8E0EB367,AEB77B41-D095-4728-979E-1221208DA80D,D0549705-BC37-470F-B1D3-5D1FE4868E90,B504AA63-2AC7-46E5-9A5A-13F14EE59448,77D0E573-ADBB-40D7-BBDF-264D833D7ABE,0CCC66E4-CAA4-4476-AE7D-2EE24E89C69F,C7544FF5-783F-48A2-B3EE-63F58B3953BA,2B35AC1F-F665-4F1B-93A2-65A56CA1AA87).
 
-- Moving Beam [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=AEB77B41-D095-4728-979E-1221208DA80D&mode=channels_charts)
-- LED PAR 64 [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=77D0E573-ADBB-40D7-BBDF-264D833D7ABE&mode=channels_charts)
-- PAR 64 [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=D0549705-BC37-470F-B1D3-5D1FE4868E90&mode=channels_charts)
-- RGB Tube [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=0CCC66E4-CAA4-4476-AE7D-2EE24E89C69F&mode=channels_charts)
-- Laser [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=4A7383F3-BB37-4066-9C72-D20377A9C63B&mode=channels_charts)
-- XYZ Cube [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=C7544FF5-783F-48A2-B3EE-63F58B3953BA&mode=channels_charts)
-- BlenderDMX Control [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=B504AA63-2AC7-46E5-9A5A-13F14EE59448&mode=channels_charts)
+- BeskydBeam [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=AEB77B41-D095-4728-979E-1221208DA80D&mode=channels_charts)
+- NeblinaWash [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=B23A4BE7-73EC-4781-851B-B4AA8E0EB367&mode=channels_charts)
+- RysyParLED [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=77D0E573-ADBB-40D7-BBDF-264D833D7ABE&mode=channels_charts)
+- TyrolPAR [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=D0549705-BC37-470F-B1D3-5D1FE4868E90&mode=channels_charts)
+- BrdoBulbLED [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=2B35AC1F-F665-4F1B-93A2-65A56CA1AA87&mode=channels_charts)
+- AlpineTubeRGB [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=0CCC66E4-CAA4-4476-AE7D-2EE24E89C69F&mode=channels_charts)
+- TriglavCubeXYZ [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=C7544FF5-783F-48A2-B3EE-63F58B3953BA&mode=channels_charts)
+- BlenderControl [DMX Chart](https://www.gdtf.eu/gdtf/gdtf_bench/?uuids=B504AA63-2AC7-46E5-9A5A-13F14EE59448&mode=channels_charts)
 
 Other fixture profiles can be imported, they are based on GDTF definitions,
 [read details here](../gdtffixture).
