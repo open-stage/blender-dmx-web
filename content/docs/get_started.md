@@ -10,6 +10,20 @@ See dedicated [Download page here](/download).
 
 ### Important
 
+#### Seeing Blender error messages.
+
+Some operations might take a while, end with an error or produce some
+information into the console, it is thus advisable to always observe the
+console output.
+
+If you are on Windows, open the system console via Blender - menu - Window -
+Open System Console.  If you are on other systems, run Blender from the
+terminal, to see the messages: open a terminal app of your computer and start
+Blender form the command line. Yo will then see all details and errors being
+printed into the terminal.
+
+#### Manual Editing of Fixture Data
+
 Upon `Create New Show` BlenderDMX Addon creates a DMX collection in which the
 BlenderDMX data is stored. Fixtures imported from GDTF reside here and these
 have their own node trees for them. Manually editing or deleting data from the
