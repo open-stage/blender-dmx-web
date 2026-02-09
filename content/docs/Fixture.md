@@ -232,6 +232,8 @@ rotation. Blender animation player must be playing to see the rotation.
 Read this section [Supported GDTF Attributes in BlenderDMX
 Addon](/docs/gdtffixture/#supported-gdtf-attributes) for further details.
 
+{{% include-html PhysicalData.md %}}
+
 {{% include-html Target.md %}}
 
 {{% include-html Subfixtures.md %}}
