@@ -46,7 +46,7 @@ Select Add:
 
 ![image](../media/fixture_menu.png)
 
-In the GDTF Profile - BlenderDMX Addon, select Moving Beam. Keep the rest as is and
+In the GDTF Profile - BlenderDMX Addon, select BeskydBeam. Keep the rest as is and
 click OK:
 
 ![image](../media/fixture_add.png)
@@ -84,4 +84,4 @@ Keyframe recording in BlenderDMX Addon is in menu Keyframe Recorder:
 
 ![image](../media/keyframe_recorder.png)
 
-You can continue to the <a href="../setup" ><i class="fa-solid fa-circle-play"></i> User Guide</a>
+You can continue to the <a href="../setup" ><i class="fa-solid fa-circle-play"></i>User Guide</a>
