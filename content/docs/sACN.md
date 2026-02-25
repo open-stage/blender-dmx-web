@@ -36,3 +36,8 @@ on the network. In some situations (bad hardware, bad network configuration),
 just by running it, sACNView may help to arrange the multicast subscription to
 get things working.
 
+### Disable firewalls and antivirus
+
+If things still do not work, disable antivirus and firewalls programs. Make
+sure to re-enable them once you apply correct exception rules.
+

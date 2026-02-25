@@ -17,7 +17,7 @@ Create Universe, set it to Art-Net, enable Art-Net Input:
 
 > Note: Art-Net Input can only be enabled if you have at least one Universe set to Art-Net
 
-# Using a console on the same computer
+## Using a console on the same computer
 
 When using an Art-Net source on the same computer, you have to make sure to
 start and enable Art-Net **first** in the BlenderDMX Addon.
@@ -26,7 +26,7 @@ If running two pieces of Art-Net based software on one computer is not working
 for you, then save yourself the trouble and the best is to use another computer
 for the sending.
 
-# Checking who/what is using the Art-Net port
+## Checking who/what is using the Art-Net port
 
 On Linux (and perhaps also on macOS) one can check what program (PID/name) is
 currently holding the port 6454 open, blocking it. This can be checked by
@@ -35,6 +35,12 @@ running the following command in the terminal:
 ```bash
 netstat -aop | grep 6454
 ```
+
+## Disable firewalls and antivirus
+
+If things still do not work, disable antivirus and firewalls programs. Make
+sure to re-enable them once you apply correct exception rules.
+
 ## Examples
 
 ### BlinderKitten
