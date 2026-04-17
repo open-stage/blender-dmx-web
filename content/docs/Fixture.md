@@ -55,15 +55,27 @@ menu: [Fixture - Add - GDTF Profile](#add-fixture).
 Fixture represents a GDTF device. This can be a static/moving lighting fixture
 but also a laser, a truss or any other 3D object in a GDTF file.
 
-Listing mode:
+## Listing mode:
 
 ![image](../media/fixtures_listing.png)
 
-Edit mode:
+## Edit mode:
 
 ![image](../media/fixtures_edit.png)
 
-Explanation of extra icons:
+Properties editable/visible in this screen:
+
+- Fixture ID
+- Custom ID
+- Fixture ID Numeric
+- Unit Number
+- DMX Address
+- Footprint: Display DMX Footprint. Exclamation mark (!) is indicating overlap.
+- Position
+- Rotation
+- Physical Properties: Use Channel Functions of this fixture
+
+## Explanation of extra icons:
 
 ![image](../media/fixtures_list_explanation.png)
 
@@ -72,11 +84,13 @@ Explanation of extra icons:
 3) Unsaved changes in the Programmer
 4) DMX footprint overlap
 
+### Force delete fixture
+
+You can force delete fixture via this cross:
+
+![image](../media/fixture_panel_delete.png)
 
 The `Fixture Panel` selection is synced to the Viewport.
-
-If you delete a fixture on the Viewport, it is deleted from the DMX show and [Groups](../groups) as
-well.
 
 ## Fixture menu
 
@@ -84,28 +98,28 @@ The fixture menu allows to Add/Edit/Delete a fixture.
 
 ![image](../media/fixture_menu.png)
 
-
-
 ## Add Fixture
 
-![image](../media/add_fixture.png)
+![image](../media/fixture_add.png)
 
 - **Name:** Name of the Fixture.
 - **GDTF Profile:** Select the GDTF Profile from the BlenderDMX Addon library.
 - **DMX Mode:** Select the DMX Mode of the selected GDTF Profile.
 - **Universe:** DMX Universe of the Fixture.
-- **Address:** DMX Address of the Fixture.
+- **Address:** DMX Address of the Fixture. (If fixture has multiple DMX Breaks, each can be addressed separately).
 - **Fixture ID:** The fixture ID of the first fixture.
 - **Units:** How many fixtures should be created.
-- **Increment DMX address:** Whether to increase DMX address when adding multiple devices
-- **Increment Fixture ID:** Whether to increase Fixture ID when adding multiple devices
-- **Fixture ID:** An ID of the fixture. Currently this is not used in BlenderDMX Addon. It can be a number or text
-- **Display beams:** Eevee has limit of 120 beam per scene, so sometimes it is useful to create front facing devices only with the Emitter lens but without a beam
-- **Add Target:** When adding for example XYZ_X,Y,Z fixtures, the target is not needed. Also, sometimes the Target is not useful. This allows not to add it.
-- **Gel Color:** A subtractive color filter applied to the lamp color. Useful
-  for mimicking white balance on lamps.
+- **Increment DMX address:** Whether to increase DMX address when adding multiple devices.
+- **Increment Fixture ID:** Whether to increase Fixture ID when adding multiple devices.
+- **Display beams:** Create devices only with the Emitter lens but without the volumetric beam.
+- **Add Target:** Adds a Blender target, which the fixture points at. Sometimes the Target is not useful. This allows not to add it.
+- **Use High Quality Models:** Use high quality mesh files if present.
+- **Gel Color:** On fixtures with subtractive mixing - applies a color filter to the lamp color. Useful
+  for mimicking white balance on lamps. On fixtures without color mixing: applies color to the beam like a color gel on a par.
 
 ## Edit Fixture
+
+### Edit
 
 If `Advanced edit` is unchecked, the GDTF Profile, DMX Mode and Gel Color are not editable, this speeds up the editing as the GDTF profile does not need to be re-evaluated. This option also allows to assign and remove an IES photometric file to the selected fixtures.
 
@@ -121,19 +135,25 @@ If `Advanced edit` is unchecked, the GDTF Profile, DMX Mode and Gel Color are no
 - **Increment Fixture ID:** Whether to increase Fixture ID when editing multiple devices
 If `Re-address only` is un-checked, all options are available and the GDTF Profile is re-evaluated.
 
-![Edit Single Fixture](../media/edit_full.png)
 
-When selecting **Advanced edit**
+### Advanced Edit
+
+When selecting **Advanced edit**:
+
+![Edit Single Fixture](../media/edit_full.png)
 
 - **Name:** If you keep the `*`, it keeps fixture names. Otherwise, it appends
   an integer index to the end of the given name for each fixture being edited.
-- **GDTF Profile:** If you don't select anything, features remain the same.
-  Otherwise, it replaces every selected fixture with the selected profile.
-- **DMX Mode:** Same as GDTF Profile.
-- **Universe:** Same as GDTF Profile.
-- **Address:** The addresses are set starting at the first selected Fixture,
-  and growing according to the fixture footprints.
-- **Gel Color:** Same as GDTF Profile.
+- **GDTF Profile:** If you don't select anything, it remains the same. Otherwise, it replaces the GDTF profile on selected fixtures.
+- **DMX Mode:** If you don't select anything, it remains the same. Otherwise, it sets the DMX Mode on selected fixtures.
+- **Universe:** If you don't select anything, it remains the same. Otherwise, it replaces the Universe on selected fixtures.
+- **Address:** If you don't select anything, it remains the same. Otherwise, it replaces the DMX Address on selected fixtures.
+- **Modify DMX Address:**: Shows/Hides the DMX Address field.
+- **Modify Fixture ID:**: Shows/Hides the Fixture ID field.
+- **Display beams:** Enable/Disable volumetric beam.
+- **Add Target:** Enable/Disable Blender Target.
+- **Use High Quality Models:** Use high quality mesh files if present.
+- **Gel Color:** If you don't select anything, it remains the same. Otherwise, it replaces the Gel Color on selected fixtures.
 
 
 ## DMX Addressing

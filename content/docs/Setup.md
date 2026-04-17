@@ -50,18 +50,23 @@ already be available.
 
 ## Beam Volume
 
-### Simple Beam
-
 ![image](../media/setup_beam_volume.png)
+
+### Simple Beam
 
 Display a semi-transparent cone representing the light beam of the current
 active fixture. It works by enabling Blender's native `Show Cone` feature of
 Spot Lights. This can be set to `None`, `Selected fixtures` and `All fixtures`.
 
+
 #### Disable Beam Outlines
 
 Don't display light-related overlays on the Viewport. Useful for scenes with
 dozens of lights.
+
+### Viewport Denoising
+
+Denoise image using temporal reprojection (can leave some ghosting).
 
 ### Volume Box
 
@@ -84,6 +89,13 @@ Density of the `Volume Scatter`, basically the density of fog/haze in the room. 
 
 Noise Scale of the generated fog.
 
+### Multiply Beams Intensity
+
+![image](../media/multiply_beam_intensity.png)
+
+Allows to make beams more (value bigger then 1) or less (value smaller then 1)
+bright to quickly test various intensity settings.
+
 ### Beam Lens Diameter in Cycles
 
 ![image](../media/setup_beam_diameter.png)
@@ -99,9 +111,15 @@ via the following quick set buttons:
 
 ![image](../media/setup_beam_diameter_custom.png)
 
-## Beam rendering
+### Custom Cutoff Distance
 
-Read more about [how to render lighting beams](../rendering) in BlenderDMX Addon.
+![image](../media/custom_cutoff_beam_distance.png)
+
+Distance at which the influence of the light will be set to 0. Value bigger
+then 23 will break gobo rendering in Eevee Next. Select desired fixtures and
+press the button to apply the value.
+
+> NOTE: Read more about [how to render lighting beams](../rendering) in BlenderDMX Addon.
 
 ## Laser collistion collection
 
@@ -143,7 +161,9 @@ symbol will be also positioned and rotated in Z axis.
 
 ## Display Device Label
 
-Shows a label with device name/DMX address/Fixture ID above te device in 2D or 3D.
+![image](../media/display_device_label.png)
+
+Shows a label with Device name/DMX address/Fixture ID above the device in 2D or 3D.
 
 ## Display Pigtails
 
@@ -201,10 +221,19 @@ group.
 
 ![image](../media/setup_extras.png)
 
-## Clear Project Data
+### Clear Project Data
 
 Clears the assets directory.
 
-## User Guide
+### Copy data from addon to user directory
+
+Copy custom data from BlenderDMX addon directory to BlenderDMX extension user
+directory.
+
+### Remove DMX from blend file
+
+Remove DMX from the Blender showfile
+
+### User Guide
 
 Opens this documentation in web browser.
