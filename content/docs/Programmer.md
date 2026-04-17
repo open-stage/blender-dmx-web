@@ -36,7 +36,7 @@ category: "Help"
 - Track Target - enable pan/tilt to be affected by the Target
 - Do Not Track Target - ignore Target and prefer DMX data - useful if programming via DMX
 - Use Fixture Physical Properties - Use Real World (physical) data as provided by the GDTF file
-- Do Not Use Fixture Physical Properties - Use default physical data provided by BlenderDMX, do not use data provided by GDTF file
+- Do Not Use Fixture Physical Properties - Use default [physical data provided by BlenderDMX](../fixture/#physical-data), do not use data provided by GDTF file
 
 ## Attributes
 

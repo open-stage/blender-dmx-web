@@ -172,8 +172,16 @@ typically indicating where back of the fixture is.
 
 ## Allow Selecting Geometries
 
-Normally, only Base and Target of the fixture can be selected. This option
-allows to select any part of the fixture.
+Normally, only Base and Target of the fixture can be selected. The `Allow
+Selecting Geometries` option allows to select any part of the fixture. The
+BlenderDMX Addon uses a DMX collection in which the BlenderDMX data is stored.
+Fixtures imported from GDTF reside here and have own node trees in there.
+Manually editing or deleting data from the DMX collection, in fixtures'
+geometries or node trees will likely cause the addon to stop working.
+Generally, avoid such manual edits. If you break a fixture or it's collection,
+the BlenderDMX Addon might stop working correctly, and even Fixture - menu -
+edit might stop working. You can [force-delete fixture via the Fixture
+list](../fixture/#force-delete-fixture).
 
 ## Logging
 
@@ -214,8 +222,12 @@ group.
 ![image](../media/setup_export.png)
 
 - Project data (GDTF files, gobos, MVR textures and so on) can be Exported to a
-  zip file, for a later Import.
-- MVR export currently supports expoting fixtures.
+  zip file, for a later Import or when sharing the .blend file with someone.
+- MVR export of the complete scene including the fixtures and scene objects.
+
+NOTE: Gobo images, MVR 3D models, MVR textures and so on must be kept within
+the addon directory. The [Setup - Export/Import Project data](#import) allows
+to Export/Import project data.
 
 ## Extras
 

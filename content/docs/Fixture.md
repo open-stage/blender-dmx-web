@@ -189,36 +189,43 @@ BlenderDMX Addon.
 
 ### Color Mixing
 
-All supported color mixing attributes (ColorAdd_R, G, B; ColorRGB_Red, Green,
-Blue; ColorSub_C, M, Y; ColorAdd_C, M, Y, Amber, Lime, UV, White, WarmWhite,
-CoolWhite) are linked to the color picker. CMY is converted to RGB. By default,
-the color picker is set to white.
+Supported Color attributes: ColorAdd_R, G, B; ColorRGB_Red, Green, Blue;
+ColorSub_C, M, Y; ColorAdd_C, M, Y, Amber, Lime, UV, White, WarmWhite,
+CoolWhite. All these can be adjusted via DMX.
 
+### Color Picker
+
+RGB/CMY color mixing attributes: ColorAdd_R, G, B; ColorRGB_Red, Green, Blue;
+ColorSub_C, M, Y; ColorAdd_C, M, Y, are linked to the color picker. CMY is
+converted to RGB in the color picker. By default, the color picker is set to
+white.
+
+Non RGB/CMY attributes: Amber, Lime, UV, White, WarmWhite, CoolWhite, can be
+controlled via DMX, but are not linked to the internal color picker.
 
 ### Color Temperature Control (CTC)
 
-CTO, CTC and CTB are used to adjust color temperature from 1100K to 12000K. 
+CTO, CTC and CTB are used to adjust color temperature.
 
 ### Color Wheels
 
-Supported attribures (Color1, Color2, Color3, ColorMacro1) are linked to the Color
+Supported attributes (Color1, Color2, Color3, ColorMacro1) are linked to the Color
 Wheel selection.
 
 ### Color Mixing, Color Wheels and ColorTemperatur together
 
-If Color Mixing is not at White and a Color Wheel is used, the colors are added
-together and the resulting color is applied to the projected beam. The current
-implementation is very basic and it is recommended to only use only one of the
-RGB, CMY, CTO/C/O or a Color Wheel/ColorMacro at the same time. When later
-re-selecting a fixture and setting the Programmer, the previously calculated
-resulting color is applied to the color.
+Colors are added together and the resulting color is applied to the projected
+beam.
 
 ## Gobos
 
-Upon loading GDTF files, gobos must be converted to Blender's image sequence,
-in order to be possible to keyframe them. Image sequences cannot be saved into
-the blender file, this means that in order for the gobos to work, GDTF files
-must be kept within the addon directory.
+Upon loading GDTF files, gobos must be converted to Blender's image sequence in
+order to be possible to keyframe them. Image sequences cannot be saved into the
+blender file, this means that in order for the gobos to work, the Gobo images
+must be kept within the addon directory. This is one of the reasons why sharing
+just the .blend file with other people will result in the gobos not being
+available. Thethe [Setup - Export/Import Project data](../setup/#import) allows
+to Export/Import project data (gobo images, MVR data, textures).
 
 ### Gobo Rotation
 

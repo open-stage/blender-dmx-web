@@ -25,10 +25,13 @@ printed into the terminal.
 #### Manual Editing of Fixture Data
 
 Upon `Create New Show` BlenderDMX Addon creates a DMX collection in which the
-BlenderDMX data is stored. Fixtures imported from GDTF reside here and these
-have their own node trees for them. Manually editing or deleting data from the
-DMX collection, in fixtures' geometries or node trees will likely cause the
-addon to stop working. Generally, avoid such manual edits.
+BlenderDMX data is stored. Fixtures imported from GDTF reside in this
+collection and have their node trees in there. Manually editing or deleting
+data from the DMX collection, in fixtures' geometries or node trees will likely
+cause issues. Generally, avoid such manual edits. If you break a fixture or
+it's collection, the BlenderDMX Addon might stop working correctly, and even
+Fixture - menu - edit might stop working. You can [force-delete fixture via the
+Fixture list](../fixture/#force-delete-fixture).
 
 ### Create new show
 
