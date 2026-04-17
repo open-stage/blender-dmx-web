@@ -6,13 +6,15 @@ category: "Help"
 
 ### Beam
 
-BlenderDMX Addon is generating two styles of light output. The lense is rendered as an emitter material and the beam is rendered as a spot light.
+BlenderDMX Addon generates two styles of light output. The lens is rendered as
+an emitter material and the beam is rendered as a spot light.
 
-The default 3D view viewport shading in Blender is Solid, you cannot see neither the emmiter nor the beam:
+The default 3D view viewport shading in Blender is Solid; you cannot see either
+the emitter or the beam:
 
 ![Beam](../media/beam001.png)
 
-In order to see the lense (emitter), you need to enable Material Preview:
+In order to see the lens (emitter), you need to enable Material Preview:
 
 ![Beam](../media/beam002.png)
 

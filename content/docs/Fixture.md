@@ -133,7 +133,7 @@ If `Advanced edit` is unchecked, the GDTF Profile, DMX Mode and Gel Color are no
 - **Remove IES File** Removes IES File from selected fixtures
 - **Increment DMX address:** Whether to increase DMX address when editing multiple devices
 - **Increment Fixture ID:** Whether to increase Fixture ID when editing multiple devices
-If `Re-address only` is un-checked, all options are available and the GDTF Profile is re-evaluated.
+If `Re-address only` is unchecked, all options are available and the GDTF profile is re-evaluated.
 
 
 ### Advanced Edit
@@ -212,7 +212,7 @@ CTO, CTC and CTB are used to adjust color temperature.
 Supported attributes (Color1, Color2, Color3, ColorMacro1) are linked to the Color
 Wheel selection.
 
-### Color Mixing, Color Wheels and ColorTemperatur together
+### Color Mixing, Color Wheels and Color Temperature together
 
 Colors are added together and the resulting color is applied to the projected
 beam.
@@ -224,8 +224,8 @@ order to be possible to keyframe them. Image sequences cannot be saved into the
 blender file, this means that in order for the gobos to work, the Gobo images
 must be kept within the addon directory. This is one of the reasons why sharing
 just the .blend file with other people will result in the gobos not being
-available. Thethe [Setup - Export/Import Project data](../setup/#import) allows
-to Export/Import project data (gobo images, MVR data, textures).
+available. The [Setup - Export/Import Project data](../setup/#import) allows
+exporting/importing project data (gobo images, MVR data, textures).
 
 ### Gobo Rotation
 

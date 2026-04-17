@@ -12,9 +12,9 @@ console output.
 
 If you are on Windows, open the system console via Blender - menu - Window -
 Open System Console.  If you are on other systems, run Blender from the
-terminal, to see the messages: open a terminal app of your computer and start
-Blender form the command line. Yo will then see all details and errors being
-printed into the terminal.
+terminal, to see the messages: open a terminal app on your computer and start
+Blender from the command line. You will then see all details and errors printed
+to the terminal.
 
 ## Manual Editing of Fixture Data
 
@@ -178,9 +178,9 @@ BlenderDMX Addon uses a DMX collection in which the BlenderDMX data is stored.
 Fixtures imported from GDTF reside here and have own node trees in there.
 Manually editing or deleting data from the DMX collection, in fixtures'
 geometries or node trees will likely cause the addon to stop working.
-Generally, avoid such manual edits. If you break a fixture or it's collection,
-the BlenderDMX Addon might stop working correctly, and even Fixture - menu -
-edit might stop working. You can [force-delete fixture via the Fixture
+Generally, avoid such manual edits. If you break a fixture or its collection,
+the BlenderDMX Addon might stop working correctly, and even Fixture → Edit
+might stop working. You can [force-delete fixture via the Fixture
 list](../fixture/#force-delete-fixture).
 
 ## Logging

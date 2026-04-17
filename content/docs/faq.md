@@ -130,7 +130,7 @@ another software which supports it.
 <li>
 <a id="faq_mvr_gdtf_empty" href="#faq_mvr_gdtf_empty" class="uk-accordion-title">After MVR import, GDTF fixtures have IDs and DMX but their bodies are not visible in 3D</a>
 <div class="uk-accordion-content"> This depends on how you are doing the MVR
-export in Vectoworks/Capture. Capture never provides any useful GDTFs, only
+export in Vectorworks/Capture. Capture never provides any useful GDTFs, only
 place-holders. Vectorworks provides useful GDTFs if you previously load them to
 VW and link them to each VW symbol. To fix this issue, you can use the Edit
 fixture function of BlenderDMX Addon: after the MVR import to BlenderDMX Addon, edit all

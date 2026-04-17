@@ -35,13 +35,13 @@ BlenderDMX Addon utilizes GDTF files to be able to visualize a device. Local GDT
 - A dynamic fixture object from a GDTF profile, either from primitives or
   custom models from 3DS and GLB mesh files
 - GeometryReferences (thus correct DMX footprint and kinematic chain)
-- DMX Breaks (each DMX Break can be patched to it's own address)
+- DMX Breaks (each DMX Break can be patched to its own address)
 - BeamGeometry and its attributes (Lamp Power, Beam Angle, Beam Type) by using
   SpotLight
 - BeamGeometry and its attributes as PointLight if the Beam Angle is set to
   360° or if Beam Angle is > 180° and the device does not have a Zoom
   attribute.
-- LaserGeometry and it's Beam Diameter attribute
+- LaserGeometry and its Beam Diameter attribute
 - CameraGeometry (and selecting a view through the camera)
 - Pigtail geometry (identifying typically back of the fixture)
 - 2D SVG symbol
@@ -55,7 +55,7 @@ BlenderDMX Addon utilizes GDTF files to be able to visualize a device. Local GDT
 
 Features or properties of GDTF devices, controlled by DMX channels:
 
-- Dimmer (8/16bit)
+- Dimmer (8/16 bit)
 - Pan (8/16 bit)
 - Tilt (8/16bit)
 - PanRotation
@@ -200,12 +200,13 @@ profile can be downwloaded by clicking on the download icon:
 
 ## After MVR import, GDTF fixtures have IDs and DMX but their bodies are not visible in 3D
 
-This depends on how you are doing the MVR export in Vectoworks, gMA3, Capture
-or other software. For example Capture never provides any useful GDTFs, only
-place-holders. Vectorworks provides useful GDTFs if you previously load them to
-VW and link them to each VW symbol. To fix this issue, you can use the Edit
-fixture function of BlenderDMX Addon: after the MVR import to BlenderDMX Addon, edit all
-fixtures → uncheck the Re-address only and choose GDTF files for each fixture.
+This depends on how you export MVR from Vectorworks, grandMA3, Capture, or
+other software. For example, Capture never provides useful GDTFs, only
+placeholders. Vectorworks provides useful GDTFs if you previously load them
+into VW and link them to each VW symbol. To fix this issue, you can use the
+Edit fixture function of BlenderDMX Addon: after the MVR import to BlenderDMX
+Addon, edit all fixtures → uncheck the Re-address only and choose GDTF files
+for each fixture.
 
 ## Why do fixtures from GDTF have different features, like Gobo or Color and some not?
 

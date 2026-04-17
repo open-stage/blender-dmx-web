@@ -16,10 +16,9 @@ horizontal panoramic movement (pan) or vertical tilting movement (tilt) and so
 on. The layout of which channel controls which feature are decided and given by
 the manufacturer of the device.
 
-Each channel can carry 8bits of information, that is a value between 0-255.
-Sometimes, more precise control is needed, in that case multiple (typically
-two) channels are used to form 16bits - being able to carry value between
-0-65535.
+Each channel can carry 8-bits of information (a value between 0 and 255).
+Sometimes more precise control is needed - in that case multiple (typically two)
+channels are used to form 16-bits, allowing values between 0 and 65535.
 
 In order to control or visualize devices, a description of what device features
 are and how they are mapped to DMX channels is needed, this is where [GDTF
@@ -37,18 +36,17 @@ that the fixtures and their DMX footprints do not overlap.
 
 As the DMX512 contains 512 channels, it can for example control up to 512
 single channel based devices. A Dimmer is a good example of a device which
-needs just a single channel to be controlled. Each Dimmer will have it's own
-address (1-512). If the device is for example LED fixture with RGB colors, each
-color will be one channel, then this fixture will need 3 channels and one can
-control up to 170 RGB fixtures on one DMX line (512 total possible channels / 3
-channels required by the fixture = 170 fixtures possible to control
-individually over one DMX line). Each fixture will be addressed in such a way
-that it's channels are not overlapping with other fixtures, so for example: 1,
-4, 7, 10, 13...  More complex devices require more channels, thus more
-spaced-out addressing.
+needs just a single channel to be controlled. Each Dimmer will have its own
+address (1-512). If the device is, for example, an LED fixture with RGB colors,
+each color will be one channel, then this fixture will need 3 channels and one
+can control up to 170 RGB fixtures on one DMX line (512 total possible channels
+/ 3 channels required by the fixture = 170 fixtures possible to control
+individually over one DMX line). Each fixture will be addressed so its channels
+do not overlap with other fixtures, for example: 1, 4, 7, 10, 13... More
+complex devices require more channels and thus more spaced-out addressing.
 
 This was a very quick introduction. You can read more about [DMX512 on the
-web](https://duckduckgo.com/?q=DMX512). 
+web](https://duckduckgo.com/?q=DMX512).
 
 ## DMX Universes and DMX Protocols in BlenderDMX Addon
 
@@ -64,23 +62,21 @@ protocols to control the devices:
 
 ## BlenderDMX Addon DMX driver for Blender
 
-ℹ️  *There is no need to set this driver up to control patched lighting 
-fixtures as patched fixtures receive DMX automatically.*
+ℹ️  *There is no need to set this driver up to control patched lighting fixtures
+as patched fixtures receive DMX automatically.*
 
-The BlenderDMX Addon provides a custom DMX driver `#bdmx` for Blender,
-allowing to use received DMX values and use them as input for any Blender
-property. To utilize this feature, `#bdmx(universe,channels(s))` keyword can be
-used, `universe` is desired universe, `channel` is an address and it can either
-be a single one for 8 bit value or multiple, for 16, 24, 32... bit values.
+The BlenderDMX Addon provides a custom DMX driver `#bdmx` for Blender, allowing
+to use received DMX values and use them as input for any Blender property. To
+utilize this feature, `#bdmx(universe,channels(s))` keyword can be used,
+`universe` is desired universe, `channel` is an address and it can either be a
+single one for 8-bit value or multiple, for 16, 24, 32... bit values.
 
-So to receive 8bit value from universe 1, address 20, this is the syntax:
-`#bdmx(1, 20)`:
+So to receive an 8-bit value from universe 1, address 20, use: `#bdmx(1, 20)`
 
 ![image](../media/driver_8.png)
 
 
-To receive a 16bit value from universe 2, address 30 and 31, this is the
-syntax: `#bdmx(2, 30, 31)`. 
+To receive a 16-bit value from universe 2 (addresses 30 and 31): `#bdmx(2, 30,31)`.
 
 ![image](../media/driver_16.png)
 
