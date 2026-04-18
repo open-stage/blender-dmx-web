@@ -3,11 +3,16 @@ title: "Art-Net"
 date: 2024-04-07T10:57:58+0200
 category: "Help"
 ---
-> Art-Net universes are enumerated from 0, so first Art-Net universe is 0
 
-You must have at least one Universe set to Art-Net, to be able to enable it.
-When enabling Art-Net, ideally, do not change the IP address settings and leave
-it at the default 0.0.0.0 .
+- Art-Net universes are enumerated from 0, thus first Art-Net universe is 0
+- You must have at least one Universe set to Art-Net, to be able to enable it.
+- When enabling Art-Net, ideally, do not change the IP address settings in
+  BlenderDMX and leave it at the default 0.0.0.0 .
+- Make sure you do not have any firewall or antivirus blocking Blender's
+  network access.
+- When using an Art-Net source on the same computer, BlenderDMX has to be the
+  one which you start first and enable Art-Net on first before you do the same
+  on any other program (QLC+, BlinderKitten, MagicQ...).
 
 ### Enabling Art-Net
 
@@ -19,8 +24,14 @@ Create Universe, set it to Art-Net, enable Art-Net Input:
 
 ## Using a console on the same computer
 
-When using an Art-Net source on the same computer, you have to make sure to
-start and enable Art-Net **first** in the BlenderDMX Addon.
+Follow these steps:
+
+- Close all programs using/sending Art-Net (BlinderKitten, QLC+, Chataigne,
+  MagicQ...)
+- Start BlenderDMX
+- In BlenderDMX, load your show with fixtures patched to Universe(s) set to Art-Net
+- Enable Art-Net in BlenderDMX
+- Start other programs sending Art-Net, like BlinderKitten or QLC+
 
 If running two pieces of Art-Net based software on one computer is not working
 for you, then save yourself the trouble and the best is to use another computer
