@@ -191,10 +191,20 @@ GDTF files can be downloaded directly from Blender:
 
 ![image](../media/gdtf_share_credentials.png)
 
-Update the GDTF Share index will refresh the list of available profiles. Each
-profile can be downwloaded by clicking on the download icon:
+### Download GDTF file from GDTF Share
+
+* `Update the GDTF Share index` button refreshes the list of available profiles.
+* A GDTF file can be downwloaded by clicking on the download icon:
 
 ![GDTF Share integration](../media/gdtf_integration.png)
+
+## Local GDTF Files Management
+
+The Local Fixture Files panel provides the means to list, view details, filter,
+delete and import a GDTF file:
+
+![GDTF Files Management](../media/gdtf_local_management.png)
+
 
 # Common Questions and Answers:
 
