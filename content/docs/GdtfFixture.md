@@ -200,13 +200,12 @@ GDTF files can be downloaded directly from Blender:
 
 ## Local GDTF Files Management
 
-The Local Fixture Files panel provides the means to list, view details, filter,
-delete and import a GDTF file:
+The `Profiles > Local Fixture Files` panel provides the means to list, view details, filter,
+delete and import GDTF files:
 
 ![GDTF Files Management](../media/gdtf_local_management.png)
 
-
-# Common Questions and Answers:
+# Common GDTF/MVR Related Questions and Answers:
 
 ## After MVR import, GDTF fixtures have IDs and DMX but their bodies are not visible in 3D
 
