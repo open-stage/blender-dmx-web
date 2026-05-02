@@ -61,6 +61,8 @@ but also a laser, a truss or any other 3D object in a GDTF file.
 
 ## Edit mode:
 
+Check the `Editable` checkbox for the Fixture list to allow direct edits:
+
 ![image](../media/fixtures_edit.png)
 
 Properties editable/visible in this screen:
