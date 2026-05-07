@@ -5,8 +5,6 @@ category: "Releases"
 author: vanous
 link: https://github.com/open-stage/blender-dmx/releases/tag/v2.2.1
 ---
-### 2.2.1
-
 ## Progressive MVR Import
 
 Importing MVR files - especially large ones - can take some time. This update adds real-time progress feedback and allows the import to be cancelled at any moment by pressing Escape. Because the import process runs in multiple stages, cancelling early may leave some objects unfinished or not yet in their final positions.
