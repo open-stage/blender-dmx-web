@@ -19,27 +19,32 @@
 {{- if and $asset (isset $asset "digest") -}}
   {{- $digest = $asset.digest -}}
 {{- end -}}
-{{- $extension := dict
-  "type" "extension"
-  "id" "open-stage-blender-dmx"
-  "attributes" (dict
-    "name" "BlenderDMX Addon"
-    "tagline" "Design and render DMX lighting in Blender"
-    "version" $version
-    "license" "GPL-3.0-or-later"
-    "maintainer" "Open Stage"
-    "website" "https://blenderdmx.eu"
-    "support_url" "https://github.com/open-stage/blender-dmx/issues"
-    "archive_url" $archiveURL
-    "archive_sha256" $digest
-    "blender_version_min" "4.2.0"
-    "platforms" (slice "linux-x64" "windows-x64" "macos-x64" "macos-arm64")
-    "tags" (slice "lighting" "dmx" "mvr" "gdtf")
-    "permissions" (slice "network")
-  )
--}}
+{{- $archiveName := "" -}}
+{{- if and $asset (isset $asset "name") -}}
+  {{- $archiveName = $asset.name -}}
+{{- end -}}
 {{- dict
-  "data" (slice $extension)
-  "meta" (dict "count" 1)
-  "url" "https://blenderdmx.eu/api/v1/extensions/index.json"
+  "version" "v1"
+  "blocklist" (slice)
+  "data" (slice (dict
+    "schema_version" "1.0.0"
+    "id" "open_stage_blender_dmx"
+    "name" "DMX"
+    "tagline" "Visualization & programming with GDTF&MVR, OSC, PSN, Networking"
+    "version" $version
+    "type" "add-on"
+    "maintainer" "Open Stage"
+    "license" (slice "SPDX:GPL-3.0-or-later")
+    "blender_version_min" "4.2.0"
+    "website" "https://blenderdmx.eu/"
+    "copyright" (slice "2021 Open Stage")
+    "permissions" (dict
+      "files" "Import GDTF devices. Import/Export MVR scenes and project data"
+      "network" "For GDTF Share, sACN, Art-Net, OSC, PSN, MVR-xchange"
+    )
+    "python_versions" (slice "3")
+    "archive_url" $archiveURL
+    "archive_size" (cond (and $asset (isset $asset "size")) $asset.size 0)
+    "archive_hash" $digest
+  ))
 | jsonify -}}
