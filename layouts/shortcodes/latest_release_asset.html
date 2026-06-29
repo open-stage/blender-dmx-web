@@ -1,0 +1,53 @@
+{{- $repo := .Get "repo" | default "open-stage/blender-dmx" -}}
+{{- $label := .Get "label" | default "Latest release ZIP" -}}
+{{- $class := .Get "class" | default "" -}}
+{{- $draggable := .Get "draggable" | default "false" -}}
+{{- $button := .Get "button" | default "false" -}}
+{{- $fallback := printf "https://github.com/%s/releases/latest" $repo -}}
+{{- $release := dict -}}
+{{- with resources.GetRemote (printf "https://api.github.com/repos/%s/releases/latest" $repo) -}}
+  {{- $release = . | transform.Unmarshal -}}
+{{- end -}}
+{{- $href := $fallback -}}
+{{- $text := $label -}}
+{{- if and $release (isset $release "assets") (gt (len $release.assets) 0) -}}
+  {{- $asset := index $release.assets 0 -}}
+  {{- if isset $asset "browser_download_url" -}}
+    {{- $href = $asset.browser_download_url -}}
+  {{- end -}}
+  {{- if and (eq $label "Latest release ZIP") (isset $asset "name") -}}
+    {{- $text = printf "Download %s" $asset.name -}}
+  {{- end -}}
+{{- end -}}
+{{- $archiveName := printf "%s.zip" $repo -}}
+{{- if and $release (isset $release "assets") (gt (len $release.assets) 0) -}}
+  {{- $asset := index $release.assets 0 -}}
+  {{- if isset $asset "name" -}}
+    {{- $archiveName = $asset.name -}}
+  {{- end -}}
+{{- end -}}
+{{- if eq $button "true" -}}
+<button
+  type="button"
+  data-download-url="{{ $href }}"
+  data-download-name="{{ $archiveName }}"
+  {{- if eq $draggable "true" }} draggable="true"{{ end -}}
+  {{- if eq $draggable "true" }}{{ if $class }} class="{{ $class }} js-drag-download"{{ else }} class="js-drag-download"{{ end }}{{ else }}{{ if $class }} class="{{ $class }}"{{ end }}{{ end -}}
+>
+  {{- if eq $draggable "true" -}}
+    <i class="fa-solid fa-up-down-left-right"></i>
+  {{- end -}}
+  {{ $text }}
+</button>
+{{- else -}}
+<a
+  href="{{ $href }}"
+  download="{{ $archiveName }}"
+  data-download-url="{{ $href }}"
+  data-download-name="{{ $archiveName }}"
+  {{- if eq $draggable "true" }} draggable="true"{{ end -}}
+  {{- if eq $draggable "true" }}{{ if $class }} class="{{ $class }} js-drag-download"{{ else }} class="js-drag-download"{{ end }}{{ else }}{{ if $class }} class="{{ $class }}"{{ end }}{{ end -}}
+>
+  {{ $text }}
+</a>
+{{- end -}}

@@ -8,14 +8,15 @@ Make sure you have installed [Blender](https://www.blender.org/download/) 4.2 or
 
 To preserve data during addon update, see the [Updating procedure](/docs/updating).
 
-For Blender from version 3.4 to version 4.1, see the instructions below. For
-Blender 4.2 and higher, use the [BlenderDMX Addon
-Extension](https://extensions.blender.org/add-ons/open-stage-blender-dmx/).
+For Blender from version 3.4 to version 4.1, see the instructions below.
+For Blender 4.2 and higher, add the BlenderDMX extension repository:
+
+`https://blenderdmx.eu/api/v1/extensions/index.json`
 
 ### BlenderDMX Addon installation
 
 <ol>
-   <li id="version"> Download the zip file from the <a href="/download">Download</a> page.
+   <li id="version"> Download the latest ZIP from the <a href="/download">Download</a> page.
    <li> Open Blender
    <li> Edit → Preferences → Add-ons → Install
    <li> Select the downloaded zip file
@@ -32,13 +33,6 @@ You can continue to the <a href="../get_started" ><i class="fa-solid fa-truck-fa
 ![Install](../media/install.gif)
 
 
-<script type="module">
-    let download = $("#version");
-    $.get("https://api.github.com/repos/open-stage/blender-dmx/releases/latest", (data) => {
-            download.html(
-              `From the <a href="/download">Download</a> page, download the <a href="${data.assets[0].browser_download_url}">${data.assets[0].name}</a>
-              `);
-
-    });
-</script>
-
+<p class="uk-text-meta">
+  The current ZIP link is generated from the latest GitHub release at build time.
+</p>

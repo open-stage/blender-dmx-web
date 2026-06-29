@@ -40,6 +40,14 @@ Instead of building static HTML files, you can also start a Hugo development ser
 hugo serve
 ```
 
+## Blender extension repository
+
+Blender 4.2+ can use this site as an extension source:
+
+`https://blenderdmx.eu/api/v1/extensions/index.json`
+
+The Download page also links the latest release ZIP for drag-and-drop install.
+
 ## Create a new blog post
 
 To create a new blog post, run

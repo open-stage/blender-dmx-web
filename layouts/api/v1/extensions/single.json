@@ -1,0 +1,42 @@
+{{- $repo := "open-stage/blender-dmx" -}}
+{{- $release := dict -}}
+{{- with resources.GetRemote (printf "https://api.github.com/repos/%s/releases/latest" $repo) -}}
+  {{- $release = . | transform.Unmarshal -}}
+{{- end -}}
+{{- $asset := dict -}}
+{{- if and $release (isset $release "assets") (gt (len $release.assets) 0) -}}
+  {{- $asset = index $release.assets 0 -}}
+{{- end -}}
+{{- $version := "0.0.0" -}}
+{{- if and $release (isset $release "tag_name") -}}
+  {{- $version = replaceRE "^v" "" $release.tag_name -}}
+{{- end -}}
+{{- $archiveURL := printf "https://github.com/%s/releases/latest" $repo -}}
+{{- if and $asset (isset $asset "browser_download_url") -}}
+  {{- $archiveURL = $asset.browser_download_url -}}
+{{- end -}}
+{{- $digest := "" -}}
+{{- if and $asset (isset $asset "digest") -}}
+  {{- $digest = $asset.digest -}}
+{{- end -}}
+{{- dict
+  "data" (dict
+    "type" "extension"
+    "id" "open-stage-blender-dmx"
+    "attributes" (dict
+      "name" "BlenderDMX Addon"
+      "tagline" "Design and render DMX lighting in Blender"
+      "version" $version
+      "license" "GPL-3.0-or-later"
+      "maintainer" "Open Stage"
+      "website" "https://blenderdmx.eu"
+      "support_url" "https://github.com/open-stage/blender-dmx/issues"
+      "archive_url" $archiveURL
+      "archive_sha256" $digest
+      "blender_version_min" "4.2.0"
+      "platforms" (slice "linux-x64" "windows-x64" "macos-x64" "macos-arm64")
+      "tags" (slice "lighting" "dmx" "mvr" "gdtf")
+      "permissions" (slice "network")
+    )
+  )
+| jsonify -}}
