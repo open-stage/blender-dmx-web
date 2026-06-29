@@ -3,6 +3,8 @@
 {{- $class := .Get "class" | default "" -}}
 {{- $draggable := .Get "draggable" | default "false" -}}
 {{- $button := .Get "button" | default "false" -}}
+{{- $repository := .Get "repository" | default ("/api/v1/extensions/" | absURL) -}}
+{{- $blenderVersionMin := .Get "blender_version_min" | default "4.2.0" -}}
 {{- $fallback := printf "https://github.com/%s/releases/latest" $repo -}}
 {{- $release := dict -}}
 {{- with resources.GetRemote (printf "https://api.github.com/repos/%s/releases/latest" $repo) -}}
@@ -19,6 +21,7 @@
     {{- $text = printf "Download %s" $asset.name -}}
   {{- end -}}
 {{- end -}}
+{{- $installHref := printf "%s?repository=%s&blender_version_min=%s" $href (urlquery $repository) (urlquery $blenderVersionMin) -}}
 {{- $archiveName := printf "%s.zip" $repo -}}
 {{- if and $release (isset $release "assets") (gt (len $release.assets) 0) -}}
   {{- $asset := index $release.assets 0 -}}
@@ -29,7 +32,7 @@
 {{- if eq $button "true" -}}
 <button
   type="button"
-  data-download-url="{{ $href }}"
+  data-download-url="{{ $installHref }}"
   data-download-name="{{ $archiveName }}"
   {{- if eq $draggable "true" }} draggable="true"{{ end -}}
   {{- if eq $draggable "true" }}{{ if $class }} class="{{ $class }} js-drag-download"{{ else }} class="js-drag-download"{{ end }}{{ else }}{{ if $class }} class="{{ $class }}"{{ end }}{{ end -}}
@@ -41,9 +44,9 @@
 </button>
 {{- else -}}
 <a
-  href="{{ $href }}"
+  href="{{ $installHref }}"
   download="{{ $archiveName }}"
-  data-download-url="{{ $href }}"
+  data-download-url="{{ $installHref }}"
   data-download-name="{{ $archiveName }}"
   {{- if eq $draggable "true" }} draggable="true"{{ end -}}
   {{- if eq $draggable "true" }}{{ if $class }} class="{{ $class }} js-drag-download"{{ else }} class="js-drag-download"{{ end }}{{ else }}{{ if $class }} class="{{ $class }}"{{ end }}{{ end -}}

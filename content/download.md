@@ -12,45 +12,6 @@ menu:
 
 <div class="uk-container">
     <div class="uk-grid uk-grid-match uk-child-width-1-2@m uk-text-small" uk-grid>
-<div>
-            <div class="uk-card uk-card-default">
-                <div class="uk-card-body" id="extension">
-              <h3 class="uk-card-title uk-margin-remove-bottom">Add BlenderDMX as an extension source</h3>
-                    <p class="uk-margin-small">
-                    Blender 4.2 and newer can install BlenderDMX directly from this site by adding the BlenderDMX repository:
-                    </p>
-                    <ol class="uk-list uk-list-decimal uk-margin-small">
-                      <li>In Blender, open <strong>Edit &rarr; Preferences &rarr; Get Extensions &rarr; Repositories</strong>.</li>
-                      <li>Click <strong>+</strong> to add a new repository.</li>
-                      <li>Paste this URL into the repository field and confirm it:</li>
-                    </ol>
-                    <div class="uk-margin-small-top uk-flex uk-flex-middle uk-flex-nowrap">
-                      <input
-                        id="repo-url"
-                        class="uk-input uk-form-small"
-                        type="text"
-                        readonly
-                        value="https://blenderdmx.eu/api/v1/extensions/index.json"
-                        aria-label="BlenderDMX repository URL"
-                        style="border-top-right-radius: 0; border-bottom-right-radius: 0;"
-                      />
-                      <button
-                        id="copy-repo-url"
-                        class="uk-button uk-button-default uk-button-small"
-                        type="button"
-                        aria-label="Copy repository URL"
-                        title="Copy repository URL"
-                        style="margin-left: -1px; border-top-left-radius: 0; border-bottom-left-radius: 0; box-shadow: none;"
-                      >
-                        <i class="fa-solid fa-copy"></i>
-                      </button>
-                    </div>
-                    <div class="uk-margin-small-top">
-                      <span id="copy-repo-status" class="uk-text-meta"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div>
             <div class="uk-card uk-card-default">
                 <div class="uk-card-body">
@@ -67,11 +28,50 @@ menu:
                     </button>
                     <div id="addon-install-options" class="uk-hidden uk-margin-medium-top">
                       <div class="uk-margin-medium-top">
-                        {{< latest_release_asset repo="open-stage/blender-dmx" label="Drag and Drop into Blender" class="uk-button uk-button-large uk-button-secondary uk-width-expand uk-margin-small-bottom" draggable="true" button="true" >}}
+                        {{< latest_release_asset repo="open-stage/blender-dmx" label="Drag and Drop into Blender" class="uk-button uk-button-large uk-button-secondary uk-width-expand uk-margin-small-bottom" draggable="true" button="true" repository="https://blenderdmx.eu/api/v1/extensions/" blender_version_min="4.2.0" >}}
                       </div>
-                      <p class="uk-text-meta uk-margin-small-top">
-                        ...or <a id="manual-download-link" href="#">download</a> and <a href="/docs/extension-help/">Install from Disk</a>.
-                      </p>
+                    <div>It will add the BlenderDMX.eu repository to Blender, for easy install and automatic updates. After adding the repo, you can then install "DMX" from menu - Preferences - Get Extensions in Blender. </div>
+                      <details class="uk-margin-small-top">
+                        <summary class="uk-link-text">Manual install</summary>
+                        <p class="uk-margin-small-top">
+                          You can manually <a id="manual-download-link" href="#">download</a> and install the Add-on without the automatic updates. <a href="/docs/extension-help/">Install from Disk</a> help page.
+                        </p>
+                      </details>
+                      <details class="uk-margin-small-top">
+                        <summary class="uk-link-text">Manual repository setup</summary>
+                        <p class="uk-margin-small">
+                          Blender 4.2 and newer can install BlenderDMX directly from this site by adding the BlenderDMX repository. It happens automatically upon drag&drop into Blender, but you can also do it manually:
+                        </p>
+                        <ol class="uk-list uk-list-decimal uk-margin-small">
+                          <li>In Blender, open <strong>Edit &rarr; Preferences &rarr; Get Extensions &rarr; Repositories</strong>.</li>
+                          <li>Click <strong>+</strong> to add a new repository.</li>
+                          <li>Paste this URL into the repository field and confirm it:</li>
+                        </ol>
+                        <div class="uk-margin-small-top uk-flex uk-flex-middle uk-flex-nowrap">
+                          <input
+                            id="repo-url"
+                            class="uk-input uk-form-small"
+                            type="text"
+                            readonly
+                            value="https://blenderdmx.eu/api/v1/extensions/"
+                            aria-label="BlenderDMX repository URL"
+                            style="border-top-right-radius: 0; border-bottom-right-radius: 0;"
+                          />
+                          <button
+                            id="copy-repo-url"
+                            class="uk-button uk-button-default uk-button-small"
+                            type="button"
+                            aria-label="Copy repository URL"
+                            title="Copy repository URL"
+                            style="margin-left: -1px; border-top-left-radius: 0; border-bottom-left-radius: 0; box-shadow: none;"
+                          >
+                            <i class="fa-solid fa-copy"></i>
+                          </button>
+                        </div>
+                        <div class="uk-margin-small-top">
+                          <span id="copy-repo-status" class="uk-text-meta"></span>
+                        </div>
+                      </details>
                     </div>
                 </div>
             </div>

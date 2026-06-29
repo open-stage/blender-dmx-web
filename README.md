@@ -44,7 +44,7 @@ hugo serve
 
 Blender 4.2+ can use this site as an extension source:
 
-`https://blenderdmx.eu/api/v1/extensions/index.json`
+`https://blenderdmx.eu/api/v1/extensions/`
 
 The Download page also links the latest release ZIP for drag-and-drop install.
 

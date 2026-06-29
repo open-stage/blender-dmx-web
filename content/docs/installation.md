@@ -11,7 +11,7 @@ To preserve data during addon update, see the [Updating procedure](/docs/updatin
 For Blender from version 3.4 to version 4.1, see the instructions below.
 For Blender 4.2 and higher, add the BlenderDMX extension repository:
 
-`https://blenderdmx.eu/api/v1/extensions/index.json`
+`https://blenderdmx.eu/api/v1/extensions/`
 
 ### BlenderDMX Addon installation
 
