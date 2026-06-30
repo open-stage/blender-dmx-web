@@ -22,7 +22,7 @@ menu:
                     <div class="uk-margin-medium-top">
                       {{< latest_release_asset repo="open-stage/blender-dmx" label="Drag and Drop into Blender" class="uk-button uk-button-large uk-button-secondary uk-width-expand uk-margin-small-bottom" draggable="true" button="true" repository="https://blenderdmx.eu/api/v1/extensions/index.json" blender_version_min="4.2.0" >}}
                     </div>
-                    <div>Drag & drop into Blender will add the BlenderDMX.eu repository for easy install and automatic updates of the BlenderDMX extension. After adding the repo, you can then Enable the extension in Blender, it is named "DMX" in the menu - Preferences - Add-ons.</div>
+                    <div>Drag & drop into Blender will add the BlenderDMX.eu repository for easy install and automatic updates of the BlenderDMX extension. Select the "Check for updates at Start". (Online Access must be allowed). After adding the repo, you can then Install the extension via menu - Preferences - Get Extensions, or Enable the extension via menu - Preferences - Get Add-ons. It is named <strong>DMX</strong>.</div>
                      <details class="uk-margin-small-top" open>
                       <summary class="uk-link-text">Video</summary>
                       <p class="uk-margin-small-top">
@@ -43,7 +43,9 @@ menu:
                       <ol class="uk-list uk-list-decimal uk-margin-small">
                         <li>In Blender, open <strong>Edit &rarr; Preferences &rarr; Get Extensions &rarr; Repositories</strong>.</li>
                         <li>Click <strong>+</strong> to add a new repository.</li>
-                        <li>Paste this URL into the repository field and confirm it:</li>
+                        <li>Paste this URL into the repository field.</li>
+                        <li>Select the "Check for updates at Start".</li>
+                        <li>Press Create</li>
                       </ol>
                       <div class="uk-margin-small-top uk-flex uk-flex-middle uk-flex-nowrap">
                         <input
