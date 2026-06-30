@@ -28,7 +28,7 @@ menu:
                     </button>
                     <div id="addon-install-options" class="uk-hidden uk-margin-medium-top">
                       <div class="uk-margin-medium-top">
-                        {{< latest_release_asset repo="open-stage/blender-dmx" label="Drag and Drop into Blender" class="uk-button uk-button-large uk-button-secondary uk-width-expand uk-margin-small-bottom" draggable="true" button="true" repository="https://blenderdmx.eu/api/v1/extensions/" blender_version_min="4.2.0" >}}
+                        {{< latest_release_asset repo="open-stage/blender-dmx" label="Drag and Drop into Blender" class="uk-button uk-button-large uk-button-secondary uk-width-expand uk-margin-small-bottom" draggable="true" button="true" repository="https://blenderdmx.eu/api/v1/extensions/index.json" blender_version_min="4.2.0" >}}
                       </div>
                     <div>It will add the BlenderDMX.eu repository to Blender, for easy install and automatic updates. After adding the repo, you can then install "DMX" from menu - Preferences - Get Extensions in Blender. </div>
                       <details class="uk-margin-small-top">
@@ -53,7 +53,7 @@ menu:
                             class="uk-input uk-form-small"
                             type="text"
                             readonly
-                            value="https://blenderdmx.eu/api/v1/extensions/"
+                            value="https://blenderdmx.eu/api/v1/extensions/index.json"
                             aria-label="BlenderDMX repository URL"
                             style="border-top-right-radius: 0; border-bottom-right-radius: 0;"
                           />
