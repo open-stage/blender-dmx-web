@@ -1,0 +1,8 @@
+{{ define "head-meta" }}
+<meta http-equiv="refresh" content="0; url={{ .Params.redirect_to | absURL }}" />
+<meta name="robots" content="noindex, nofollow" />
+<link rel="canonical" href="{{ .Params.redirect_to | absURL }}" />
+{{ end }}
+
+{{ define "main" }}
+{{ end }}
