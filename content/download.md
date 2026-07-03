@@ -15,9 +15,9 @@ menu:
         <div>
             <div class="uk-card uk-card-default">
                 <div class="uk-card-body">
-                    <h3 class="uk-card-title uk-margin-remove-bottom">Get Add-on</h3>
+                    <h3 class="uk-card-title uk-margin-remove-bottom">Get the Add-on</h3>
                     <p class="uk-margin-small">
-                    Install BlenderDMX directly from the repository below or use the manual download options.
+                    Install BlenderDMX directly from the repository below:
                     </p>
                     <div class="uk-margin-medium-top">
                       {{< latest_release_asset repo="open-stage/blender-dmx" label="Drag and Drop into Blender" class="uk-button uk-button-large uk-button-secondary uk-width-expand uk-margin-small-bottom" draggable="true" button="true" repository="https://blenderdmx.eu/api/v1/extensions/index.json" blender_version_min="4.2.0" >}}
@@ -68,6 +68,9 @@ menu:
                           <i class="fa-solid fa-copy"></i>
                         </button>
                       </div>
+                      <div>
+                        After adding the repo, you can then Install the extension via menu - Preferences - Get Extensions, or Enable the extension via menu - Preferences - Get Add-ons. It is named <strong>BlenderDMX</strong>.
+                        </div>
                       <div class="uk-margin-small-top">
                         <span id="copy-repo-status" class="uk-text-meta"></span>
                       </div>
