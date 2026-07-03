@@ -22,7 +22,7 @@ menu:
                     <div class="uk-margin-medium-top">
                       {{< latest_release_asset repo="open-stage/blender-dmx" label="Drag and Drop into Blender" class="uk-button uk-button-large uk-button-secondary uk-width-expand uk-margin-small-bottom" draggable="true" button="true" repository="https://blenderdmx.eu/api/v1/extensions/index.json" blender_version_min="4.2.0" >}}
                     </div>
-                    <div>Drag & drop into Blender will add the BlenderDMX.eu repository for easy install and automatic updates of the BlenderDMX extension. Select the "Check for updates at Start". (Online Access must be allowed). After adding the repo, you can then Install the extension via menu - Preferences - Get Extensions, or Enable the extension via menu - Preferences - Get Add-ons. It is named <strong>DMX</strong>.</div>
+                    <div>Drag & drop into Blender will add the BlenderDMX.eu repository for easy install and automatic updates of the BlenderDMX extension. Select the "Check for updates at Start". (Online Access in Blender must be allowed). After adding the repo, you can then Install the extension via menu - Preferences - Get Extensions, or Enable the extension via menu - Preferences - Get Add-ons. It is named <strong>BlenderDMX</strong>.</div>
                      <details class="uk-margin-small-top" open>
                       <summary class="uk-link-text">Video</summary>
                       <p class="uk-margin-small-top">
