@@ -25,7 +25,7 @@
   "data" (slice (dict
     "schema_version" "1.0.0"
     "id" "open_stage_blender_dmx"
-    "name" "DMX"
+    "name" "BlenderDMX"
     "tagline" "Visualization & programming with GDTF&MVR, OSC, PSN, Networking"
     "version" $version
     "type" "add-on"
